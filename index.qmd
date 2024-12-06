@@ -40,11 +40,11 @@ title: "ES 114 Probability, Statistics and Data Visualization"
 
 ### Reference textbooks:
 
-1. Chan, Stanley. “Introduction to Probability for Data Science.” The University of Michigan Library, Michigan Publishing (2021). Free Digital Copy: https://probability4datascience.com/
-2. Adhikari, Ani, John DeNero, and D. Wagner. "Computational and Inferential Thinking: The Foundations of Data Science." Second Edition. The University of California, Berkeley (2019). Free Digital Copy: https://inferentialthinking.com/chapters/intro.html
-3. Deisenroth, Marc Peter, A. Aldo Faisal, and Cheng Soon Ong. Mathematics for Machine Learning. Cambridge University Press, 2020. Free Digital Copy: https://mml-book.github.io/
+1. Chan, Stanley. “Introduction to Probability for Data Science.” The University of Michigan Library, Michigan Publishing (2021). [Free Digital Copy](https://probability4datascience.com/)
+2. Adhikari, Ani, John DeNero, and D. Wagner. "Computational and Inferential Thinking: The Foundations of Data Science." Second Edition. The University of California, Berkeley (2019). [Free Digital Copy](https://inferentialthinking.com/chapters/intro.html)
+3. Deisenroth, Marc Peter, A. Aldo Faisal, and Cheng Soon Ong. Mathematics for Machine Learning. Cambridge University Press, 2020. [Free Digital Copy](https://mml-book.github.io/)
 4. Spiegelhalter, David. The Art of Statistics: Learning from Data. Penguin UK, 2019.
-5. Rougier, Nicolas. Scientific Visualization: Python+ Matplotlib. 2021. Free Digital Copy: https://github.com/rougier/scientific-visualization-book
+5. Rougier, Nicolas. Scientific Visualization: Python+ Matplotlib. 2021. [Free Digital Copy](https://github.com/rougier/scientific-visualization-book)
 
 
 
