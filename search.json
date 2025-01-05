@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "grading.html",
-    "href": "grading.html",
-    "title": "Grading Policy",
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "FAQ",
     "section": "",
-    "text": "To be Decided"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ES 114 Probability, Statistics and Data Visualization",
-    "section": "",
-    "text": "Summary\n\n\n\n\nInstructors:\n\nNipun Batra nipun.batra@iitgn.ac.in\n\nOffice: AB13/401C\nYouTube video showing the directions to my office\nHomePage\n\nManisha Padala manisha.padala@iitgn.ac.in\n\nOffice: AB13/405C\nHomePage\n\n\nTeaching Assistants:\n\nAyush Shrivastava shrivastavaayush@iitgn.ac.in\nMore to be added soon\n\nClass Venue and Timings:\n\nLecture : Jasubhai Auditorium, Tuesdays, 10:00 AM - 11:20 AM\nLabs : AB7/108, AB7/109, AB10/104 , AB10/105 , Wednessdays and Thurday, 2:00 PM - 3:20PM\n\nCommunications\n\nAll communications will be handled via slack. Join using the link here\n\n\n\n\n\nPre-requisites:\n\nNone, First Year Undergrad Course\n\n\n\nReference textbooks:\n\nChan, Stanley. “Introduction to Probability for Data Science.” The University of Michigan Library, Michigan Publishing (2021). Free Digital Copy\nAdhikari, Ani, John DeNero, and D. Wagner. “Computational and Inferential Thinking: The Foundations of Data Science.” Second Edition. The University of California, Berkeley (2019). Free Digital Copy\nDeisenroth, Marc Peter, A. Aldo Faisal, and Cheng Soon Ong. Mathematics for Machine Learning. Cambridge University Press, 2020. Free Digital Copy\nSpiegelhalter, David. The Art of Statistics: Learning from Data. Penguin UK, 2019.\nRougier, Nicolas. Scientific Visualization: Python+ Matplotlib. 2021. Free Digital Copy"
+    "text": "Prerequisites\n\nWhat are the course prerequisites?\n\nThe course has no “formal” prerequisites like all courses at IITGn. However, it is assumed that you have a basic understanding of:\n\nprogramming (Python)\n\n\nWhat is the prerequisite exam?\n\nThis is an exam that we have designed to ensure that you have the necessary background to take the course.\n\nHow can I prepare for the prerequisite exam?\n\nYour UG course material should be sufficient to prepare for the exam.\n\nWhat happens if I do not clear the prerequisite exam?\n\nYou will not be allowed to take the course.\n\nWhat do you mean by “clear” the exam?\n\nLike all courses at IITGn, the instructor will decide the cut-off for the exam. You will have to score above the cut-off to clear the exam. No cut-off will be revealed to the students apriori.\n\n\n\n\nLaptop policy\n\nCan I use my laptop or phone in the class?\n\nNo. You are not allowed to use your laptop or phone in the class for any reason, unless it is a lab session, wheer the instructor has explicitly allowed you to use your laptop.\n\n\n\n\nQuizzes\n\nWhat happens if I miss a quiz due to any reason?\n\nThe quiz will be marked as 0.\nThe provision of best 3 out of 4 quizzes is designed keeping in mind such scenarios.\n\nWill the quizzes and end-semester exam be open book? Will I be allowed to carry notes?\n\nNo, the exams and quizzes will be closed book. You are not permitted to carry notes.\n\nHow soon can I expect to receive my answer sheets back?\n\nYou should expect to receive answer sheets back in 4-5 working days.\n\nIs there an end-semester exam or mid-semester exam?\n\n2 out of the 4 quizzes will be held in the mid-semester and end-semester slots. The remaining two quizzes will be held during the semester.\n\nWill the quizzes be MCQs or subjective?\n\nThe quizzes may contain both the MCQs and subjective questions.\n\n\n\n\nAssignments\n\nWhat happens if I miss an assignment due to any reason?\n\nThere will no extensions for assignments.\n\nI have a doubt in the assignment. Whom should I write to?\n\nAsk on the slack #assignments channel. If you don’t get a response within 2 days, write to the course instructor.\n\nI do not know Python. Can I code assignments in some other language?\n\nUnfortunately, no. You have to stick to Python.\n\nHow will you evaluate the assignment?\n\nThe assignments would be followed by a viva. The TAs would first check the code and compare against the submission. Any change from the submitted code is not allowed and any instance of the same would culminate in a warning. The TAs would run the code and ask a few questions. About 75% of these questions would be based on the assignment in question and about 25% would be based on the theory behind the concepts covered in the assignment.\nThe grade breakup would be: i) code runs correctly and solves the problem [50% marks]; ii) questions based on the assignment and student understanding of code [25% marks]; iii) code quality [12.5% marks]; iv) questions based on the theory behind the concepts covered in the assignments [12.5% marks]\n\nIs the assignment individual or group?\n\nThe assignment is group. In case of group, all team members get the same grade for the assignment.\n\n\n\n\n\nAttendance\n\nAttendance policy\n\nAttendance is mentioned in the grading policy clearly.\n\n\n\n\n\nAudit policy\nYou are free to attend the lectures. However, given the limited number of TAs and the large number of students, we will not be able to grade your submissions. You can not formally contribute to any team in their assignments.\n\n\n\nComputational resources\nTypically, we have been kindly provided with Google Cloud credits. We will update this section once we have the credits. Once you get these credits, you can use them for your assignments. They are more than sufficient for the assignments."
   },
   {
     "objectID": "tentative.html",
@@ -21,11 +14,11 @@
     "text": "To Be Decided"
   },
   {
-    "objectID": "faq.html",
-    "href": "faq.html",
-    "title": "FAQ",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ES 114 Probability, Statistics and Data Visualization",
     "section": "",
-    "text": "Laptop policy\n\nCan I use my laptop or phone in the class?\n\nNo. You are not allowed to use your laptop or phone in the class for any reason."
+    "text": "Summary\n\n\n\n\nInstructors:\n\nNipun Batra nipun.batra@iitgn.ac.in\n\nOffice: AB13/401C\nYouTube video showing the directions to my office\nHomePage\n\nManisha Padala manisha.padala@iitgn.ac.in\n\nOffice: AB13/405C\nHomePage\n\n\nTeaching Assistants:\n\nAyush Shrivastava shrivastavaayush@iitgn.ac.in\nMore to be added soon\n\nClass Venue and Timings:\n\nLecture : Jasubhai Auditorium, Monday, 8:30 AM - 10:00 AM (A1 slot)\nLabs : Jasubhai Auditorium, Computer Labs (A2, D1 slots) – more details soon\n\nCommunications\n\nAll communications will be handled via slack. Join using the link here\n\n\n\n\n\nPre-requisites:\n\nNone, First Year Undergrad Course\n\n\n\nReference textbooks:\n\nChan, Stanley. “Introduction to Probability for Data Science.” The University of Michigan Library, Michigan Publishing (2021). Free Digital Copy\nAdhikari, Ani, John DeNero, and D. Wagner. “Computational and Inferential Thinking: The Foundations of Data Science.” Second Edition. The University of California, Berkeley (2019). Free Digital Copy\nDeisenroth, Marc Peter, A. Aldo Faisal, and Cheng Soon Ong. Mathematics for Machine Learning. Cambridge University Press, 2020. Free Digital Copy\nSpiegelhalter, David. The Art of Statistics: Learning from Data. Penguin UK, 2019.\nRougier, Nicolas. Scientific Visualization: Python+ Matplotlib. 2021. Free Digital Copy"
   },
   {
     "objectID": "schedule.html",
@@ -40,5 +33,12 @@
     "title": "Quizzes",
     "section": "",
     "text": "No matching items"
+  },
+  {
+    "objectID": "grading.html",
+    "href": "grading.html",
+    "title": "Grading Policy",
+    "section": "",
+    "text": "Assignments: 32%\n\n6 assignments\nDone in groups of 3\nVariable weight (e.g. some assignments would be 10%, some 12%, etc.)\nSome assignments would involve:\n\nMaking pull requests to public repositories\nWriting Hugging Face Spaces like demos\n\n\nQuizzes: 60%\n\n20% each\nBest 3 out of 4\nIf you miss a single quiz for any reason, there will be no makeups\nMid sem and end sem exams are also considered quizzes\n\nAttendance: 8%\n\n&lt;= 3 absences: 8%\n4 or 5 absences: 7%\n6 or 7 absences: 6%\n8 or 9 absences: 4%\n10 or 11 absences: 2%\n12 or more absences: 0%"
   }
 ]

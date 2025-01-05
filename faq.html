@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,12 +35,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-d3043699f4f525e226433170f63674df.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d3043699f4f525e226433170f63674df.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed04999718f06b735b1f8009dce43b94.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-ed04999718f06b735b1f8009dce43b94.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-07ab2fcda063f75537d7108284886c64.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-ed39f070357306e6a526a58ba69bee75.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-f8e4c7f545a57d7e258187145b178e3b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7bcc4918cf1cea5e04707dadab71f7f6.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -156,83 +156,120 @@ ul.task-list li input[type="checkbox"] {
 - Can you give an example of the project question?
     - Sure. We will build an activity classifier: walking, running, etc. Initially, we use publicly available datasets to build the classifier. We will then help you with collecting your data using your smartphone and build a classifier using your data. Those who want to go beyond the learning objectives, can deploy the classifier on your smartphone.
 
+
+
+
+
 ---
-
-#### Prerequisites
-
-- What are the course prerequisites?
-    - The course has no "formal" prerequisites like all courses at IITGn. However, it is assumed that you have a basic understanding of: 
-        - programming (Python), and data structures (ES242 equivalent)
-        - probability and statistics 
-        - linear algebra 
-        - calculus 
-- What is the prerequisite exam?
-    - This is an exam that we have designed to ensure that you have the necessary background to take the course.
-- How can I prepare for the prerequisite exam?
-    - Your UG course material should be sufficient to prepare for the exam.
-    - You may additionally refer to the "prerequisite" reading section on the [course homepage](./index.html).
-- What happens if I do not clear the prerequisite exam?
-    - You will not be allowed to take the course.
-- What do you mean by "clear" the exam?
-    - Like all courses at IITGn, the instructor will decide the cut-off for the exam. You will have to score above the cut-off to clear the exam. No cut-off will be revealed to the students apriori.
-
---- -->
+-->
+<section id="prerequisites" class="level4">
+<h4 class="anchored" data-anchor-id="prerequisites">Prerequisites</h4>
+<ul>
+<li>What are the course prerequisites?
+<ul>
+<li>The course has no “formal” prerequisites like all courses at IITGn. However, it is assumed that you have a basic understanding of:
+<ul>
+<li>programming (Python)</li>
+</ul></li>
+</ul></li>
+<li>What is the prerequisite exam?
+<ul>
+<li>This is an exam that we have designed to ensure that you have the necessary background to take the course.</li>
+</ul></li>
+<li>How can I prepare for the prerequisite exam?
+<ul>
+<li>Your UG course material should be sufficient to prepare for the exam.</li>
+</ul></li>
+<li>What happens if I do not clear the prerequisite exam?
+<ul>
+<li>You will not be allowed to take the course.</li>
+</ul></li>
+<li>What do you mean by “clear” the exam?
+<ul>
+<li>Like all courses at IITGn, the instructor will decide the cut-off for the exam. You will have to score above the cut-off to clear the exam. No cut-off will be revealed to the students apriori.</li>
+</ul></li>
+</ul>
+</section>
 <section id="laptop-policy" class="level4">
 <h4 class="anchored" data-anchor-id="laptop-policy">Laptop policy</h4>
 <ul>
 <li>Can I use my laptop or phone in the class?
 <ul>
-<li>No.&nbsp;You are not allowed to use your laptop or phone in the class for any reason.</li>
+<li>No.&nbsp;You are not allowed to use your laptop or phone in the class for any reason, unless it is a lab session, wheer the instructor has explicitly allowed you to use your laptop.</li>
 </ul></li>
 </ul>
-<!-- #### Quizzes
-
-- What happens if I miss a quiz due to any reason?
-    - The quiz will be marked as 0.
-    - The provision of best 3 out of 4 quizzes is designed keeping in mind such scenarios.
-- Will the quizzes and end-semester exam be open book? Will I be allowed to carry notes?
-    - No, the exams and quizzes will be closed book. You are not permitted to carry notes.
-- How soon can I expect to receive my answer sheets back?
-    - You should expect to receive answer sheets back in 4-5 working days.
-- Is there an end-semester exam or mid-semester exam?
-    - 2 out of the 4 quizzes will be held in the mid-semester and end-semester slots. The remaining two quizzes will be held during the semester.
-- Will the quizzes be MCQs or subjective?
-    - The quizzes may contain both the MCQs and subjective questions.
-
----
-
-#### Assignments
-- What happens if I miss an assignment due to any reason?
-    - There will no extensions for assignments.
-- I have a doubt in the assignment. Whom should I write to?
-    - Ask on the slack #assignments channel. If you don't get a response within 2 days, write to the course instructor.
-- I do not know Python. Can I code assignments in some other language?
-    - Unfortunately, no. You have to stick to Python.
-- How will you evaluate the assignment?
-    - The assignments would be followed by a viva. The TAs would first check the code and compare against the submission. Any change from the submitted code is not allowed and any instance of the same would culminate in a warning. The TAs would run the code and ask a few questions. About 75% of these questions would be based on the assignment in question and about 25% would be based on the theory behind the concepts covered in the assignment. 
-    - The grade breakup would be: i) code runs correctly and solves the problem [50% marks]; ii) questions based on the assignment and student understanding of code [25% marks]; iii) code quality [12.5% marks]; iv) questions based on the theory behind the concepts covered in the assignments [12.5% marks]
-- Is the assignment individual or group?
-    - The assignment is group. In case of group, all team members get the same grade for the assignment.
-
----
-
-
-#### Attendance
-
-- Attendance policy
-    - Attendance is mentioned in the grading policy clearly.  
-
----
-
-#### Audit policy
-
-You are free to attend the lectures. However, given the limited number of TAs and the large number of students, we will not be able to grade your submissions. You can not formally contribute to any team in their assignments. 
-
----
-
-#### Computational resources
-
-Typically, we have been kindly provided with Google Cloud credits. We will update this section once we have the credits. Once you get these credits, you can use them for your assignments. They are more than sufficient for the assignments.  -->
+</section>
+<section id="quizzes" class="level4">
+<h4 class="anchored">Quizzes</h4>
+<ul>
+<li>What happens if I miss a quiz due to any reason?
+<ul>
+<li>The quiz will be marked as 0.</li>
+<li>The provision of best 3 out of 4 quizzes is designed keeping in mind such scenarios.</li>
+</ul></li>
+<li>Will the quizzes and end-semester exam be open book? Will I be allowed to carry notes?
+<ul>
+<li>No, the exams and quizzes will be closed book. You are not permitted to carry notes.</li>
+</ul></li>
+<li>How soon can I expect to receive my answer sheets back?
+<ul>
+<li>You should expect to receive answer sheets back in 4-5 working days.</li>
+</ul></li>
+<li>Is there an end-semester exam or mid-semester exam?
+<ul>
+<li>2 out of the 4 quizzes will be held in the mid-semester and end-semester slots. The remaining two quizzes will be held during the semester.</li>
+</ul></li>
+<li>Will the quizzes be MCQs or subjective?
+<ul>
+<li><h2 id="the-quizzes-may-contain-both-the-mcqs-and-subjective-questions." class="anchored" data-anchor-id="quizzes">The quizzes may contain both the MCQs and subjective questions.</h2></li>
+</ul></li>
+</ul>
+</section>
+<section id="assignments" class="level4">
+<h4 class="anchored" data-anchor-id="assignments">Assignments</h4>
+<ul>
+<li>What happens if I miss an assignment due to any reason?
+<ul>
+<li>There will no extensions for assignments.</li>
+</ul></li>
+<li>I have a doubt in the assignment. Whom should I write to?
+<ul>
+<li>Ask on the slack #assignments channel. If you don’t get a response within 2 days, write to the course instructor.</li>
+</ul></li>
+<li>I do not know Python. Can I code assignments in some other language?
+<ul>
+<li>Unfortunately, no. You have to stick to Python.</li>
+</ul></li>
+<li>How will you evaluate the assignment?
+<ul>
+<li>The assignments would be followed by a viva. The TAs would first check the code and compare against the submission. Any change from the submitted code is not allowed and any instance of the same would culminate in a warning. The TAs would run the code and ask a few questions. About 75% of these questions would be based on the assignment in question and about 25% would be based on the theory behind the concepts covered in the assignment.</li>
+<li>The grade breakup would be: i) code runs correctly and solves the problem [50% marks]; ii) questions based on the assignment and student understanding of code [25% marks]; iii) code quality [12.5% marks]; iv) questions based on the theory behind the concepts covered in the assignments [12.5% marks]</li>
+</ul></li>
+<li>Is the assignment individual or group?
+<ul>
+<li>The assignment is group. In case of group, all team members get the same grade for the assignment.</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="attendance" class="level4">
+<h4 class="anchored" data-anchor-id="attendance">Attendance</h4>
+<ul>
+<li>Attendance policy
+<ul>
+<li>Attendance is mentioned in the grading policy clearly.</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="audit-policy" class="level4">
+<h4 class="anchored" data-anchor-id="audit-policy">Audit policy</h4>
+<p>You are free to attend the lectures. However, given the limited number of TAs and the large number of students, we will not be able to grade your submissions. You can not formally contribute to any team in their assignments.</p>
+<hr>
+</section>
+<section id="computational-resources" class="level4">
+<h4 class="anchored" data-anchor-id="computational-resources">Computational resources</h4>
+<p>Typically, we have been kindly provided with Google Cloud credits. We will update this section once we have the credits. Once you get these credits, you can use them for your assignments. They are more than sufficient for the assignments.</p>
 
 
 </section>
