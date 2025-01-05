@@ -23,8 +23,8 @@ title: "ES 114 Probability, Statistics and Data Visualization"
     * More to be added soon
 
 * Class Venue and Timings:
-    * Lecture : Jasubhai Auditorium, Tuesdays, 10:00 AM - 11:20 AM
-    * Labs : AB7/108, AB7/109, AB10/104 , AB10/105 , Wednessdays and Thurday, 2:00 PM - 3:20PM
+    * Lecture : Jasubhai Auditorium, Monday, 8:30 AM - 10:00 AM (A1 slot)
+    * Labs : Jasubhai Auditorium, Computer Labs (A2, D1 slots) -- more details soon
 
 * Communications
     * All communications will  be handled via slack. Join using the link [here](https://join.slack.com/t/es1142025/shared_invite/zt-2w15bop68-YdIMFQxAdUGFvOE7R3FM1Q)

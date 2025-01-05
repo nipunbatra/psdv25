@@ -12,33 +12,29 @@ title: "FAQ"
     - Sure. We will build an activity classifier: walking, running, etc. Initially, we use publicly available datasets to build the classifier. We will then help you with collecting your data using your smartphone and build a classifier using your data. Those who want to go beyond the learning objectives, can deploy the classifier on your smartphone.
 
 ---
+-->
 
 #### Prerequisites
 
 - What are the course prerequisites?
     - The course has no "formal" prerequisites like all courses at IITGn. However, it is assumed that you have a basic understanding of: 
-        - programming (Python), and data structures (ES242 equivalent)
-        - probability and statistics 
-        - linear algebra 
-        - calculus 
+        - programming (Python)
 - What is the prerequisite exam?
     - This is an exam that we have designed to ensure that you have the necessary background to take the course.
 - How can I prepare for the prerequisite exam?
     - Your UG course material should be sufficient to prepare for the exam.
-    - You may additionally refer to the "prerequisite" reading section on the [course homepage](./index.html).
 - What happens if I do not clear the prerequisite exam?
     - You will not be allowed to take the course.
 - What do you mean by "clear" the exam?
     - Like all courses at IITGn, the instructor will decide the cut-off for the exam. You will have to score above the cut-off to clear the exam. No cut-off will be revealed to the students apriori.
 
---- -->
 
 #### Laptop policy
 
 - Can I use my laptop or phone in the class?
-    - No. You are not allowed to use your laptop or phone in the class for any reason.
+    - No. You are not allowed to use your laptop or phone in the class for any reason, unless it is a lab session, wheer the instructor has explicitly allowed you to use your laptop.
 
-<!-- #### Quizzes
+#### Quizzes
 
 - What happens if I miss a quiz due to any reason?
     - The quiz will be marked as 0.
@@ -83,6 +79,6 @@ You are free to attend the lectures. However, given the limited number of TAs an
 
 #### Computational resources
 
-Typically, we have been kindly provided with Google Cloud credits. We will update this section once we have the credits. Once you get these credits, you can use them for your assignments. They are more than sufficient for the assignments.  -->
+Typically, we have been kindly provided with Google Cloud credits. We will update this section once we have the credits. Once you get these credits, you can use them for your assignments. They are more than sufficient for the assignments.  
 
 
