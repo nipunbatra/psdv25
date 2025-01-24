@@ -15,7 +15,7 @@ Content will get added here as the course progresses
 
 
 | Lecture # |    Date     | Topic                                  | Material | 
-| :-------: | :-----------: | :---------------------------------------------- | 
+| :-------: | :-----------: | :----------------------------------------------: |:--:| 
 |     0     | 06 Jan 2025 | Introduction and Logistics |           |   Slides, Notebook|         
 |1| 07 Jan 2025| NumPy| [Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/intro-numpy.html), [Youtube](https://www.youtube.com/watch?v=CAzR00au0T0)|
 |2| 08 Jan 2025| Lab 1: NumPy| [Colab](https://colab.research.google.com/drive/169vg_FV35sJ8irVXU82RrTwlR762Ph2g?usp=sharing)|
