@@ -5,17 +5,27 @@ title: "Lectures"
 ::: {.callout-tip}
 ## Summary
 
-<!-- * [Github repo containing source code for lectures and notebooks](https://github.com/nipunbatra/ml-teaching)
-* [PDF Lecture slides](https://nipunbatra.github.io/ml-teaching/slides.html)
-* [Rendered Lecture notebooks](https://nipunbatra.github.io/ml-teaching/notebooks.html)
-* [YouTube playlist containing recodings](https://www.youtube.com/playlist?list=PLftoLyLEwECDqanAL7LkZNnZG9VdNCiJF) -->
+* [Github repo containing source code for lectures and notebooks](https://github.com/nipunbatra/psdv-teaching)
+* [Rendered Lecture notebooks](https://nipunbatra.github.io/psdv-teaching/notebooks.html)
+* [YouTube playlist containing recodings](https://www.youtube.com/watch?v=CAzR00au0T0&list=PLftoLyLEwECCTFpc8_-gV8NqG_LgdL3Uy&index=1) 
 
 Content will get added here as the course progresses
 
 :::
 
 
-| Lecture # |    Date     | Topic (Slides)                                  | Notebooks | YouTube Recording | Reading |
-| :-------: | :-----------: | :---------------------------------------------- | :-------: | --------- | ------- |
-|     0     | 07 Jan 2023 | Introduction and Logistics |           |           |         |
+| Lecture # |    Date     | Topic                                  | Material | 
+| :-------: | :-----------: | :---------------------------------------------- | 
+|     0     | 06 Jan 2025 | Introduction and Logistics |           |   Slides, Notebook|         
+|1| 07 Jan 2025| NumPy| [Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/intro-numpy.html), [Youtube](https://www.youtube.com/watch?v=CAzR00au0T0)|
+|2| 08 Jan 2025| Lab 1: NumPy| [Colab](https://colab.research.google.com/drive/169vg_FV35sJ8irVXU82RrTwlR762Ph2g?usp=sharing)|
+|3| 13 Jan 2025| Pandas| [Notebook](), [Youtube]()|
+|4| 14 Jan 2025| Matplotlib| [Notebook](), [Youtube]()|
+|5| 15 Jan 2025| Lab Viva 1|
+|6| 20 Jan 2025| Lab 2: Pandas| [Colab]()|
+|7| 21 Jan 2025| Set theory|[Notebook](), [Slides]()|
+|8| 22 Jan 2025| Lab 2: Pandas (continued)|
+|9| 27 Jan 2025| Probability|[Notebook](), [Slides]()|
+
+
 
