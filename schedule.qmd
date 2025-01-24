@@ -7,7 +7,7 @@ title: "Lectures"
 
 * [Github repo containing source code for lectures and notebooks](https://github.com/nipunbatra/psdv-teaching)
 * [Rendered Lecture notebooks](https://nipunbatra.github.io/psdv-teaching/notebooks.html)
-* [YouTube playlist containing recodings](https://www.youtube.com/watch?v=CAzR00au0T0&list=PLftoLyLEwECCTFpc8_-gV8NqG_LgdL3Uy&index=1) 
+* [YouTube playlist containing recordings](https://www.youtube.com/watch?v=CAzR00au0T0&list=PLftoLyLEwECCTFpc8_-gV8NqG_LgdL3Uy&index=1) 
 
 Content will get added here as the course progresses
 
@@ -19,13 +19,15 @@ Content will get added here as the course progresses
 |     0     | 06 Jan 2025 | Introduction and Logistics |           |   Slides, Notebook|         
 |1| 07 Jan 2025| NumPy| [Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/intro-numpy.html), [Youtube](https://www.youtube.com/watch?v=CAzR00au0T0)|
 |2| 08 Jan 2025| Lab 1: NumPy| [Colab](https://colab.research.google.com/drive/169vg_FV35sJ8irVXU82RrTwlR762Ph2g?usp=sharing)|
-|3| 13 Jan 2025| Pandas| [Notebook](), [Youtube]()|
-|4| 14 Jan 2025| Matplotlib| [Notebook](), [Youtube]()|
+|3| 13 Jan 2025| Pandas| [Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-pandas.html), [Youtube](https://www.youtube.com/watch?v=iaQDhwFkAhA)|
+|4| 14 Jan 2025| Matplotlib| [Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-matplotlib.html), [Youtube](https://www.youtube.com/watch?v=ERu46g5EzVk)|
 |5| 15 Jan 2025| Lab Viva 1|
-|6| 20 Jan 2025| Lab 2: Pandas| [Colab]()|
-|7| 21 Jan 2025| Set theory|[Notebook](), [Slides]()|
+|6| 20 Jan 2025| Lab 2: Pandas| [Colab](https://colab.research.google.com/drive/1pmt8hSfwzhp8ke3uXsGrOt4XELdoTmr1?usp=sharing)|
+|7| 21 Jan 2025| Set Theory|[Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/set.html), [Slides]()|
 |8| 22 Jan 2025| Lab 2: Pandas (continued)|
-|9| 27 Jan 2025| Probability|[Notebook](), [Slides]()|
+|9| 23 Jan 2025| Jupyter Widgets| [Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/widgets.html), [YouTube](https://www.youtube.com/watch?v=BJAaZaKxf00)
+|9| 23 Jan 2025| More Set Theory Questions | [Colab](https://colab.research.google.com/drive/1RrjF2VZDcst0iUgW5zrpsBy-VWUfjtkJ?usp=sharing)
+|10| 27 Jan 2025| Probability|[Notebook](), [Slides]()|
 
 
 
