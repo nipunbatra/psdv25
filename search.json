@@ -32,7 +32,7 @@
     "href": "schedule.html",
     "title": "Lectures",
     "section": "",
-    "text": "Summary\n\n\n\n\nGithub repo containing source code for lectures and notebooks\nRendered Lecture notebooks\nYouTube playlist containing recodings\n\nContent will get added here as the course progresses\n\n\n\n\n\n\n\n\n\n\nLecture #\nDate\nTopic\n\n\n\n\n0\n06 Jan 2025\nIntroduction and Logistics\n\n\n1\n07 Jan 2025\nNumPy\n\n\n2\n08 Jan 2025\nLab 1: NumPy\n\n\n3\n13 Jan 2025\nPandas\n\n\n4\n14 Jan 2025\nMatplotlib\n\n\n5\n15 Jan 2025\nLab Viva 1\n\n\n6\n20 Jan 2025\nLab 2: Pandas\n\n\n7\n21 Jan 2025\nSet theory\n\n\n8\n22 Jan 2025\nLab 2: Pandas (continued)\n\n\n9\n27 Jan 2025\nProbability"
+    "text": "Summary\n\n\n\n\nGithub repo containing source code for lectures and notebooks\nRendered Lecture notebooks\nYouTube playlist containing recodings\n\nContent will get added here as the course progresses\n\n\n\n\n\nLecture #\nDate\nTopic\nMaterial\n\n\n\n\n0\n06 Jan 2025\nIntroduction and Logistics\n\n\n\n1\n07 Jan 2025\nNumPy\nNotebook, Youtube\n\n\n2\n08 Jan 2025\nLab 1: NumPy\nColab\n\n\n3\n13 Jan 2025\nPandas\nNotebook, Youtube\n\n\n4\n14 Jan 2025\nMatplotlib\nNotebook, Youtube\n\n\n5\n15 Jan 2025\nLab Viva 1\n\n\n\n6\n20 Jan 2025\nLab 2: Pandas\nColab\n\n\n7\n21 Jan 2025\nSet theory\nNotebook, Slides\n\n\n8\n22 Jan 2025\nLab 2: Pandas (continued)\n\n\n\n9\n27 Jan 2025\nProbability\nNotebook, Slides"
   },
   {
     "objectID": "grading.html",
