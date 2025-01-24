@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "quizzes.html",
+    "href": "quizzes.html",
+    "title": "Quizzes",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ES 114 Probability, Statistics and Data Visualization",
+    "section": "",
+    "text": "Summary\n\n\n\n\nInstructors:\n\nNipun Batra nipun.batra@iitgn.ac.in\n\nOffice: AB13/401C\nYouTube video showing the directions to my office\nHomePage\n\nManisha Padala manisha.padala@iitgn.ac.in\n\nOffice: AB13/405C\nHomePage\n\n\nTeaching Assistants:\n\nAyush Shrivastava shrivastavaayush@iitgn.ac.in\nMore to be added soon\n\nClass Venue and Timings:\n\nLecture : Jasubhai Auditorium, Monday, 8:30 AM - 10:00 AM (A1 slot)\nLabs : Jasubhai Auditorium, Computer Labs (A2, D1 slots) – more details soon\n\nCommunications\n\nAll communications will be handled via slack. Join using the link here\n\n\n\n\n\nPre-requisites:\n\nNone, First Year Undergrad Course\n\n\n\nReference textbooks:\n\nChan, Stanley. “Introduction to Probability for Data Science.” The University of Michigan Library, Michigan Publishing (2021). Free Digital Copy\nAdhikari, Ani, John DeNero, and D. Wagner. “Computational and Inferential Thinking: The Foundations of Data Science.” Second Edition. The University of California, Berkeley (2019). Free Digital Copy\nDeisenroth, Marc Peter, A. Aldo Faisal, and Cheng Soon Ong. Mathematics for Machine Learning. Cambridge University Press, 2020. Free Digital Copy\nSpiegelhalter, David. The Art of Statistics: Learning from Data. Penguin UK, 2019.\nRougier, Nicolas. Scientific Visualization: Python+ Matplotlib. 2021. Free Digital Copy"
+  },
+  {
     "objectID": "faq.html",
     "href": "faq.html",
     "title": "FAQ",
@@ -14,25 +28,11 @@
     "text": "To Be Decided"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ES 114 Probability, Statistics and Data Visualization",
-    "section": "",
-    "text": "Summary\n\n\n\n\nInstructors:\n\nNipun Batra nipun.batra@iitgn.ac.in\n\nOffice: AB13/401C\nYouTube video showing the directions to my office\nHomePage\n\nManisha Padala manisha.padala@iitgn.ac.in\n\nOffice: AB13/405C\nHomePage\n\n\nTeaching Assistants:\n\nAyush Shrivastava shrivastavaayush@iitgn.ac.in\nMore to be added soon\n\nClass Venue and Timings:\n\nLecture : Jasubhai Auditorium, Monday, 8:30 AM - 10:00 AM (A1 slot)\nLabs : Jasubhai Auditorium, Computer Labs (A2, D1 slots) – more details soon\n\nCommunications\n\nAll communications will be handled via slack. Join using the link here\n\n\n\n\n\nPre-requisites:\n\nNone, First Year Undergrad Course\n\n\n\nReference textbooks:\n\nChan, Stanley. “Introduction to Probability for Data Science.” The University of Michigan Library, Michigan Publishing (2021). Free Digital Copy\nAdhikari, Ani, John DeNero, and D. Wagner. “Computational and Inferential Thinking: The Foundations of Data Science.” Second Edition. The University of California, Berkeley (2019). Free Digital Copy\nDeisenroth, Marc Peter, A. Aldo Faisal, and Cheng Soon Ong. Mathematics for Machine Learning. Cambridge University Press, 2020. Free Digital Copy\nSpiegelhalter, David. The Art of Statistics: Learning from Data. Penguin UK, 2019.\nRougier, Nicolas. Scientific Visualization: Python+ Matplotlib. 2021. Free Digital Copy"
-  },
-  {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Lectures",
     "section": "",
-    "text": "Summary\n\n\n\n\nContent will get added here as the course progresses\n\n\n\n\n\n\n\n\n\n\n\n\n\nLecture #\nDate\nTopic (Slides)\nNotebooks\nYouTube Recording\nReading\n\n\n\n\n0\n07 Jan 2023\nIntroduction and Logistics"
-  },
-  {
-    "objectID": "quizzes.html",
-    "href": "quizzes.html",
-    "title": "Quizzes",
-    "section": "",
-    "text": "No matching items"
+    "text": "Summary\n\n\n\n\nGithub repo containing source code for lectures and notebooks\nRendered Lecture notebooks\nYouTube playlist containing recodings\n\nContent will get added here as the course progresses\n\n\n\n\n\n\n\n\n\n\nLecture #\nDate\nTopic\n\n\n\n\n0\n06 Jan 2025\nIntroduction and Logistics\n\n\n1\n07 Jan 2025\nNumPy\n\n\n2\n08 Jan 2025\nLab 1: NumPy\n\n\n3\n13 Jan 2025\nPandas\n\n\n4\n14 Jan 2025\nMatplotlib\n\n\n5\n15 Jan 2025\nLab Viva 1\n\n\n6\n20 Jan 2025\nLab 2: Pandas\n\n\n7\n21 Jan 2025\nSet theory\n\n\n8\n22 Jan 2025\nLab 2: Pandas (continued)\n\n\n9\n27 Jan 2025\nProbability"
   },
   {
     "objectID": "grading.html",
