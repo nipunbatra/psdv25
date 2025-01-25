@@ -23,7 +23,7 @@ Content will get added here as the course progresses
 |4| 14 Jan 2025| Matplotlib| [Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-matplotlib.html), [Youtube](https://www.youtube.com/watch?v=ERu46g5EzVk)|
 |5| 15 Jan 2025| Lab Viva 1|
 |6| 20 Jan 2025| Lab 2: Pandas| [Colab](https://colab.research.google.com/drive/1pmt8hSfwzhp8ke3uXsGrOt4XELdoTmr1?usp=sharing)|
-|7| 21 Jan 2025| Set Theory|[Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/set.html), [Slides]()|
+|7| 21 Jan 2025| Set Theory|[Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/set.html), [Slides](https://probability4datascience.com/slides/Slide_2_01.pdf)|
 |8| 22 Jan 2025| Lab 2: Pandas (continued)|
 |9| 23 Jan 2025| Jupyter Widgets| [Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/widgets.html), [YouTube](https://www.youtube.com/watch?v=BJAaZaKxf00)
 |9| 23 Jan 2025| More Set Theory Questions | [Colab](https://colab.research.google.com/drive/1RrjF2VZDcst0iUgW5zrpsBy-VWUfjtkJ?usp=sharing)
