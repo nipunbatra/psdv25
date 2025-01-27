@@ -1,5 +1,14 @@
 ---
-title: "Tentative deadlines"
+title: "Tentative Deadlines"
 ---
 
-To Be Decided
+- 15 January: Assignment 1 Viva
+- 29 January: Assignment 2 Viva
+- 7 February: Quiz 1 [doubt]
+- 12 February: Assignment 3 Viva
+- 27 February: Assignment 4 Viva [doubt]
+- March 1-7:	Mid-Sem Theory Exam
+- 26 March: Assignment 5 Viva
+- 8 April: Quiz 2
+- 17 April: Assignment 6 Viva
+- April 24-30:	End-Sem Theory Exam
