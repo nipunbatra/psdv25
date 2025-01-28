@@ -11,13 +11,13 @@ website:
       - href: index.qmd
         text: Home
       - href: grading.qmd
-        text: Grading Policy
+        text: Grading & Leave Policy
       - href: faq.qmd
         text: FAQs
       - href: schedule.qmd
         text: Lectures
       - href: tentative.qmd
-        text: Tentative deadlines
+        text: Tentative Deadlines
       - href: https://nipunbatra.github.io
         text: Instructor Homepage
 
