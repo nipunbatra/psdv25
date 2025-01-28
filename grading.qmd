@@ -1,6 +1,4 @@
----
-title: "Grading Policy"
----
+# Grading Policy
 
 - Assignments: 32%
     - 6 assignments
@@ -14,7 +12,7 @@ title: "Grading Policy"
     - 20% each
     - Best 3 out of 4
     - If you miss a single quiz for any reason, there will be no makeups
-    - Mid sem and end sem exams are also considered quizzes
+    - Mid-Sem and End-Sem exams are also considered quizzes
 
 
 - Attendance: 8%
@@ -24,3 +22,15 @@ title: "Grading Policy"
     - 8 or 9 absences: 4%
     - 10 or 11 absences: 2%
     - 12 or more absences: 0% 
+
+
+---
+# Leave Policy
+
+- Send an email to all three TAs while filling out the [leave application form](https://docs.google.com/forms/d/e/1FAIpQLSdOGovhZEoIAM8kCl7wnfJxXjk8LVdaWx5_S9fJQwmUNp76zQ/viewform?usp=dialog).
+    - Drishti <24210033@iitgn.ac.in>
+    - Palak Gupta <24250063@iitgn.ac.in>
+    - Shataxi Dubey <shataxi.dubey@iitgn.ac.in>
+ - Sending an email ensures faster processing of your request.
+ - Use the subject line **"ES114 Leave Request"** in your email, strictly adhering to this format.
+ - **For long leave requests, include all three TAs in CC and seek permission from Sir in the email.**
