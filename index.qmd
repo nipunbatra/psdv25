@@ -36,6 +36,7 @@ title: "ES 114 Probability, Statistics and Data Visualization"
     * Kaloori Shiva Prasad <24250041@iitgn.ac.in>
     * Manish Bairwa	<manish.bairwa@iitgn.ac.in>
     * Mithlesh Singla <24210063@iitgn.ac.in>
+    * Palak Gupta <24250063@iitgn.ac.in>
     * Sawan	Verma <sawan.verma@iitgn.ac.in>
     * Shataxi Dubey <shataxi.dubey@iitgn.ac.in>
     * Shivansh Gupta <24250086@iitgn.ac.in>
