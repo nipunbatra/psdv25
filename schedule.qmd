@@ -17,16 +17,16 @@ Content will get added here as the course progresses
 | Lecture # |    Date     | Topic                                  | Material | 
 | :-------: | :-----------: | :----------------------------------------------: |:--:| 
 |     0     | 06 Jan 2025 | Introduction and Logistics |           |   Slides, Notebook|         
-|1| 07 Jan 2025| NumPy| [Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/intro-numpy.html), [Youtube](https://www.youtube.com/watch?v=CAzR00au0T0)|
-|2| 08 Jan 2025| Lab 1: NumPy| [Colab](https://colab.research.google.com/drive/169vg_FV35sJ8irVXU82RrTwlR762Ph2g?usp=sharing)|
-|3| 13 Jan 2025| Pandas| [Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-pandas.html), [Youtube](https://www.youtube.com/watch?v=iaQDhwFkAhA)|
-|4| 14 Jan 2025| Matplotlib| [Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-matplotlib.html), [Youtube](https://www.youtube.com/watch?v=ERu46g5EzVk)|
+|1| 07 Jan 2025| NumPy| [Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/intro-numpy.html){:target="_blank"} , [Youtube](https://www.youtube.com/watch?v=CAzR00au0T0){:target="_blank"} |
+|2| 08 Jan 2025| Lab 1: NumPy| [Colab](https://colab.research.google.com/drive/169vg_FV35sJ8irVXU82RrTwlR762Ph2g?usp=sharing){:target="_blank"} |
+|3| 13 Jan 2025| Pandas| [Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-pandas.html){:target="_blank"} , [Youtube](https://www.youtube.com/watch?v=iaQDhwFkAhA){:target="_blank"} |
+|4| 14 Jan 2025| Matplotlib| [Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-matplotlib.html), [Youtube](https://www.youtube.com/watch?v=ERu46g5EzVk){:target="_blank"} |
 |5| 15 Jan 2025| Lab Viva 1|
-|6| 20 Jan 2025| Lab 2: Pandas| [Colab](https://colab.research.google.com/drive/1pmt8hSfwzhp8ke3uXsGrOt4XELdoTmr1?usp=sharing)|
-|7| 21 Jan 2025| Set Theory|[Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/set.html), [Slides](https://probability4datascience.com/slides/Slide_2_01.pdf)|
+|6| 20 Jan 2025| Lab 2: Pandas| [Colab](https://colab.research.google.com/drive/1pmt8hSfwzhp8ke3uXsGrOt4XELdoTmr1?usp=sharing){:target="_blank"} |
+|7| 21 Jan 2025| Set Theory|[Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/set.html), [Slides](https://probability4datascience.com/slides/Slide_2_01.pdf){:target="_blank"} |
 |8| 22 Jan 2025| Lab 2: Pandas (continued)|
-|9| 23 Jan 2025| Jupyter Widgets| [Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/widgets.html), [YouTube](https://www.youtube.com/watch?v=BJAaZaKxf00)
-|10| 23 Jan 2025| More Set Theory Questions | [Colab](https://colab.research.google.com/drive/1RrjF2VZDcst0iUgW5zrpsBy-VWUfjtkJ?usp=sharing)
-|11| 27 Jan 2025| Set Theory (continued)|[Slides](https://probability4datascience.com/slides/Slide_2_01.pdf), [Handwritten Slides](./slides/Set-Theory_27Jan.pdf)
-|12| 28 Jan 2025| Probability|[Slides1](https://probability4datascience.com/slides/Slide_2_02.pdf), [Slides2](https://probability4datascience.com/slides/Slide_2_03.pdf), [Handwritten Slides](./slides/Probability_28Jan.pdf)
+|9| 23 Jan 2025| Jupyter Widgets| [Notebook](https://nipunbatra.github.io/psdv-teaching/notebooks/widgets.html), [YouTube](https://www.youtube.com/watch?v=BJAaZaKxf00){:target="_blank"} 
+|10| 23 Jan 2025| More Set Theory Questions | [Colab](https://colab.research.google.com/drive/1RrjF2VZDcst0iUgW5zrpsBy-VWUfjtkJ?usp=sharing){:target="_blank"} 
+|11| 27 Jan 2025| Set Theory (continued)|[Slides](https://probability4datascience.com/slides/Slide_2_01.pdf){:target="_blank"} , [Handwritten Slides](./slides/Set-Theory_27Jan.pdf){:target="_blank"} 
+|12| 28 Jan 2025| Probability|[Slides1](https://probability4datascience.com/slides/Slide_2_02.pdf){:target="_blank"} , [Slides2](https://probability4datascience.com/slides/Slide_2_03.pdf){:target="_blank"} , [Handwritten Slides](./slides/Probability_28Jan.pdf){:target="_blank"} 
 |13| 29 Jan 2025| Lab Viva 2|
