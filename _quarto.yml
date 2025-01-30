@@ -4,9 +4,9 @@ project:
 
 website:
   title: "ES114 - PSDV"
-  # favicon: images/logo.jpeg
+  favicon: images/psdv_favicon.jpeg
   navbar:
-    # logo: images/logo.jpeg
+    logo: images/psdv_logo.jpeg
     right:
       - href: index.qmd
         text: Home
@@ -21,7 +21,6 @@ website:
       - href: https://nipunbatra.github.io
         text: Instructor Homepage
 
-
 format:
   html:
     theme:
@@ -32,7 +31,5 @@ format:
     code-copy: true
     code-overflow: wrap
 
-
 execute:
   freeze: auto
-
