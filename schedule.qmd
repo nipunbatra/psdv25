@@ -15,7 +15,7 @@ Content will get added here as the course progresses
 
 
 | Lecture # |    Date     | Topic          | Material | 
-| :------: | :--------: | :-------------------------: |:---------------:| 
+| :------: | :--------: | :-------------------------: |:-------------------:| 
 |     0     | 06 Jan 2025 | Introduction and Logistics |  
 |1| 07 Jan 2025| NumPy| <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/intro-numpy.html" target="_blank">Notebook</a>, <a href="https://www.youtube.com/watch?v=CAzR00au0T0" target="_blank">Youtube</a> |
 |2| 08 Jan 2025| Lab 1: NumPy| <a href="https://colab.research.google.com/drive/169vg_FV35sJ8irVXU82RrTwlR762Ph2g?usp=sharing" target="_blank">Colab</a> |
@@ -30,3 +30,5 @@ Content will get added here as the course progresses
 |11| 27 Jan 2025| Set Theory (continued)| <a href="https://probability4datascience.com/slides/Slide_2_01.pdf" target="_blank">Slides</a>, <a href="./slides/Set-Theory_27Jan.pdf" target="_blank">Handwritten Slides</a> |
 |12| 28 Jan 2025| Probability| <a href="https://probability4datascience.com/slides/Slide_2_02.pdf" target="_blank">Slides1</a>, <a href="https://probability4datascience.com/slides/Slide_2_03.pdf" target="_blank">Slides2</a>, <a href="./slides/Probability_28Jan.pdf" target="_blank">Handwritten Slides</a> |
 |13| 29 Jan 2025| Lab Viva 2|
+|14| 03 Feb 2025| Conditional Probability & Independence | <a href="https://probability4datascience.com/slides/Slide_2_04.pdf" target="_blank">Slides Conditional</a>, <a href="https://probability4datascience.com/slides/Slide_2_05.pdf" target="_blank">Slides Independence</a>, <a href="./slides/Conditional_Bayes_3_4Feb.pdf" target="_blank">Handwritten Slides</a> |
+|15| 04 Feb 2025| Bayes Theorem & Total Probability | <a href="https://probability4datascience.com/slides/Slide_2_06.pdf" target="_blank">Slides</a>, <a href="./slides/Conditional_Bayes_3_4Feb.pdf" target="_blank">Handwritten Slides (continued)</a> |
