@@ -12,10 +12,12 @@ Each team must submit the following:
 
 ---
 
-## Video Requirements (4 min)
+## Suggested Video Requirements (4 min)
+
+You are free to choose based on your topic and presentation style. The following is one such suggested template.
 
 ### 1. **Introduction (30 sec)**
-- Briefly introduce the tool/library/framework.
+- Briefly introduce the tool/library/framework AND/OR the problem being solved.
 
 ### 2. **Key Features (1 min)**
 - Highlight important capabilities.
@@ -52,6 +54,8 @@ Each team must submit:
 
 ## Blog Article Requirements
 
+Below is a suggestive organisation. Your topic may not need these or may need some additional. Improvise where necessary.
+
 ### 1. **Title:** 
 - Clear and descriptive.
 
@@ -83,7 +87,7 @@ Each team must submit:
 
 ## Hosting on GitHub Pages
 
-- Use a **Jupyter Notebook** or **Markdown-based site** (e.g., Jekyll).
+- Use a **Jupyter Notebook** or **Markdown-based site** (e.g., Jekyll) or **Quarto** etc.
 - Ensure proper formatting and **mobile-friendly** layout.
 - Link all necessary files in the repository.
 
@@ -119,7 +123,6 @@ Announced on Slack.
 
 - **Plagiarism** will not be tolerated.
 - Ensure your explanations are **original** and **insightful**.
-- Late submissions will incur a **penalty**.
 
 ---
 
