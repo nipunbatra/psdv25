@@ -32,14 +32,14 @@
     "href": "exposition.html",
     "title": "Exposition Assignment",
     "section": "",
-    "text": "Each team must submit the following:\n\nA 4-minute video explaining and demonstrating their assigned topic.\nA blog article with explanations, code snippets, and screenshots, hosted on GitHub Pages.\n\n\n\n\n\n\n\nBriefly introduce the tool/library/framework.\n\n\n\n\n\nHighlight important capabilities.\n\n\n\n\n\nShow a hands-on example.\n\n\n\n\n\nSummarize its strengths and potential use cases.\n\n\n\n\n\n\n\nResolution: High-quality screen recording (1080p recommended).\nAudio: Clear audio with minimal background noise.\nNarration: Concise and well-paced narration.\nVisuals: Use a mix of slides and live demonstrations.\nBackground Music: Can use royalty-free music.\nEditing Tools: Tools like Canva might be useful for editing.\n\n\n\n\n\nEach team must submit:\n\nVideo Link: Uploaded to a public platform like YouTube/Drive.\nYouTube Title: Clear and relevant to the topic.\nYouTube Description: Brief summary of the content and relevant links.\nChapters: Timestamps for different sections in the video.\n\n\n\n\n\n\n\n\nClear and descriptive.\n\n\n\n\n\nOverview of the tool and its purpose.\n\n\n\n\n\nSteps to install and configure.\n\n\n\n\n\nHighlight key functionalities.\n\n\n\n\n\nWorking examples with explanations.\n\n\n\n\n\nTo illustrate important points.\n\n\n\n\n\nPractical applications.\n\n\n\n\n\nSummary and final thoughts.\n\n\n\n\n\nLinks to official documentation or tutorials.\n\n\n\n\n\n\n\nUse a Jupyter Notebook or Markdown-based site (e.g., Jekyll).\nEnsure proper formatting and mobile-friendly layout.\nLink all necessary files in the repository.\n\n\n\n\n\n\n\n\n\n\n\n\n\nComponent\nMarks\nCriteria\n\n\n\n\nVideo Clarity & Structure\n3\nClear audio/video, structured explanation\n\n\nDemonstration Quality\n3\nEffective use of examples and live demo\n\n\nBlog Depth & Clarity\n3\nWell-explained concepts with screenshots\n\n\nGitHub Hosting & Accessibility\n1\nProperly deployed on GitHub Pages\n\n\n\n\n\n\n\n\nUpload the video to a public platform (YouTube/Drive) and share the link.\nProvide the YouTube title, description, and chapter timestamps.\nProvide the GitHub Pages link to the blog article.\nSubmit all details in the course submission portal.\n\n\n\n\n\nAnnounced on Slack.\n\n\n\n\n\nPlagiarism will not be tolerated.\nEnsure your explanations are original and insightful.\nLate submissions will incur a penalty."
+    "text": "Each team must submit the following:\n\nA 4-minute video explaining and demonstrating their assigned topic.\nA blog article with explanations, code snippets, and screenshots, hosted on GitHub Pages.\n\n\n\n\nYou are free to choose based on your topic and presentation style. The following is one such suggested template.\n\n\n\nBriefly introduce the tool/library/framework AND/OR the problem being solved.\n\n\n\n\n\nHighlight important capabilities.\n\n\n\n\n\nShow a hands-on example.\n\n\n\n\n\nSummarize its strengths and potential use cases.\n\n\n\n\n\n\n\nResolution: High-quality screen recording (1080p recommended).\nAudio: Clear audio with minimal background noise.\nNarration: Concise and well-paced narration.\nVisuals: Use a mix of slides and live demonstrations.\nBackground Music: Can use royalty-free music.\nEditing Tools: Tools like Canva might be useful for editing.\n\n\n\n\n\nEach team must submit:\n\nVideo Link: Uploaded to a public platform like YouTube/Drive.\nYouTube Title: Clear and relevant to the topic.\nYouTube Description: Brief summary of the content and relevant links.\nChapters: Timestamps for different sections in the video.\n\n\n\n\n\nBelow is a suggestive organisation. Your topic may not need these or may need some additional. Improvise where necessary.\n\n\n\nClear and descriptive.\n\n\n\n\n\nOverview of the tool and its purpose.\n\n\n\n\n\nSteps to install and configure.\n\n\n\n\n\nHighlight key functionalities.\n\n\n\n\n\nWorking examples with explanations.\n\n\n\n\n\nTo illustrate important points.\n\n\n\n\n\nPractical applications.\n\n\n\n\n\nSummary and final thoughts.\n\n\n\n\n\nLinks to official documentation or tutorials.\n\n\n\n\n\n\n\nUse a Jupyter Notebook or Markdown-based site (e.g., Jekyll) or Quarto etc.\nEnsure proper formatting and mobile-friendly layout.\nLink all necessary files in the repository.\n\n\n\n\n\n\n\n\n\n\n\n\n\nComponent\nMarks\nCriteria\n\n\n\n\nVideo Clarity & Structure\n3\nClear audio/video, structured explanation\n\n\nDemonstration Quality\n3\nEffective use of examples and live demo\n\n\nBlog Depth & Clarity\n3\nWell-explained concepts with screenshots\n\n\nGitHub Hosting & Accessibility\n1\nProperly deployed on GitHub Pages\n\n\n\n\n\n\n\n\nUpload the video to a public platform (YouTube/Drive) and share the link.\nProvide the YouTube title, description, and chapter timestamps.\nProvide the GitHub Pages link to the blog article.\nSubmit all details in the course submission portal.\n\n\n\n\n\nAnnounced on Slack.\n\n\n\n\n\nPlagiarism will not be tolerated.\nEnsure your explanations are original and insightful."
   },
   {
-    "objectID": "exposition.html#video-requirements-4-min",
-    "href": "exposition.html#video-requirements-4-min",
+    "objectID": "exposition.html#suggested-video-requirements-4-min",
+    "href": "exposition.html#suggested-video-requirements-4-min",
     "title": "Exposition Assignment",
     "section": "",
-    "text": "Briefly introduce the tool/library/framework.\n\n\n\n\n\nHighlight important capabilities.\n\n\n\n\n\nShow a hands-on example.\n\n\n\n\n\nSummarize its strengths and potential use cases."
+    "text": "You are free to choose based on your topic and presentation style. The following is one such suggested template.\n\n\n\nBriefly introduce the tool/library/framework AND/OR the problem being solved.\n\n\n\n\n\nHighlight important capabilities.\n\n\n\n\n\nShow a hands-on example.\n\n\n\n\n\nSummarize its strengths and potential use cases."
   },
   {
     "objectID": "exposition.html#video-formatting",
@@ -60,14 +60,14 @@
     "href": "exposition.html#blog-article-requirements",
     "title": "Exposition Assignment",
     "section": "",
-    "text": "Clear and descriptive.\n\n\n\n\n\nOverview of the tool and its purpose.\n\n\n\n\n\nSteps to install and configure.\n\n\n\n\n\nHighlight key functionalities.\n\n\n\n\n\nWorking examples with explanations.\n\n\n\n\n\nTo illustrate important points.\n\n\n\n\n\nPractical applications.\n\n\n\n\n\nSummary and final thoughts.\n\n\n\n\n\nLinks to official documentation or tutorials."
+    "text": "Below is a suggestive organisation. Your topic may not need these or may need some additional. Improvise where necessary.\n\n\n\nClear and descriptive.\n\n\n\n\n\nOverview of the tool and its purpose.\n\n\n\n\n\nSteps to install and configure.\n\n\n\n\n\nHighlight key functionalities.\n\n\n\n\n\nWorking examples with explanations.\n\n\n\n\n\nTo illustrate important points.\n\n\n\n\n\nPractical applications.\n\n\n\n\n\nSummary and final thoughts.\n\n\n\n\n\nLinks to official documentation or tutorials."
   },
   {
     "objectID": "exposition.html#hosting-on-github-pages",
     "href": "exposition.html#hosting-on-github-pages",
     "title": "Exposition Assignment",
     "section": "",
-    "text": "Use a Jupyter Notebook or Markdown-based site (e.g., Jekyll).\nEnsure proper formatting and mobile-friendly layout.\nLink all necessary files in the repository."
+    "text": "Use a Jupyter Notebook or Markdown-based site (e.g., Jekyll) or Quarto etc.\nEnsure proper formatting and mobile-friendly layout.\nLink all necessary files in the repository."
   },
   {
     "objectID": "exposition.html#grading-rubric-total-10-marks",
@@ -95,7 +95,7 @@
     "href": "exposition.html#notes",
     "title": "Exposition Assignment",
     "section": "",
-    "text": "Plagiarism will not be tolerated.\nEnsure your explanations are original and insightful.\nLate submissions will incur a penalty."
+    "text": "Plagiarism will not be tolerated.\nEnsure your explanations are original and insightful."
   },
   {
     "objectID": "schedule.html",
