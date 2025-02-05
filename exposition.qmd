@@ -1,0 +1,127 @@
+---
+title: "Exposition Assignment"
+---
+
+
+# Deliverables
+
+Each team must submit the following:
+
+- A **4-minute video** explaining and demonstrating their assigned topic.
+- A **blog article** with explanations, code snippets, and screenshots, hosted on **GitHub Pages**.
+
+---
+
+## Video Requirements (4 min)
+
+### 1. **Introduction (30 sec)**
+- Briefly introduce the tool/library/framework.
+
+### 2. **Key Features (1 min)**
+- Highlight important capabilities.
+
+### 3. **Demonstration (2 min)**
+- Show a hands-on example.
+
+### 4. **Conclusion (30 sec)**
+- Summarize its strengths and potential use cases.
+
+---
+
+## Video Formatting
+
+- **Resolution:** High-quality screen recording (1080p recommended).
+- **Audio:** Clear audio with minimal background noise.
+- **Narration:** Concise and well-paced narration.
+- **Visuals:** Use a mix of slides and live demonstrations.
+- **Background Music:** Can use royalty-free music.
+- **Editing Tools:** Tools like Canva might be useful for editing.
+
+---
+
+## Video Submission Requirements
+
+Each team must submit:
+
+- **Video Link:** Uploaded to a public platform like YouTube/Drive.
+- **YouTube Title:** Clear and relevant to the topic.
+- **YouTube Description:** Brief summary of the content and relevant links.
+- **Chapters:** Timestamps for different sections in the video.
+
+---
+
+## Blog Article Requirements
+
+### 1. **Title:** 
+- Clear and descriptive.
+
+### 2. **Introduction:**
+- Overview of the tool and its purpose.
+
+### 3. **Installation & Setup:**
+- Steps to install and configure.
+
+### 4. **Key Features & Explanation:**
+- Highlight key functionalities.
+
+### 5. **Code Examples:**
+- Working examples with explanations.
+
+### 6. **Screenshots:**
+- To illustrate important points.
+
+### 7. **Use Cases:**
+- Practical applications.
+
+### 8. **Conclusion:**
+- Summary and final thoughts.
+
+### 9. **References & Further Reading:**
+- Links to official documentation or tutorials.
+
+---
+
+## Hosting on GitHub Pages
+
+- Use a **Jupyter Notebook** or **Markdown-based site** (e.g., Jekyll).
+- Ensure proper formatting and **mobile-friendly** layout.
+- Link all necessary files in the repository.
+
+---
+
+## Grading Rubric (Total: 10 Marks)
+
+| Component                           | Marks | Criteria                                    |
+|-------------------------------------|-------|---------------------------------------------|
+| **Video Clarity & Structure**       | 2     | Clear audio/video, structured explanation   |
+| **Demonstration Quality**           | 2     | Effective use of examples and live demo     |
+| **Blog Depth & Clarity**            | 3     | Well-explained concepts with screenshots    |
+| **Code Examples**                   | 2     | Working, well-commented, and relevant       |
+| **GitHub Hosting & Accessibility** | 1     | Properly deployed on GitHub Pages           |
+
+---
+
+## Submission Instructions
+
+1. Upload the video to a public platform (YouTube/Drive) and share the link.
+2. Provide the **YouTube title**, **description**, and **chapter timestamps**.
+3. Provide the **GitHub Pages link** to the blog article.
+4. Submit all details in the course submission portal.
+
+---
+
+## Deadline
+
+Announced on Slack.
+
+---
+
+## Notes
+
+- **Plagiarism** will not be tolerated.
+- Ensure your explanations are **original** and **insightful**.
+- Late submissions will incur a **penalty**.
+
+---
+
+### Happy Learning!
