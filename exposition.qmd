@@ -93,10 +93,9 @@ Each team must submit:
 
 | Component                           | Marks | Criteria                                    |
 |-------------------------------------|-------|---------------------------------------------|
-| **Video Clarity & Structure**       | 2     | Clear audio/video, structured explanation   |
-| **Demonstration Quality**           | 2     | Effective use of examples and live demo     |
+| **Video Clarity & Structure**       | 3     | Clear audio/video, structured explanation   |
+| **Demonstration Quality**           | 3     | Effective use of examples and live demo     |
 | **Blog Depth & Clarity**            | 3     | Well-explained concepts with screenshots    |
-| **Code Examples**                   | 2     | Working, well-commented, and relevant       |
 | **GitHub Hosting & Accessibility** | 1     | Properly deployed on GitHub Pages           |
 
 ---
