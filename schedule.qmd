@@ -32,3 +32,6 @@ Content will get added here as the course progresses
 |13| 29 Jan 2025| Lab Viva 2|
 |14| 03 Feb 2025| Conditional Probability & Independence | <a href="https://probability4datascience.com/slides/Slide_2_04.pdf" target="_blank">Slides Conditional</a>, <a href="https://probability4datascience.com/slides/Slide_2_05.pdf" target="_blank">Slides Independence</a>, <a href="./slides/Conditional_Bayes_3_4Feb.pdf" target="_blank">Handwritten Slides</a> |
 |15| 04 Feb 2025| Bayes Theorem & Total Probability | <a href="https://probability4datascience.com/slides/Slide_2_06.pdf" target="_blank">Slides</a>, <a href="./slides/Conditional_Bayes_3_4Feb.pdf" target="_blank">Handwritten Slides (continued)</a> |
+|16| 05 Feb 2025| Quiz 1|
+|17| 10 Feb 2025| Random Variables + Quiz Discussion | <a href="https://probability4datascience.com/slides/Slide_3_01.pdf" target="_blank">Slides</a> |
+|18| 11 Feb 2025| Probability Mass Function | <a href="https://probability4datascience.com/slides/Slide_3_02.pdf" target="_blank">Slides</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/pmf-discrete.html" target="_blank">Notebook</a>, <a href="https://www.youtube.com/watch?v=_VU6QMC6XE0" target="_blank">YouTube</a> |
