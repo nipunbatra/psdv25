@@ -35,3 +35,5 @@ Content will get added here as the course progresses
 |16| 05 Feb 2025| Quiz 1|
 |17| 10 Feb 2025| Random Variables + Quiz Discussion | <a href="https://probability4datascience.com/slides/Slide_3_01.pdf" target="_blank">Slides</a> |
 |18| 11 Feb 2025| Probability Mass Function | <a href="https://probability4datascience.com/slides/Slide_3_02.pdf" target="_blank">Slides</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/pmf-discrete.html" target="_blank">Notebook</a>, <a href="https://www.youtube.com/watch?v=_VU6QMC6XE0" target="_blank">YouTube</a> |
+|19| 17 Feb 2025| Expectation | <a href="https://probability4datascience.com/slides/Slide_3_04.pdf" target="_blank">Slides</a>, <a href="./slides/ExpectationMoments_17_18Feb.pdf" target="_blank">Handwritten Slides</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/expectation.html" target="_blank">Notebook</a> |
+|20| 18 Feb 2025| Moment | <a href="https://probability4datascience.com/slides/Slide_3_05.pdf" target="_blank">Slides</a>, <a href="./slides/ExpectationMoments_17_18Feb.pdf" target="_blank">Handwritten Slides (continued)</a> |
