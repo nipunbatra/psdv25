@@ -14,7 +14,7 @@ Explore the creativity and technical skills of our students as they dive into to
 ```{python}
 #| echo: false
 import pandas as pd
-df = pd.read_csv("./exposition_assignment.csv")
+df = pd.read_csv("exposition_assignment.csv")
 
 df = df[["Team ID", "Member 1 Name", "Member 1 Roll no", "Member 2 Name", "Member 2 Roll No", "Member 3 Name", "Member 3 Roll No", "Topic", "Link", "GithubRepo", "GithubWebsite", "YouTubeLink"]]
 
