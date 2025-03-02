@@ -5,7 +5,7 @@ format:
     css: styles.css
 ---
 
-This page showcases the video submissions for the [Exposition Assignment](https://nipunbatra.github.io/psdv25/exposition.html) completed by 135 groups of students enrolled in the course. Each group (consisting of 3 students) has submitted a YouTube video link explaining their assigned topic, hosted alongside a blog and GitHub repository.
+This page showcases the video submissions for the [Exposition Assignment](https://nipunbatra.github.io/psdv25/exposition.html) completed by 129 groups of students enrolled in the course. Each group (consisting of 3 students) has submitted a YouTube video link explaining their assigned topic, hosted alongside a blog and GitHub repository.
 
 Explore the creativity and technical skills of our students as they dive into tools and techniques for data visualization and beyond!
 

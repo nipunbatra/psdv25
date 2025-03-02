@@ -18,8 +18,8 @@ website:
         text: Lectures
       - href: tentative.qmd
         text: Tentative Deadlines
-      - href: exposition.qmd
-        text: Exposition
+      - href: videos/videos.qmd
+        text: Exposition Submissions
       - href: https://nipunbatra.github.io
         text: Homepage
 
