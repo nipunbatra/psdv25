@@ -36,42 +36,65 @@ html = """
 """
 for index, row in df.iterrows():
     member3_roll = int(row['Member 3 Roll No']) if pd.notna(row['Member 3 Roll No']) and row['Member 3 Roll No'] != "NA" else "NA"
-    # Check if GithubWebsite is missing (NaN or empty)
+    
     blog_content = "NA" if pd.isna(row['GithubWebsite']) or row['GithubWebsite'].strip() == "" else f"<a href='{row['GithubWebsite']}' target='_blank' class='blog-link'>Blog</a>"
-    html += f"""
-    <tr>
-      <td>{index + 1}</td>
-      <td><a href='javascript:void(0)' onclick='toggleDetails("details_{index}")' class='details-link'>{row['Team ID']}</a></td>
-      <td><a href='{row['Link']}' target='_blank'>{row['Topic']}</a></td>
-      <td><a href='{row['YouTubeLink']}' target='_blank' class='watch-link'><span class='play-icon'></span>Watch</a></td>
-      <td>{blog_content}</td>
-    </tr>
-    <tr id='details_{index}' class='details' style='display: none;'>
-      <td colspan='5'>
-        <div>
-          <strong>Team Members:</strong><br>
-          - {row['Member 1 Name']} ({row['Member 1 Roll no']})<br>
-          - {row['Member 2 Name']} ({row['Member 2 Roll No']})<br>
-          - {row['Member 3 Name']} ({member3_roll})<br>
-          <a href='{row['GithubRepo']}' target='_blank'>GitHub Repository</a><br>
-        </div>
-      </td>
-    </tr>
-    """
-html += """
-  </tbody>
-</table>
+    if row['Team ID'] == "J085":
+        html += f"""
+      <tr>
+        <td>{index + 1}</td>
+        <td><a href='javascript:void(0)' onclick='toggleDetails("details_{index}")' class='details-link'>{row['Team ID']}</a></td>
+        <td><a href='https://fastapi.tiangolo.com' target='_blank'>FastAPI</a> + <a href='https://htmx.org' target='_blank'>HTMX</a></td>
+        <td><a href='{row['YouTubeLink']}' target='_blank' class='watch-link'><span class='play-icon'></span>Watch</a></td>
+        <td>{blog_content}</td>
+      </tr>
+      <tr id='details_{index}' class='details' style='display: none;'>
+        <td colspan='5'>
+          <div>
+            <strong>Team Members:</strong><br>
+            - {row['Member 1 Name']} ({row['Member 1 Roll no']})<br>
+            - {row['Member 2 Name']} ({row['Member 2 Roll No']})<br>
+            - {row['Member 3 Name']} ({member3_roll})<br>
+            <a href='{row['GithubRepo']}' target='_blank'>GitHub Repository</a><br>
+          </div>
+        </td>
+      </tr>
+      """
 
-<script>
-function toggleDetails(id) {
-    var element = document.getElementById(id);
-    if (element.style.display === 'none' || element.style.display === '') {
-        element.style.display = 'table-row';
-    } else {
-        element.style.display = 'none';
-    }
-}
-</script>
-"""
+    else:
+      html += f"""
+      <tr>
+        <td>{index + 1}</td>
+        <td><a href='javascript:void(0)' onclick='toggleDetails("details_{index}")' class='details-link'>{row['Team ID']}</a></td>
+        <td><a href='{row['Link']}' target='_blank'>{row['Topic']}</a></td>
+        <td><a href='{row['YouTubeLink']}' target='_blank' class='watch-link'><span class='play-icon'></span>Watch</a></td>
+        <td>{blog_content}</td>
+      </tr>
+      <tr id='details_{index}' class='details' style='display: none;'>
+        <td colspan='5'>
+          <div>
+            <strong>Team Members:</strong><br>
+            - {row['Member 1 Name']} ({row['Member 1 Roll no']})<br>
+            - {row['Member 2 Name']} ({row['Member 2 Roll No']})<br>
+            - {row['Member 3 Name']} ({member3_roll})<br>
+            <a href='{row['GithubRepo']}' target='_blank'>GitHub Repository</a><br>
+          </div>
+        </td>
+      </tr>
+      """
+html += """
+    </tbody>
+  </table>
+
+  <script>
+  function toggleDetails(id) {
+      var element = document.getElementById(id);
+      if (element.style.display === 'none' || element.style.display === '') {
+          element.style.display = 'table-row';
+      } else {
+          element.style.display = 'none';
+      }
+  }
+  </script>
+  """
 HTML(html)
 ```
