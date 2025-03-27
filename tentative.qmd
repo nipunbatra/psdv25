@@ -11,7 +11,7 @@ title: "Tentative Deadlines"
 | [25 February]{style="color:green;"}         | [Tuesday]{style="color:green;"}       | [Assignment 4 Submission (Exposition)]{style="color:green;"}  |
 | [3 March]{style="color:green;"}             | [Monday]{style="color:green;"}        | [Mid-Sem Theory Exam (Quiz 2)]{style="color:green;"}       |
 | [26 March]{style="color:green;"}            | [Wednesday]{style="color:green;"}     | [Assignment 5 Viva]{style="color:green;"}                  |
-|[4 April]{style="color:blue;"}             | [Friday]{style="color:blue;"}     | [Quiz 3]{style="color:blue;"}                             |
-| [9 April]{style="color:blue;"}            | [Wednesday]{style="color:blue;"}    | [Assignment 6 Viva]{style="color:blue;"}                  |
+|[9 April]{style="color:blue;"}             | [Wednesday]{style="color:blue;"}     | [Quiz 3]{style="color:blue;"}                             |
+| [16 April]{style="color:blue;"}            | [Wednesday]{style="color:blue;"}    | [Assignment 6 Viva]{style="color:blue;"}                  |
 | [24-30 April]{style="color:blue;"}         | -             | [End-Sem Theory Exam (Quiz 4)]{style="color:blue;"}       |
 
