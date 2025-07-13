@@ -4,9 +4,9 @@ project:
 
 website:
   title: "ES114 - PSDV"
-  favicon: images/psdv_favicon.jpeg
+  favicon: images/psdv_favicon.svg
   navbar:
-    logo: images/psdv_logo.jpeg
+    logo: images/psdv_logo.svg
     right:
       - href: index.qmd
         text: Home
@@ -14,7 +14,7 @@ website:
         text: Grading & Leave Policy
       - href: faq.qmd
         text: FAQs
-      - href: schedule.qmd
+      - href: lectures.qmd
         text: Lectures
       - href: tentative.qmd
         text: Tentative Deadlines
@@ -25,11 +25,9 @@ website:
 
 format:
   html:
-    theme:
-      light: [litera, styles.scss]
-      dark: [darkly, styles-dark.scss]
+    theme: [litera, styles.scss]
     highlight-style: a11y-dark
-    mainfont: "Roboto"
+    mainfont: "Source Sans 3"
     code-copy: true
     code-overflow: wrap
 

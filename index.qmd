@@ -3,7 +3,7 @@ title: "ES 114 Probability, Statistics and Data Visualization"
 ---
 
 
-![](images/psdv_logo.jpeg)
+![](images/psdv_logo.svg)
 
 ::: {.callout-tip}
 ## Summary
