@@ -20,8 +20,9 @@ website:
         text: Tentative Deadlines
       - href: videos/videos.qmd
         text: Exposition Submissions
+      - text: "---"
       - href: https://nipunbatra.github.io
-        text: Homepage
+        text: "Instructor's Homepage"
 
 format:
   html:
