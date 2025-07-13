@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nipunbatra.github.io/psdv25/tentative.html</loc>
-    <lastmod>2025-04-16T15:27:05.221Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nipunbatra.github.io/psdv25/schedule.html</loc>
-    <lastmod>2025-04-16T15:27:04.819Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nipunbatra.github.io/psdv25/slides/transformation.html</loc>
-    <lastmod>2025-04-16T15:27:05.221Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nipunbatra.github.io/psdv25/exposition.html</loc>
-    <lastmod>2025-04-16T15:27:04.813Z</lastmod>
+    <loc>https://nipunbatra.github.io/psdv25/videos/videos.html</loc>
+    <lastmod>2025-07-13T03:26:25.083Z</lastmod>
   </url>
   <url>
     <loc>https://nipunbatra.github.io/psdv25/index.html</loc>
-    <lastmod>2025-04-16T15:27:04.819Z</lastmod>
+    <lastmod>2025-07-13T03:26:24.682Z</lastmod>
   </url>
   <url>
     <loc>https://nipunbatra.github.io/psdv25/faq.html</loc>
-    <lastmod>2025-04-16T15:27:04.813Z</lastmod>
+    <lastmod>2025-07-13T03:26:24.676Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nipunbatra.github.io/psdv25/schedule.html</loc>
+    <lastmod>2025-07-13T03:26:24.682Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nipunbatra.github.io/psdv25/slides/transformation.html</loc>
+    <lastmod>2025-07-13T03:26:25.083Z</lastmod>
   </url>
   <url>
     <loc>https://nipunbatra.github.io/psdv25/grading.html</loc>
-    <lastmod>2025-04-16T15:27:04.813Z</lastmod>
+    <lastmod>2025-07-13T03:26:24.676Z</lastmod>
   </url>
   <url>
-    <loc>https://nipunbatra.github.io/psdv25/videos/videos.html</loc>
-    <lastmod>2025-04-16T15:27:05.221Z</lastmod>
+    <loc>https://nipunbatra.github.io/psdv25/lectures.html</loc>
+    <lastmod>2025-07-13T03:26:24.682Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nipunbatra.github.io/psdv25/exposition.html</loc>
+    <lastmod>2025-07-13T03:26:24.676Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nipunbatra.github.io/psdv25/tentative.html</loc>
+    <lastmod>2025-07-13T03:26:25.083Z</lastmod>
   </url>
 </urlset>
