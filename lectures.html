@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lectures &amp; Materials – ES114 - PSDV</title>
+<title>ES 114 · Probability, statistics and data visualization - Lecture library</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,16 +31,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/psdv_favicon.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-c3c2c9e745155556954bc4da23476b10.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e3ea934c98f81488709185b9628b3708.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,22 +73,19 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/psdv_logo.svg" alt="" class="navbar-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">ES114 - PSDV</span>
+    <span class="navbar-title">ES 114 · PSDV</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -97,57 +95,54 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./grading.html"> 
-<span class="menu-text">Grading &amp; Leave Policy</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./faq.html"> 
-<span class="menu-text">FAQs</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./lectures.html" aria-current="page"> 
 <span class="menu-text">Lectures</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./grading.html"> 
+<span class="menu-text">Grading</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./faq.html"> 
+<span class="menu-text">FAQ</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./tentative.html"> 
-<span class="menu-text">Tentative Deadlines</span></a>
+<span class="menu-text">Deadlines</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./videos/videos.html"> 
-<span class="menu-text">Exposition Submissions</span></a>
-  </li>  
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">---</span>
-    </span>
+<span class="menu-text">Expositions</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://nipunbatra.github.io"> 
-<span class="menu-text">Instructor’s Homepage</span></a>
+<span class="menu-text">Instructor</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+          <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lectures &amp; Materials</h1>
+<h1 class="title">Lecture library</h1>
+<p class="subtitle lead">Every lecture of ES 114 Probability, statistics and data visualization, January to April 2025, with its slides, notebooks, cheat sheet and short videos.</p>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -159,489 +154,651 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Course Resources
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>📚 <a href="https://github.com/nipunbatra/psdv-teaching">GitHub repository with source code for lectures and notebooks</a></li>
-<li>📖 <a href="https://nipunbatra.github.io/psdv-teaching/notebooks.html">Rendered Lecture notebooks</a></li>
-<li>🎥 <a href="https://www.youtube.com/watch?v=CAzR00au0T0&amp;list=PLftoLyLEwECCTFpc8_-gV8NqG_LgdL3Uy&amp;index=1">YouTube playlist with all recordings</a></li>
-</ul>
-<p>Content is updated as the course progresses. Click on any topic below to access materials.</p>
-</div>
-</div>
-<div class="lectures-container">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 7%">
-<col style="width: 17%">
-<col style="width: 41%">
-<col style="width: 33%">
-</colgroup>
+<p>Each row is one lecture, grouped by part of the course. The notebooks are from <a href="https://github.com/nipunbatra/psdv-teaching">psdv-teaching</a>, which has the source code for the lectures and <a href="https://nipunbatra.github.io/psdv-teaching/notebooks.html">all rendered notebooks</a>. Recordings of the tutorials are in a <a href="https://www.youtube.com/watch?v=CAzR00au0T0&amp;list=PLftoLyLEwECCTFpc8_-gV8NqG_LgdL3Uy&amp;index=1">YouTube playlist</a>. The Shorts are also collected, in course order, on the <a href="https://nipunbatra.github.io/psdv-in-1-minute.html">Probability and statistics in 1 minute</a> page and in a <a href="https://www.youtube.com/playlist?list=PLc_dUTLURe5w">YouTube playlist</a>.</p>
+<p><span class="res-key"><strong>Slides</strong>: chapter slides from <em>Introduction to Probability for Data Science</em> and handwritten notes from class (PDF) · <strong>Notebooks</strong>: worked code, or a Colab notebook for a lab · <strong>Apps</strong>: interactive demos · <strong>Cheat sheet</strong>: a two-page A4 summary (PDF) · <strong>Shorts</strong>: one-minute videos, each answering one question; point at a number to see the question · <strong>Videos</strong>: explainers by others (point at one to see its author) · <strong>Recording</strong>: a tutorial video by the instructor.</span></p>
+<div class="lecture-library">
+<section id="python-tools-for-data" class="level2">
+<h2 class="anchored" data-anchor-id="python-tools-for-data">Python tools for data</h2>
+<table class="table">
 <thead>
 <tr class="header">
-<th style="text-align: center;">#</th>
-<th style="text-align: left;">Date</th>
-<th style="text-align: left;">Topic</th>
-<th style="text-align: left;">Materials</th>
+<th style="text-align: right;">No.</th>
+<th style="text-align: left;">Lecture</th>
+<th style="text-align: left;">Resources</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;">0</td>
-<td style="text-align: left;">06 Jan 2025</td>
-<td style="text-align: left;">Introduction and Logistics</td>
-<td style="text-align: left;"></td>
+<td style="text-align: right;">0 <span class="lec-date">6 Jan</span></td>
+<td style="text-align: left;"><strong>Introduction and logistics</strong> <span class="lec-desc">How the course runs, and what probability, statistics and data visualization are for.</span></td>
+<td style="text-align: left;"><!-- res:0 --><!-- /res --></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">1</td>
-<td style="text-align: left;">07 Jan 2025</td>
-<td style="text-align: left;">NumPy</td>
-<td style="text-align: left;"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/intro-numpy.html" target="_blank">Notebook</a>, <a href="https://www.youtube.com/watch?v=CAzR00au0T0" target="_blank">Youtube</a></td>
+<td style="text-align: right;">1 <span class="lec-date">7 Jan</span></td>
+<td style="text-align: left;"><strong>NumPy</strong> <span class="lec-desc">Arrays, shapes and axes, vectorised operations and broadcasting.</span></td>
+<td style="text-align: left;"><span class="res"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/intro-numpy.html">Notebook</a></span> <!-- res:1 --><span class="res res-sheet"><a href="cheatsheets/PS01-cheatsheet.pdf" title="Cheat sheet: Arrays and tables: NumPy and Pandas (PDF, 2 pages)">Cheat sheet</a></span><!-- /res --> <span class="res"><a href="https://www.youtube.com/watch?v=CAzR00au0T0">Recording</a></span></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">2</td>
-<td style="text-align: left;">08 Jan 2025</td>
-<td style="text-align: left;">Lab 1: NumPy</td>
-<td style="text-align: left;"><a href="https://colab.research.google.com/drive/169vg_FV35sJ8irVXU82RrTwlR762Ph2g?usp=sharing" target="_blank">Colab</a></td>
+<td style="text-align: right;">2 <span class="lec-date">8 Jan</span></td>
+<td style="text-align: left;"><strong>Lab 1: NumPy</strong> <span class="lec-desc">NumPy exercises to work through in the lab.</span></td>
+<td style="text-align: left;"><span class="res"><a href="https://colab.research.google.com/drive/169vg_FV35sJ8irVXU82RrTwlR762Ph2g?usp=sharing">Colab notebook</a></span> <!-- res:2 --><!-- /res --></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">3</td>
-<td style="text-align: left;">13 Jan 2025</td>
-<td style="text-align: left;">Pandas</td>
-<td style="text-align: left;"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-pandas.html" target="_blank">Notebook</a>, <a href="https://www.youtube.com/watch?v=iaQDhwFkAhA" target="_blank">Youtube</a></td>
+<td style="text-align: right;">3 <span class="lec-date">13 Jan</span></td>
+<td style="text-align: left;"><strong>Pandas</strong> <span class="lec-desc">Series and data frames: selecting, summarising, grouping and merging tables.</span></td>
+<td style="text-align: left;"><span class="res"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-pandas.html">Notebook</a></span> <!-- res:3 --><span class="res res-sheet"><a href="cheatsheets/PS01-cheatsheet.pdf" title="Cheat sheet: Arrays and tables: NumPy and Pandas (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/01FrFOZdPt4" title="Nine earn Rs 30,000 each, one earns Rs 300,000. What is the average pay?" aria-label="Short 1: Nine earn Rs 30,000 each, one earns Rs 300,000. What is the average pay?" target="_blank" rel="noopener">1</a></span><!-- /res --> <span class="res"><a href="https://www.youtube.com/watch?v=iaQDhwFkAhA">Recording</a></span></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">4</td>
-<td style="text-align: left;">14 Jan 2025</td>
-<td style="text-align: left;">Matplotlib</td>
-<td style="text-align: left;"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-matplotlib.html" target="_blank">Notebook</a>, <a href="https://www.youtube.com/watch?v=ERu46g5EzVk" target="_blank">Youtube</a></td>
+<td style="text-align: right;">4 <span class="lec-date">14 Jan</span></td>
+<td style="text-align: left;"><strong>Matplotlib</strong> <span class="lec-desc">Figures and axes, and which plot answers which question: line, scatter, bar, histogram and box plot.</span></td>
+<td style="text-align: left;"><span class="res"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-matplotlib.html">Notebook</a></span> <!-- res:4 --><span class="res res-sheet"><a href="cheatsheets/PS02-cheatsheet.pdf" title="Cheat sheet: Plotting and honest charts (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/UJwZGhBWKjU" title="The new bar looks 3 times taller than the old one. How much did sales grow?" aria-label="Short 1: The new bar looks 3 times taller than the old one. How much did sales grow?" target="_blank" rel="noopener">1</a> <a class="short-n" href="https://youtu.be/Y68ITiNTluE" title="The line climbs the same height each year. Did it grow the same each year?" aria-label="Short 2: The line climbs the same height each year. Did it grow the same each year?" target="_blank" rel="noopener">2</a> <a class="short-n" href="https://youtu.be/2l8vO716I_8" title="Class A: 66, 68, 70, 72, 74. Class B: 40, 45, 70, 95, 100. Which average is higher?" aria-label="Short 3: Class A: 66, 68, 70, 72, 74. Class B: 40, 45, 70, 95, 100. Which average is higher?" target="_blank" rel="noopener">3</a> <a class="short-n" href="https://youtu.be/jtH8BPBUsj0" title="A box plot of 20 marks. How many of the 20 marks lie inside the box?" aria-label="Short 4: A box plot of 20 marks. How many of the 20 marks lie inside the box?" target="_blank" rel="noopener">4</a></span><!-- /res --> <span class="res"><a href="https://www.youtube.com/watch?v=ERu46g5EzVk">Recording</a></span></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">5</td>
-<td style="text-align: left;">15 Jan 2025</td>
-<td style="text-align: left;">Lab Viva 1</td>
-<td style="text-align: left;"></td>
+<td style="text-align: right;">5 <span class="lec-date">15 Jan</span></td>
+<td style="text-align: left;"><strong>Lab viva 1</strong> <span class="lec-desc">Viva on assignment 1.</span></td>
+<td style="text-align: left;"><!-- res:5 --><!-- /res --></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">6</td>
-<td style="text-align: left;">20 Jan 2025</td>
-<td style="text-align: left;">Lab 2: Pandas</td>
-<td style="text-align: left;"><a href="https://colab.research.google.com/drive/1pmt8hSfwzhp8ke3uXsGrOt4XELdoTmr1?usp=sharing" target="_blank">Colab</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">7</td>
-<td style="text-align: left;">21 Jan 2025</td>
-<td style="text-align: left;">Set Theory</td>
-<td style="text-align: left;"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/set.html" target="_blank">Notebook</a>, <a href="https://probability4datascience.com/slides/Slide_2_01.pdf" target="_blank">Slides</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">8</td>
-<td style="text-align: left;">22 Jan 2025</td>
-<td style="text-align: left;">Lab 2: Pandas (continued)</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">9</td>
-<td style="text-align: left;">23 Jan 2025</td>
-<td style="text-align: left;">Jupyter Widgets</td>
-<td style="text-align: left;"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/widgets.html" target="_blank">Notebook</a>, <a href="https://www.youtube.com/watch?v=BJAaZaKxf00" target="_blank">YouTube</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">10</td>
-<td style="text-align: left;">23 Jan 2025</td>
-<td style="text-align: left;">More Set Theory Questions</td>
-<td style="text-align: left;"><a href="https://colab.research.google.com/drive/1RrjF2VZDcst0iUgW5zrpsBy-VWUfjtkJ?usp=sharing" target="_blank">Colab</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11</td>
-<td style="text-align: left;">27 Jan 2025</td>
-<td style="text-align: left;">Set Theory (continued)</td>
-<td style="text-align: left;"><a href="https://probability4datascience.com/slides/Slide_2_01.pdf" target="_blank">Slides</a>, <a href="./slides/Set-Theory_27Jan.pdf" target="_blank">Handwritten Slides</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">12</td>
-<td style="text-align: left;">28 Jan 2025</td>
-<td style="text-align: left;">Probability</td>
-<td style="text-align: left;"><a href="https://probability4datascience.com/slides/Slide_2_02.pdf" target="_blank">Slides1</a>, <a href="https://probability4datascience.com/slides/Slide_2_03.pdf" target="_blank">Slides2</a>, <a href="./slides/Probability_28Jan.pdf" target="_blank">Handwritten Slides</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">13</td>
-<td style="text-align: left;">29 Jan 2025</td>
-<td style="text-align: left;">Lab Viva 2</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">14</td>
-<td style="text-align: left;">03 Feb 2025</td>
-<td style="text-align: left;">Conditional Probability &amp; Independence</td>
-<td style="text-align: left;"><a href="https://probability4datascience.com/slides/Slide_2_04.pdf" target="_blank">Slides Conditional</a>, <a href="https://probability4datascience.com/slides/Slide_2_05.pdf" target="_blank">Slides Independence</a>, <a href="./slides/Conditional_Bayes_3_4Feb.pdf" target="_blank">Handwritten Slides</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">15</td>
-<td style="text-align: left;">04 Feb 2025</td>
-<td style="text-align: left;">Bayes Theorem &amp; Total Probability</td>
-<td style="text-align: left;"><a href="https://probability4datascience.com/slides/Slide_2_06.pdf" target="_blank">Slides</a>, <a href="./slides/Conditional_Bayes_3_4Feb.pdf" target="_blank">Handwritten Slides (continued)</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">16</td>
-<td style="text-align: left;">05 Feb 2025</td>
-<td style="text-align: left;">Quiz 1</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">17</td>
-<td style="text-align: left;">10 Feb 2025</td>
-<td style="text-align: left;">Random Variables + Quiz Discussion</td>
-<td style="text-align: left;"><a href="https://probability4datascience.com/slides/Slide_3_01.pdf" target="_blank">Slides</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">18</td>
-<td style="text-align: left;">11 Feb 2025</td>
-<td style="text-align: left;">Probability Mass Function</td>
-<td style="text-align: left;"><a href="https://probability4datascience.com/slides/Slide_3_02.pdf" target="_blank">Slides</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/pmf-discrete.html" target="_blank">Notebook</a>, <a href="https://www.youtube.com/watch?v=_VU6QMC6XE0" target="_blank">YouTube</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">19</td>
-<td style="text-align: left;">17 Feb 2025</td>
-<td style="text-align: left;">Discrete RVs and Expectation</td>
-<td style="text-align: left;"><a href="https://probability4datascience.com/slides/Slide_3_04.pdf" target="_blank">Slides</a>, <a href="./slides/Expectation-Moments-PMF_17_18Feb.pdf" target="_blank">Handwritten Slides PMF Expectation-Moments</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/expectation.html" target="_blank">Notebook</a>, <a href="https://www.youtube.com/watch?v=sVBOSwT5K8I" target="_blank">YT Video on Binomial &amp; Poisson</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">20</td>
-<td style="text-align: left;">18 Feb 2025</td>
-<td style="text-align: left;">Moments</td>
-<td style="text-align: left;"><a href="https://probability4datascience.com/slides/Slide_3_05.pdf" target="_blank">Slides</a>, <a href="./slides/Expectation-Moments-PMF_17_18Feb.pdf" target="_blank">Handwritten Slides (continued)</a>, <a href="./slides/PDF.pdf" target="_blank">Handwritten Slides Continuous RV</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">21</td>
-<td style="text-align: left;">19 Feb 2025</td>
-<td style="text-align: left;">Lab Viva 3</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">22</td>
-<td style="text-align: left;">24 Feb 2025</td>
-<td style="text-align: left;">Continuous RVs and Coin-Flip Game</td>
-<td style="text-align: left;"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/expectation.html" target="_blank">Notebook Expectation</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/pdf-continuous.html" target="_blank">Notebook PDF Continuous RV</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">23</td>
-<td style="text-align: left;">25 Feb 2025</td>
-<td style="text-align: left;">Expectation and Moments of Continuous RVs</td>
-<td style="text-align: left;"><a href="./slides/Expectation-Moment-PDF_24_25Feb.pdf" target="_blank">Handwritten Slides PDF Expectation-Moments</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/expectation.html" target="_blank">Notebook Expectation</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/pdf-continuous.html" target="_blank">Notebook PDF Continuous RV</a> [continued]</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">24</td>
-<td style="text-align: left;">17 Mar 2025</td>
-<td style="text-align: left;">Cumulative Distribution Function</td>
-<td style="text-align: left;"><a href="./slides/CDF_17Mar.pdf" target="_blank">Handwritten Slides CDF</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/cdf.html" target="_blank">Notebook CDF</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">25</td>
-<td style="text-align: left;">18 Mar 2025</td>
-<td style="text-align: left;">Joint PDF and CDF + 2D Distributions + Geogebra</td>
-<td style="text-align: left;"><a href="https://probability4datascience.com/slides/Slide_5_01.pdf" target="_blank">Slides Joint PDF and CDF</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/2d-distributions.html" target="_blank">Notebook 2D Distributions</a>, <a href="https://huggingface.co/spaces/Nipun/2d-distributions" target="_blank">HuggingFace Spaces</a>, <a href="https://www.youtube.com/watch?v=gifQWtTWqEY" target="_blank">Double Integrals Video</a>, <a href="https://www.youtube.com/watch?v=UuoVhUqWAFc" target="_blank">Instructor’s Demo on Geogebra</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">26</td>
-<td style="text-align: left;">24 Mar 2025</td>
-<td style="text-align: left;">Joint Expectation</td>
-<td style="text-align: left;"><a href="https://probability4datascience.com/slides/Slide_5_02.pdf" target="_blank">Slides Joint Expectation</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/embeddings-angle.html" target="_blank">Notebook Embeddings</a>, <a href="./slides/JointExpectation_24_25Mar.pdf" target="_blank">Handwritten Slides Joint Expectation</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">27</td>
-<td style="text-align: left;">25 Mar 2025</td>
-<td style="text-align: left;">Correlation &amp; Covariance</td>
-<td style="text-align: left;"><a href="https://probability4datascience.com/slides/Slide_5_03.pdf" target="_blank">Slides Covariance</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/joint-distribution-properties.html" target="_blank">Notebook Joint Distributions</a>, <a href="./slides/JointExpectation_24_25Mar.pdf" target="_blank">Handwritten Slides Joint Expectation</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">28</td>
-<td style="text-align: left;">1 Apr 2025</td>
-<td style="text-align: left;">Conditional Distributions</td>
-<td style="text-align: left;"><a href="./slides/ConditionalDistributions_1Apr.pdf" target="_blank">Slides</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">29</td>
-<td style="text-align: left;">2 Apr 2025</td>
-<td style="text-align: left;">Sum of Random Variables</td>
-<td style="text-align: left;"><a href="./slides/SumRandomVariables_2Apr.pdf" target="_blank">Handwritten Slides Sum of RVs</a>, <a href="https://probability4datascience.com/slides/Slide_5_06.pdf" target="_blank">Slides Sum of RVs</a>, <a href="https://probability4datascience.com/slides/Slide_5_07.pdf" target="_blank">Slides X+Y</a>, <a href="https://www.youtube.com/watch?v=IaSGqQa5O-M" target="_blank">YouTube Video</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/sum-random-vars.html" target="_blank">Notebook Sum of RVs</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">30</td>
-<td style="text-align: left;">5 Apr 2025</td>
-<td style="text-align: left;">Transformation of RVs</td>
-<td style="text-align: left;"><a href="./slides/Transformation_of_Random_Variables.pdf" target="_blank">Slides Transformation</a>, <a href="./slides/transformation.html" target="_blank">Notebook Transformation</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">31</td>
-<td style="text-align: left;">7 Apr 2025</td>
-<td style="text-align: left;">Law of Large Numbers &amp; Inequalities</td>
-<td style="text-align: left;"><a href="./slides/LLN-CLT_7Apr.pdf" target="_blank">Handwritten Slides LLN</a>, <a href="https://probability4datascience.com/slides/Slide_6_03.pdf" target="_blank">Slides Jensen’s Inequality</a>, <a href="https://probability4datascience.com/slides/Slide_6_04.pdf" target="_blank">Slides Markov and Chebyshev Inequality</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/law-large-numbers.html" target="_blank">Notebook LLN</a>, <a href="https://github.com/nipunbatra/psdv-teaching/blob/main/apps/lln-clt.py" target="_blank">Streamlit App LLN/CLT</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">32</td>
-<td style="text-align: left;">15 Apr 2025</td>
-<td style="text-align: left;">Random Vectors &amp; Multi-Variate Normal Distribution</td>
-<td style="text-align: left;"><a href="https://nipunbatra.github.io/psdv-teaching/slides/bivariate-derivation.pdf" target="_blank">Slides Derivation of Bivariate Normal Distribution</a>, <a href="https://probability4datascience.com/slides/Slide_5_08.pdf" target="_blank">Slides Random Vector</a>, <a href="https://probability4datascience.com/slides/Slide_5_09.pdf" target="_blank">Slides Multi-dimensional Gaussian</a>, <a href="https://probability4datascience.com/slides/Slide_5_10.pdf" target="_blank">Slides Gaussian Whitening</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/random-vector.html" target="_blank">Notebook Random Vectors</a>, <a href="https://github.com/nipunbatra/psdv-teaching/blob/main/apps/normal-shape.py" target="_blank">Streamlit App Normal Shape</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">33</td>
-<td style="text-align: left;">16 Apr 2025</td>
-<td style="text-align: left;">Principal Component Analysis</td>
-<td style="text-align: left;"><a href="./slides/PSDV_PCA_16Apr.pdf" target="_blank">Slides PCA</a>, <a href="https://youtu.be/PFDu9oVAE-g?si=a5tyEMpMRSwCt8be" target="_blank">3B1B Video Eigenvalues &amp; Eigenvectors</a></td>
+<td style="text-align: right;">6 <span class="lec-date">20 Jan</span></td>
+<td style="text-align: left;"><strong>Lab 2: Pandas</strong> <span class="lec-desc">Pandas exercises to work through in the lab.</span></td>
+<td style="text-align: left;"><span class="res"><a href="https://colab.research.google.com/drive/1pmt8hSfwzhp8ke3uXsGrOt4XELdoTmr1?usp=sharing">Colab notebook</a></span> <!-- res:6 --><!-- /res --></td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="sets-and-probability" class="level2">
+<h2 class="anchored" data-anchor-id="sets-and-probability">Sets and probability</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">No.</th>
+<th style="text-align: left;">Lecture</th>
+<th style="text-align: left;">Resources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">7 <span class="lec-date">21 Jan</span></td>
+<td style="text-align: left;"><strong>Set theory</strong> <span class="lec-desc">Sets and their operations: union, intersection, complement and De Morgan's laws.</span></td>
+<td style="text-align: left;"><span class="res"><a href="https://probability4datascience.com/slides/Slide_2_01.pdf">Slides</a></span> <span class="res"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/set.html">Notebook</a></span> <!-- res:7 --><span class="res res-sheet"><a href="cheatsheets/PS03-cheatsheet.pdf" title="Cheat sheet: Sets, sample spaces and events (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/YBYI3Tp56sI" title="Roll one die. What is the chance of an even number or a number above 3?" aria-label="Short 1: Roll one die. What is the chance of an even number or a number above 3?" target="_blank" rel="noopener">1</a></span><!-- /res --></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8 <span class="lec-date">22 Jan</span></td>
+<td style="text-align: left;"><strong>Lab 2: Pandas (continued)</strong> <span class="lec-desc">The second lab, continued.</span></td>
+<td style="text-align: left;"><!-- res:8 --><!-- /res --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">9 <span class="lec-date">23 Jan</span></td>
+<td style="text-align: left;"><strong>Jupyter widgets</strong> <span class="lec-desc">Making a notebook interactive with sliders and other controls.</span></td>
+<td style="text-align: left;"><span class="res"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/widgets.html">Notebook</a></span> <!-- res:9 --><!-- /res --> <span class="res"><a href="https://www.youtube.com/watch?v=BJAaZaKxf00">Recording</a></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10 <span class="lec-date">23 Jan</span></td>
+<td style="text-align: left;"><strong>More set theory questions</strong> <span class="lec-desc">Practice problems on sets.</span></td>
+<td style="text-align: left;"><span class="res"><a href="https://colab.research.google.com/drive/1RrjF2VZDcst0iUgW5zrpsBy-VWUfjtkJ?usp=sharing">Colab notebook</a></span> <!-- res:10 --><span class="res res-sheet"><a href="cheatsheets/PS03-cheatsheet.pdf" title="Cheat sheet: Sets, sample spaces and events (PDF, 2 pages)">Cheat sheet</a></span><!-- /res --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">11 <span class="lec-date">27 Jan</span></td>
+<td style="text-align: left;"><strong>Set theory (continued)</strong> <span class="lec-desc">More on sets and set operations.</span></td>
+<td style="text-align: left;"><span class="res"><span class="res-k">Slides</span>&nbsp;<a href="https://probability4datascience.com/slides/Slide_2_01.pdf">Sets</a>, <a href="./slides/Set-Theory_27Jan.pdf">Handwritten notes</a></span> <!-- res:11 --><span class="res res-sheet"><a href="cheatsheets/PS03-cheatsheet.pdf" title="Cheat sheet: Sets, sample spaces and events (PDF, 2 pages)">Cheat sheet</a></span><!-- /res --></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">12 <span class="lec-date">28 Jan</span></td>
+<td style="text-align: left;"><strong>Probability</strong> <span class="lec-desc">Sample spaces, events and the axioms of probability, and counting equally likely outcomes.</span></td>
+<td style="text-align: left;"><span class="res"><span class="res-k">Slides</span>&nbsp;<a href="https://probability4datascience.com/slides/Slide_2_02.pdf">Part 1</a>, <a href="https://probability4datascience.com/slides/Slide_2_03.pdf">Part 2</a>, <a href="./slides/Probability_28Jan.pdf">Handwritten notes</a></span> <!-- res:12 --><span class="res res-sheet"><a href="cheatsheets/PS04-cheatsheet.pdf" title="Cheat sheet: Counting and the complement rule (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/LC6ErPdR5YE" title="Flip two fair coins. Which is more likely: two heads, or one of each?" aria-label="Short 1: Flip two fair coins. Which is more likely: two heads, or one of each?" target="_blank" rel="noopener">1</a> <a class="short-n" href="https://youtu.be/4Ije2WGNdOU" title="How many events does one die roll have?" aria-label="Short 2: How many events does one die roll have?" target="_blank" rel="noopener">2</a> <a class="short-n" href="https://youtu.be/C4g1kv5RcNc" title="Roll a die 4 times. What is the chance of at least one six?" aria-label="Short 3: Roll a die 4 times. What is the chance of at least one six?" target="_blank" rel="noopener">3</a> <a class="short-n" href="https://youtu.be/TEzyFH7Jb6k" title="10 people, and every pair shakes hands once. How many handshakes?" aria-label="Short 4: 10 people, and every pair shakes hands once. How many handshakes?" target="_blank" rel="noopener">4</a> <a class="short-n" href="https://youtu.be/AR4RjlqQGfw" title="23 people in a room. What is the chance two share a birthday?" aria-label="Short 5: 23 people in a room. What is the chance two share a birthday?" target="_blank" rel="noopener">5</a></span><!-- /res --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">13 <span class="lec-date">29 Jan</span></td>
+<td style="text-align: left;"><strong>Lab viva 2</strong> <span class="lec-desc">Viva on assignment 2.</span></td>
+<td style="text-align: left;"><!-- res:13 --><!-- /res --></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">14 <span class="lec-date">3 Feb</span></td>
+<td style="text-align: left;"><strong>Conditional probability and independence</strong> <span class="lec-desc">The chance of A given B, the multiplication rule, and when two events are independent.</span></td>
+<td style="text-align: left;"><span class="res"><span class="res-k">Slides</span>&nbsp;<a href="https://probability4datascience.com/slides/Slide_2_04.pdf">Conditional probability</a>, <a href="https://probability4datascience.com/slides/Slide_2_05.pdf">Independence</a>, <a href="./slides/Conditional_Bayes_3_4Feb.pdf">Handwritten notes</a></span> <!-- res:14 --><span class="res res-sheet"><a href="cheatsheets/PS05-cheatsheet.pdf" title="Cheat sheet: Conditional probability, independence and Bayes' rule (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/-i6jEaskWEs" title="You pick door 1 of 3. The host knows where the car is and opens door 3: a goat. Switch?" aria-label="Short 1: You pick door 1 of 3. The host knows where the car is and opens door 3: a goat. Switch?" target="_blank" rel="noopener">1</a> <a class="short-n" href="https://youtu.be/Hp62dsZrUto" title="A fair coin lands heads 5 times in a row. Chance the next flip is heads?" aria-label="Short 2: A fair coin lands heads 5 times in a row. Chance the next flip is heads?" target="_blank" rel="noopener">2</a> <a class="short-n" href="https://youtu.be/fW5L2AfgzT4" title="One die: &quot;it shows 1&quot; and &quot;it shows 2&quot; can never happen together. Are they independent?" aria-label="Short 3: One die: &quot;it shows 1&quot; and &quot;it shows 2&quot; can never happen together. Are they independent?" target="_blank" rel="noopener">3</a> <a class="short-n" href="https://youtu.be/6haX0GH6Ol0" title="Teacher A has the higher pass rate in each section. Can teacher B be higher overall?" aria-label="Short 4: Teacher A has the higher pass rate in each section. Can teacher B be higher overall?" target="_blank" rel="noopener">4</a></span><!-- /res --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">15 <span class="lec-date">4 Feb</span></td>
+<td style="text-align: left;"><strong>Bayes' theorem and total probability</strong> <span class="lec-desc">Splitting a probability over cases, and turning the chance of B given A into the chance of A given B.</span></td>
+<td style="text-align: left;"><span class="res"><span class="res-k">Slides</span>&nbsp;<a href="https://probability4datascience.com/slides/Slide_2_06.pdf">Bayes' theorem</a>, <a href="./slides/Conditional_Bayes_3_4Feb.pdf">Handwritten notes (continued)</a></span> <!-- res:15 --><span class="res res-sheet"><a href="cheatsheets/PS05-cheatsheet.pdf" title="Cheat sheet: Conditional probability, independence and Bayes' rule (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/H7Ph13SDhEU" title="50% of passwords are digits, 30% letters, 20% symbols. What share get hacked?" aria-label="Short 1: 50% of passwords are digits, 30% letters, 20% symbols. What share get hacked?" target="_blank" rel="noopener">1</a> <a class="short-n" href="https://youtu.be/cNBBbWpCU08" title="5% are sick. A test catches 90% of them, flags 5% of the rest. You test positive. Sick?" aria-label="Short 2: 5% are sick. A test catches 90% of them, flags 5% of the rest. You test positive. Sick?" target="_blank" rel="noopener">2</a> <a class="short-n" href="https://youtu.be/ABo9CMtpg2g" title="5% are sick. A test catches 90% of them and flags 5% of the rest. Positive twice. Sick?" aria-label="Short 3: 5% are sick. A test catches 90% of them and flags 5% of the rest. Positive twice. Sick?" target="_blank" rel="noopener">3</a> <a class="short-n" href="https://youtu.be/iaQRyyzvrNc" title="5% are sick. Which test upgrade makes a positive result more trustworthy?" aria-label="Short 4: 5% are sick. Which test upgrade makes a positive result more trustworthy?" target="_blank" rel="noopener">4</a></span><!-- /res --></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">16 <span class="lec-date">5 Feb</span></td>
+<td style="text-align: left;"><strong>Quiz 1</strong> <span class="lec-desc">The first quiz.</span></td>
+<td style="text-align: left;"><!-- res:16 --><!-- /res --></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="random-variables-and-expectation" class="level2">
+<h2 class="anchored" data-anchor-id="random-variables-and-expectation">Random variables and expectation</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">No.</th>
+<th style="text-align: left;">Lecture</th>
+<th style="text-align: left;">Resources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">17 <span class="lec-date">10 Feb</span></td>
+<td style="text-align: left;"><strong>Random variables</strong> <span class="lec-desc">A random variable is a number worked out from each outcome. Also a discussion of quiz 1.</span></td>
+<td style="text-align: left;"><span class="res"><a href="https://probability4datascience.com/slides/Slide_3_01.pdf">Slides</a></span> <!-- res:17 --><span class="res res-sheet"><a href="cheatsheets/PS06-cheatsheet.pdf" title="Cheat sheet: Random variables and PMFs (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/7dqtLj-M6yo" title="Roll two dice and add them. Which total comes up most often?" aria-label="Short 1: Roll two dice and add them. Which total comes up most often?" target="_blank" rel="noopener">1</a> <a class="short-n" href="https://youtu.be/NEMtK__6qGo" title="Roll two dice and keep the bigger one. Which value is most likely?" aria-label="Short 2: Roll two dice and keep the bigger one. Which value is most likely?" target="_blank" rel="noopener">2</a></span><!-- /res --></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">18 <span class="lec-date">11 Feb</span></td>
+<td style="text-align: left;"><strong>Probability mass functions</strong> <span class="lec-desc">The chance of each value, and the common discrete distributions: Bernoulli, binomial, geometric and Poisson.</span></td>
+<td style="text-align: left;"><span class="res"><a href="https://probability4datascience.com/slides/Slide_3_02.pdf">Slides</a></span> <span class="res"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/pmf-discrete.html">Notebook</a></span> <!-- res:18 --><span class="res res-sheet"><a href="cheatsheets/PS07-cheatsheet.pdf" title="Cheat sheet: Discrete distributions (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/1e5LC-S3NGs" title="A box has 10 eggs, each cracked with chance 10%. Most likely number of cracked eggs?" aria-label="Short 1: A box has 10 eggs, each cracked with chance 10%. Most likely number of cracked eggs?" target="_blank" rel="noopener">1</a> <a class="short-n" href="https://youtu.be/HFveI0NmZSw" title="A help desk averages 6 calls an hour. Which is more likely: 5 calls or 6?" aria-label="Short 2: A help desk averages 6 calls an hour. Which is more likely: 5 calls or 6?" target="_blank" rel="noopener">2</a> <a class="short-n" href="https://youtu.be/4BdDYk6tdvc" title="Roll a die until you get a six. Which number of rolls is most likely?" aria-label="Short 3: Roll a die until you get a six. Which number of rolls is most likely?" target="_blank" rel="noopener">3</a> <a class="short-n" href="https://youtu.be/ZN0wGk-mioc" title="10,000 bits, each wrong with chance 1 in 10,000. Chance the block has no errors?" aria-label="Short 4: 10,000 bits, each wrong with chance 1 in 10,000. Chance the block has no errors?" target="_blank" rel="noopener">4</a> <a class="short-n" href="https://youtu.be/uGImMGmxofQ" title="Next-letter weights add to 0.8. Scaled to add to 1, how often is &quot;e&quot; picked?" aria-label="Short 5: Next-letter weights add to 0.8. Scaled to add to 1, how often is &quot;e&quot; picked?" target="_blank" rel="noopener">5</a></span><!-- /res --> <span class="res"><a href="https://www.youtube.com/watch?v=_VU6QMC6XE0">Recording</a></span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">19 <span class="lec-date">17 Feb</span></td>
+<td style="text-align: left;"><strong>Discrete random variables and expectation</strong> <span class="lec-desc">The expected value as a long-run average, and the binomial and Poisson distributions.</span></td>
+<td style="text-align: left;"><span class="res"><span class="res-k">Slides</span>&nbsp;<a href="https://probability4datascience.com/slides/Slide_3_04.pdf">Expectation</a>, <a href="./slides/Expectation-Moments-PMF_17_18Feb.pdf">Handwritten notes</a></span> <span class="res"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/expectation.html">Notebook</a></span> <!-- res:19 --><span class="res res-sheet"><a href="cheatsheets/PS10-cheatsheet.pdf" title="Cheat sheet: Expectation and variance (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/SmYPUwFYcD4" title="10 people get their hats back, shuffled. On average, how many get their own?" aria-label="Short 1: 10 people get their hats back, shuffled. On average, how many get their own?" target="_blank" rel="noopener">1</a> <a class="short-n" href="https://youtu.be/NUhGM-_DDF4" title="Heads (30%) wins Rs 10, tails loses Rs 5. After 100 plays, who comes out ahead?" aria-label="Short 2: Heads (30%) wins Rs 10, tails loses Rs 5. After 100 plays, who comes out ahead?" target="_blank" rel="noopener">2</a></span><!-- /res --> <span class="res"><span class="res-k">Videos</span>&nbsp;<a href="https://www.youtube.com/watch?v=sVBOSwT5K8I" title="The binomial and Poisson distributions, by Luis Serrano">Binomial and Poisson</a></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">20 <span class="lec-date">18 Feb</span></td>
+<td style="text-align: left;"><strong>Moments</strong> <span class="lec-desc">Variance, standard deviation and higher moments, and a first look at continuous random variables.</span></td>
+<td style="text-align: left;"><span class="res"><span class="res-k">Slides</span>&nbsp;<a href="https://probability4datascience.com/slides/Slide_3_05.pdf">Moments</a>, <a href="./slides/Expectation-Moments-PMF_17_18Feb.pdf">Handwritten notes (continued)</a>, <a href="./slides/PDF.pdf">Continuous variables, handwritten</a></span> <!-- res:20 --><span class="res res-sheet"><a href="cheatsheets/PS10-cheatsheet.pdf" title="Cheat sheet: Expectation and variance (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/Q0tK4TLugcU" title="Roll a die and square the number. What is the average of the squares?" aria-label="Short 1: Roll a die and square the number. What is the average of the squares?" target="_blank" rel="noopener">1</a></span><!-- /res --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">21 <span class="lec-date">19 Feb</span></td>
+<td style="text-align: left;"><strong>Lab viva 3</strong> <span class="lec-desc">Viva on assignment 3.</span></td>
+<td style="text-align: left;"><!-- res:21 --><!-- /res --></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">22 <span class="lec-date">24 Feb</span></td>
+<td style="text-align: left;"><strong>Continuous random variables and a coin-flip game</strong> <span class="lec-desc">Densities, where probability is an area, and a coin-flip game that shows how far a total can drift.</span></td>
+<td style="text-align: left;"><span class="res"><span class="res-k">Notebooks</span>&nbsp;<a href="https://nipunbatra.github.io/psdv-teaching/notebooks/expectation.html">Expectation</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/pdf-continuous.html">Continuous distributions</a></span> <!-- res:22 --><span class="res res-sheet"><a href="cheatsheets/PS09-cheatsheet.pdf" title="Cheat sheet: Continuous distributions and densities (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/0IZaS9gqAq0" title="Can a probability density be bigger than 1?" aria-label="Short 1: Can a probability density be bigger than 1?" target="_blank" rel="noopener">1</a> <a class="short-n" href="https://youtu.be/0F4o5dvmGwE" title="Marks follow a bell curve: average 70, spread (SD) 8. What share score above 86?" aria-label="Short 2: Marks follow a bell curve: average 70, spread (SD) 8. What share score above 86?" target="_blank" rel="noopener">2</a> <a class="short-n" href="https://youtu.be/Lrk2fFARKBw" title="Normal or Laplace, same centre and same SD of 1: which gives more values beyond 3?" aria-label="Short 3: Normal or Laplace, same centre and same SD of 1: which gives more values beyond 3?" target="_blank" rel="noopener">3</a> <a class="short-n" href="https://youtu.be/xKAItXjV7_E" title="100 fair coin flips: win or lose Rs 100 each. How far from 0 do you typically end?" aria-label="Short 4: 100 fair coin flips: win or lose Rs 100 each. How far from 0 do you typically end?" target="_blank" rel="noopener">4</a></span><!-- /res --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">23 <span class="lec-date">25 Feb</span></td>
+<td style="text-align: left;"><strong>Expectation and moments of continuous random variables</strong> <span class="lec-desc">Mean and variance for a density, by integration. Continues the notebooks of lecture 22.</span></td>
+<td style="text-align: left;"><span class="res"><span class="res-k">Slides</span>&nbsp;<a href="./slides/Expectation-Moment-PDF_24_25Feb.pdf">Handwritten notes</a></span> <span class="res"><span class="res-k">Notebooks</span>&nbsp;<a href="https://nipunbatra.github.io/psdv-teaching/notebooks/expectation.html">Expectation</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/pdf-continuous.html">Continuous distributions</a></span> <!-- res:23 --><span class="res res-sheet"><a href="cheatsheets/PS10-cheatsheet.pdf" title="Cheat sheet: Expectation and variance (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/vdGxDY9gkPM" title="Prices end in random paise. Round to the nearest rupee. Average size of the error?" aria-label="Short 1: Prices end in random paise. Round to the nearest rupee. Average size of the error?" target="_blank" rel="noopener">1</a></span><!-- /res --></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">24 <span class="lec-date">17 Mar</span></td>
+<td style="text-align: left;"><strong>Cumulative distribution functions</strong> <span class="lec-desc">The running total of probability, and how to use it to draw random samples.</span></td>
+<td style="text-align: left;"><span class="res"><span class="res-k">Slides</span>&nbsp;<a href="./slides/CDF_17Mar.pdf">Handwritten notes</a></span> <span class="res"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/cdf.html">Notebook</a></span> <!-- res:24 --><span class="res res-sheet"><a href="cheatsheets/PS08-cheatsheet.pdf" title="Cheat sheet: CDFs and sampling (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/JcRAcNxZ380" title="Waits at a counter average 10 minutes (exponential). What share wait under 10?" aria-label="Short 1: Waits at a counter average 10 minutes (exponential). What share wait under 10?" target="_blank" rel="noopener">1</a> <a class="short-n" href="https://youtu.be/w3qt7z7kNRw" title="A loaded die: faces 1 to 4 take slices of 0 to 1 in order. Which face gets 0.45?" aria-label="Short 2: A loaded die: faces 1 to 4 take slices of 0 to 1 in order. Which face gets 0.45?" target="_blank" rel="noopener">2</a> <a class="short-n" href="https://youtu.be/pK65Iy3K_1Q" title="Run a random-number generator twice from the same seed. Same numbers?" aria-label="Short 3: Run a random-number generator twice from the same seed. Same numbers?" target="_blank" rel="noopener">3</a></span><!-- /res --></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="joint-distributions" class="level2">
+<h2 class="anchored" data-anchor-id="joint-distributions">Joint distributions</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">No.</th>
+<th style="text-align: left;">Lecture</th>
+<th style="text-align: left;">Resources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">25 <span class="lec-date">18 Mar</span></td>
+<td style="text-align: left;"><strong>Joint PDF and CDF, 2D distributions and GeoGebra</strong> <span class="lec-desc">Two random variables at once: joint densities, probability as a volume, and double integrals.</span></td>
+<td style="text-align: left;"><span class="res"><a href="https://probability4datascience.com/slides/Slide_5_01.pdf">Slides</a></span> <span class="res"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/2d-distributions.html">Notebook</a></span> <span class="res"><span class="res-k">Apps</span>&nbsp;<a href="https://huggingface.co/spaces/Nipun/2d-distributions">2D distributions</a></span> <!-- res:25 --><span class="res res-sheet"><a href="cheatsheets/PS11-cheatsheet.pdf" title="Cheat sheet: Joint distributions (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/qBF0RciNRhE" title="A dart lands at random in a 2 x 2 square. Chance it hits the circle that fits inside?" aria-label="Short 1: A dart lands at random in a 2 x 2 square. Chance it hits the circle that fits inside?" target="_blank" rel="noopener">1</a></span><!-- /res --> <span class="res"><span class="res-k">Videos</span>&nbsp;<a href="https://www.youtube.com/watch?v=gifQWtTWqEY" title="How to set up double integrals, by Serpentine Integral">Double integrals</a></span> <span class="res"><a href="https://www.youtube.com/watch?v=UuoVhUqWAFc">Recording</a></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">26 <span class="lec-date">24 Mar</span></td>
+<td style="text-align: left;"><strong>Joint expectation</strong> <span class="lec-desc">Expected values of functions of two variables, and the angle between embedding vectors.</span></td>
+<td style="text-align: left;"><span class="res"><span class="res-k">Slides</span>&nbsp;<a href="https://probability4datascience.com/slides/Slide_5_02.pdf">Joint expectation</a>, <a href="./slides/JointExpectation_24_25Mar.pdf">Handwritten notes</a></span> <span class="res"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/embeddings-angle.html">Notebook</a></span> <!-- res:26 --><span class="res res-sheet"><a href="cheatsheets/PS12-cheatsheet.pdf" title="Cheat sheet: Covariance, correlation and the bivariate normal (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/5wEmrwkochY" title="X and Y are independent, each between 10 and 11. Cosine similarity 0.999. Are they linked?" aria-label="Short 1: X and Y are independent, each between 10 and 11. Cosine similarity 0.999. Are they linked?" target="_blank" rel="noopener">1</a></span><!-- /res --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">27 <span class="lec-date">25 Mar</span></td>
+<td style="text-align: left;"><strong>Correlation and covariance</strong> <span class="lec-desc">How two variables vary together, measured by covariance and correlation.</span></td>
+<td style="text-align: left;"><span class="res"><span class="res-k">Slides</span>&nbsp;<a href="https://probability4datascience.com/slides/Slide_5_03.pdf">Covariance</a>, <a href="./slides/JointExpectation_24_25Mar.pdf">Handwritten notes</a></span> <span class="res"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/joint-distribution-properties.html">Notebook</a></span> <!-- res:27 --><span class="res res-sheet"><a href="cheatsheets/PS12-cheatsheet.pdf" title="Cheat sheet: Covariance, correlation and the bivariate normal (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/toqRPoWOyIw" title="X is -2, -1, 0, 1 or 2, equally likely, and Y = X squared. What is their correlation?" aria-label="Short 1: X is -2, -1, 0, 1 or 2, equally likely, and Y = X squared. What is their correlation?" target="_blank" rel="noopener">1</a> <a class="short-n" href="https://youtu.be/UM31SLW9wls" title="Ice-cream sales and sunburn cases correlate (0.99). Does ice cream cause sunburn?" aria-label="Short 2: Ice-cream sales and sunburn cases correlate (0.99). Does ice cream cause sunburn?" target="_blank" rel="noopener">2</a></span><!-- /res --></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">28 <span class="lec-date">1 Apr</span></td>
+<td style="text-align: left;"><strong>Conditional distributions</strong> <span class="lec-desc">The distribution of one variable once the value of another is known.</span></td>
+<td style="text-align: left;"><span class="res"><a href="./slides/ConditionalDistributions_1Apr.pdf">Slides</a></span> <!-- res:28 --><span class="res res-sheet"><a href="cheatsheets/PS11-cheatsheet.pdf" title="Cheat sheet: Joint distributions (PDF, 2 pages)">Cheat sheet</a></span><!-- /res --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">29 <span class="lec-date">2 Apr</span></td>
+<td style="text-align: left;"><strong>Sums of random variables</strong> <span class="lec-desc">The distribution of X + Y: means and variances add, and distributions convolve.</span></td>
+<td style="text-align: left;"><span class="res"><span class="res-k">Slides</span>&nbsp;<a href="./slides/SumRandomVariables_2Apr.pdf">Handwritten notes</a>, <a href="https://probability4datascience.com/slides/Slide_5_06.pdf">Sums of random variables</a>, <a href="https://probability4datascience.com/slides/Slide_5_07.pdf">X + Y</a></span> <span class="res"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/sum-random-vars.html">Notebook</a></span> <!-- res:29 --><span class="res res-sheet"><a href="cheatsheets/PS13-cheatsheet.pdf" title="Cheat sheet: Sums of random variables, LLN and CLT (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/fJgqzHDPMoA" title="Scale errors (independent): SD 3 g and SD 4 g. Add their readings: SD of the total?" aria-label="Short 1: Scale errors (independent): SD 3 g and SD 4 g. Add their readings: SD of the total?" target="_blank" rel="noopener">1</a> <a class="short-n" href="https://youtu.be/0rz2IjGJzqg" title="One die: each face equally likely. Add up 10 dice. What shape do the totals make?" aria-label="Short 2: One die: each face equally likely. Add up 10 dice. What shape do the totals make?" target="_blank" rel="noopener">2</a></span><!-- /res --> <span class="res"><span class="res-k">Videos</span>&nbsp;<a href="https://www.youtube.com/watch?v=IaSGqQa5O-M" title="Why X + Y in probability is a beautiful mess, by 3Blue1Brown">Convolutions</a></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">30 <span class="lec-date">5 Apr</span></td>
+<td style="text-align: left;"><strong>Transformations of random variables</strong> <span class="lec-desc">The distribution of a function of a random variable.</span></td>
+<td style="text-align: left;"><span class="res"><a href="./slides/Transformation_of_Random_Variables.pdf">Slides</a></span> <span class="res"><a href="./slides/transformation.html">Notebook</a></span> <!-- res:30 --><span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/kQGvSterlbQ" title="Pick a number from 0 to 1 at random and square it. Chance the square is below 0.25?" aria-label="Short 1: Pick a number from 0 to 1 at random and square it. Chance the square is below 0.25?" target="_blank" rel="noopener">1</a></span><!-- /res --></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="limit-theorems-random-vectors-and-pca" class="level2">
+<h2 class="anchored" data-anchor-id="limit-theorems-random-vectors-and-pca">Limit theorems, random vectors and PCA</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">No.</th>
+<th style="text-align: left;">Lecture</th>
+<th style="text-align: left;">Resources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">31 <span class="lec-date">7 Apr</span></td>
+<td style="text-align: left;"><strong>Law of large numbers and inequalities</strong> <span class="lec-desc">Why averages settle down as samples grow, and the Jensen, Markov and Chebyshev inequalities.</span></td>
+<td style="text-align: left;"><span class="res"><span class="res-k">Slides</span>&nbsp;<a href="./slides/LLN-CLT_7Apr.pdf">Handwritten notes</a>, <a href="https://probability4datascience.com/slides/Slide_6_03.pdf">Jensen's inequality</a>, <a href="https://probability4datascience.com/slides/Slide_6_04.pdf">Markov and Chebyshev inequalities</a></span> <span class="res"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/law-large-numbers.html">Notebook</a></span> <span class="res"><span class="res-k">Apps</span>&nbsp;<a href="https://github.com/nipunbatra/psdv-teaching/blob/main/apps/lln-clt.py">LLN and CLT (Streamlit source)</a></span> <!-- res:31 --><span class="res res-sheet"><a href="cheatsheets/PS13-cheatsheet.pdf" title="Cheat sheet: Sums of random variables, LLN and CLT (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/4INNtWarVVk" title="7 heads in 10 fair flips. After 1,000 more flips, what share of heads do you expect?" aria-label="Short 1: 7 heads in 10 fair flips. After 1,000 more flips, what share of heads do you expect?" target="_blank" rel="noopener">1</a> <a class="short-n" href="https://youtu.be/GUjPjs7kuik" title="A fair coin. Which is more likely to give 60% or more heads: 10 flips or 100 flips?" aria-label="Short 2: A fair coin. Which is more likely to give 60% or more heads: 10 flips or 100 flips?" target="_blank" rel="noopener">2</a> <a class="short-n" href="https://youtu.be/9rQ4BqUT2jY" title="A poll of 100 people is good to about ±10 points. How many for ±5 points?" aria-label="Short 3: A poll of 100 people is good to about ±10 points. How many for ±5 points?" target="_blank" rel="noopener">3</a> <a class="short-n" href="https://youtu.be/jCDnwFS52js" title="You know only a data set's mean and SD (spread). What share must lie within 2 SDs?" aria-label="Short 4: You know only a data set's mean and SD (spread). What share must lie within 2 SDs?" target="_blank" rel="noopener">4</a></span><!-- /res --></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">32 <span class="lec-date">15 Apr</span></td>
+<td style="text-align: left;"><strong>Random vectors and the multivariate normal</strong> <span class="lec-desc">Mean vectors, covariance matrices and the multivariate normal distribution.</span></td>
+<td style="text-align: left;"><span class="res"><span class="res-k">Slides</span>&nbsp;<a href="https://nipunbatra.github.io/psdv-teaching/slides/bivariate-derivation.pdf">Deriving the bivariate normal</a>, <a href="https://probability4datascience.com/slides/Slide_5_08.pdf">Random vectors</a>, <a href="https://probability4datascience.com/slides/Slide_5_09.pdf">Multidimensional Gaussian</a>, <a href="https://probability4datascience.com/slides/Slide_5_10.pdf">Gaussian whitening</a></span> <span class="res"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/random-vector.html">Notebook</a></span> <span class="res"><span class="res-k">Apps</span>&nbsp;<a href="https://github.com/nipunbatra/psdv-teaching/blob/main/apps/normal-shape.py">Normal shape (Streamlit source)</a></span> <!-- res:32 --><span class="res res-sheet"><a href="cheatsheets/PS15-cheatsheet.pdf" title="Cheat sheet: Random vectors and PCA (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/Y7OfqDXouEs" title="20 above average on test 1. Tests correlate 0.5, same spread. Expected test 2 score?" aria-label="Short 1: 20 above average on test 1. Tests correlate 0.5, same spread. Expected test 2 score?" target="_blank" rel="noopener">1</a></span><!-- /res --></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">33 <span class="lec-date">16 Apr</span></td>
+<td style="text-align: left;"><strong>Principal component analysis</strong> <span class="lec-desc">Finding the directions along which data varies most.</span></td>
+<td style="text-align: left;"><span class="res"><a href="./slides/PSDV_PCA_16Apr.pdf">Slides</a></span> <!-- res:33 --><span class="res res-sheet"><a href="cheatsheets/PS15-cheatsheet.pdf" title="Cheat sheet: Random vectors and PCA (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/ZEPzvFqQjCs" title="Points spread 5 across and 2 up, tilted. How much spread can one line keep?" aria-label="Short 1: Points spread 5 across and 2 up, tilted. How much spread can one line keep?" target="_blank" rel="noopener">1</a></span><!-- /res --> <span class="res"><span class="res-k">Videos</span>&nbsp;<a href="https://youtu.be/PFDu9oVAE-g?si=a5tyEMpMRSwCt8be" title="Eigenvectors and eigenvalues, by 3Blue1Brown">Eigenvectors</a></span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="also-in-the-series" class="level2">
+<h2 class="anchored" data-anchor-id="also-in-the-series">Also in the series</h2>
+<p>A topic with a cheat sheet and Shorts that was not a separate lecture in 2025. The PMF and continuous-distribution notebooks use it to fit distributions to data.</p>
+<table class="table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 40%">
+<col style="width: 52%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">No.</th>
+<th style="text-align: left;">Topic</th>
+<th style="text-align: left;">Resources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><strong>Likelihood, log probabilities and entropy</strong> <span class="lec-desc">How likely the data is under each guess, why software adds log probabilities instead of multiplying chances, and entropy as the average surprise.</span></td>
+<td style="text-align: left;"><!-- res:x-lik --><span class="res res-sheet"><a href="cheatsheets/PS14-cheatsheet.pdf" title="Cheat sheet: Likelihood and log probabilities (PDF, 2 pages)">Cheat sheet</a></span> <span class="res res-shorts"><span class="res-k">Shorts</span>&nbsp;<a class="short-n" href="https://youtu.be/HmnXA5h0c2k" title="A coin lands 7 heads in 10 flips. Which chance of heads makes that most likely?" aria-label="Short 1: A coin lands 7 heads in 10 flips. Which chance of heads makes that most likely?" target="_blank" rel="noopener">1</a> <a class="short-n" href="https://youtu.be/wH5zS3gNgNQ" title="Python multiplies 1,100 chances of 0.5 together. What does it get?" aria-label="Short 2: Python multiplies 1,100 chances of 0.5 together. What does it get?" target="_blank" rel="noopener">2</a> <a class="short-n" href="https://youtu.be/n7AVQ9AfKFA" title="A coin lands heads 90% of the time. At least how many bits to store 1,000 flips?" aria-label="Short 3: A coin lands heads 90% of the time. At least how many bits to store 1,000 flips?" target="_blank" rel="noopener">3</a></span><!-- /res --></td>
+</tr>
+</tbody>
+</table>
+</section>
 </div>
 
 
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
         }
       }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
       return false;
     }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
     }
-    const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
-        }
-        return codeEl.innerText;
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
     }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
-    });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
     }
-      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/nipunbatra\.github\.io\/psdv25\/");
-      var isInternal = (href) => {
-          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-      }
-      // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-      for (var i=0; i<links.length; i++) {
-        const link = links[i];
-        if (!isInternal(link.href)) {
-          // undo the damage that might have been done by quarto-nav.js in the case of
-          // links that we want to consider external
-          if (link.dataset.originalHref !== undefined) {
-            link.href = link.dataset.originalHref;
-          }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
       }
-    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-      const config = {
-        allowHTML: true,
-        maxWidth: 500,
-        delay: 100,
-        arrow: false,
-        appendTo: function(el) {
-            return el.parentElement;
-        },
-        interactive: true,
-        interactiveBorder: 10,
-        theme: 'quarto',
-        placement: 'bottom-start',
-      };
-      if (contentFn) {
-        config.content = contentFn;
-      }
-      if (onTriggerFn) {
-        config.onTrigger = onTriggerFn;
-      }
-      if (onUntriggerFn) {
-        config.onUntrigger = onUntriggerFn;
-      }
-      window.tippy(el, config); 
+      return codeEl.innerText;
     }
-    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-    for (var i=0; i<noterefs.length; i++) {
-      const ref = noterefs[i];
-      tippyHover(ref, function() {
-        // use id or data attribute instead here
-        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-        try { href = new URL(href).hash; } catch {}
-        const id = href.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note) {
-          return note.innerHTML;
-        } else {
-          return "";
-        }
-      });
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
     }
-    const xrefs = window.document.querySelectorAll('a.quarto-xref');
-    const processXRef = (id, note) => {
-      // Strip column container classes
-      const stripColumnClz = (el) => {
-        el.classList.remove("page-full", "page-columns");
-        if (el.children) {
-          for (const child of el.children) {
-            stripColumnClz(child);
-          }
-        }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
       }
-      stripColumnClz(note)
-      if (id === null || id.startsWith('sec-')) {
-        // Special case sections, only their first couple elements
-        const container = document.createElement("div");
-        if (note.children && note.children.length > 2) {
-          container.appendChild(note.children[0].cloneNode(true));
-          for (let i = 1; i < note.children.length; i++) {
-            const child = note.children[i];
-            if (child.tagName === "P" && child.innerText === "") {
-              continue;
-            } else {
-              container.appendChild(child.cloneNode(true));
-              break;
-            }
-          }
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(container);
-          }
-          return container.innerHTML
-        } else {
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(note);
-          }
-          return note.innerHTML;
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/nipunbatra\.github\.io\/psdv25");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
       } else {
-        // Remove any anchor links if they are present
-        const anchorLink = note.querySelector('a.anchorjs-link');
-        if (anchorLink) {
-          anchorLink.remove();
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
         }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        if (note.classList.contains("callout")) {
-          return note.outerHTML;
-        } else {
-          return note.innerHTML;
-        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
       }
     }
-    for (var i=0; i<xrefs.length; i++) {
-      const xref = xrefs[i];
-      tippyHover(xref, undefined, function(instance) {
-        instance.disable();
-        let url = xref.getAttribute('href');
-        let hash = undefined; 
-        if (url.startsWith('#')) {
-          hash = url;
-        } else {
-          try { hash = new URL(url).hash; } catch {}
-        }
-        if (hash) {
-          const id = hash.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note !== null) {
-            try {
-              const html = processXRef(id, note.cloneNode(true));
-              instance.setContent(html);
-            } finally {
-              instance.enable();
-              instance.show();
-            }
-          } else {
-            // See if we can fetch this
-            fetch(url.split('#')[0])
-            .then(res => res.text())
-            .then(html => {
-              const parser = new DOMParser();
-              const htmlDoc = parser.parseFromString(html, "text/html");
-              const note = htmlDoc.getElementById(id);
-              if (note !== null) {
-                const html = processXRef(id, note);
-                instance.setContent(html);
-              } 
-            }).finally(() => {
-              instance.enable();
-              instance.show();
-            });
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
           }
         } else {
-          // See if we can fetch a full url (with no hash to target)
-          // This is a special case and we should probably do some content thinning / targeting
-          fetch(url)
+          // See if we can fetch this
+          fetch(url.split('#')[0])
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.querySelector('main.content');
+            const note = htmlDoc.getElementById(id);
             if (note !== null) {
-              // This should only happen for chapter cross references
-              // (since there is no id in the URL)
-              // remove the first header
-              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-                note.children[0].remove();
-              }
-              const html = processXRef(null, note);
+              const html = processXRef(id, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -649,162 +806,199 @@ Course Resources
             instance.show();
           });
         }
-      }, function(instance) {
-      });
-    }
-        let selectedAnnoteEl;
-        const selectorForAnnotation = ( cell, annotation) => {
-          let cellAttr = 'data-code-cell="' + cell + '"';
-          let lineAttr = 'data-code-annotation="' +  annotation + '"';
-          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-          return selector;
-        }
-        const selectCodeLines = (annoteEl) => {
-          const doc = window.document;
-          const targetCell = annoteEl.getAttribute("data-target-cell");
-          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-          const lineIds = lines.map((line) => {
-            return targetCell + "-" + line;
-          })
-          let top = null;
-          let height = null;
-          let parent = null;
-          if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
-            }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
-            }
-            selectedAnnoteEl = annoteEl;
-          }
-        };
-        const unselectCodeLines = () => {
-          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-          elementsIds.forEach((elId) => {
-            const div = window.document.getElementById(elId);
-            if (div) {
-              div.remove();
-            }
-          });
-          selectedAnnoteEl = undefined;
-        };
-          // Handle positioning of the toggle
-      window.addEventListener(
-        "resize",
-        throttle(() => {
-          elRect = undefined;
-          if (selectedAnnoteEl) {
-            selectCodeLines(selectedAnnoteEl);
-          }
-        }, 10)
-      );
-      function throttle(fn, ms) {
-      let throttle = false;
-      let timer;
-        return (...args) => {
-          if(!throttle) { // first call gets through
-              fn.apply(this, args);
-              throttle = true;
-          } else { // all the others get throttled
-              if(timer) clearTimeout(timer); // cancel #2
-              timer = setTimeout(() => {
-                fn.apply(this, args);
-                timer = throttle = false;
-              }, ms);
-          }
-        };
-      }
-        // Attach click handler to the DT
-        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-        for (const annoteDlNode of annoteDls) {
-          annoteDlNode.addEventListener('click', (event) => {
-            const clickedEl = event.target;
-            if (clickedEl !== selectedAnnoteEl) {
-              unselectCodeLines();
-              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-              if (activeEl) {
-                activeEl.classList.remove('code-annotation-active');
-              }
-              selectCodeLines(clickedEl);
-              clickedEl.classList.add('code-annotation-active');
-            } else {
-              // Unselect the line
-              unselectCodeLines();
-              clickedEl.classList.remove('code-annotation-active');
-            }
-          });
-        }
-    const findCites = (el) => {
-      const parentEl = el.parentElement;
-      if (parentEl) {
-        const cites = parentEl.dataset.cites;
-        if (cites) {
-          return {
-            el,
-            cites: cites.split(' ')
-          };
-        } else {
-          return findCites(el.parentElement)
-        }
       } else {
-        return undefined;
-      }
-    };
-    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-    for (var i=0; i<bibliorefs.length; i++) {
-      const ref = bibliorefs[i];
-      const citeInfo = findCites(ref);
-      if (citeInfo) {
-        tippyHover(citeInfo.el, function() {
-          var popup = window.document.createElement('div');
-          citeInfo.cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
             }
-            popup.appendChild(citeDiv);
-          });
-          return popup.innerHTML;
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
         });
       }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
     }
-  });
-  </script>
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>ES 114 Probability, statistics and data visualization · IIT Gandhinagar · January 2025</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>© 2025 <a href="https://nipunbatra.github.io">Nipun Batra</a> · Made with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
 
 
 

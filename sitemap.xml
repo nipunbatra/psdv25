@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://nipunbatra.github.io/psdv25/lectures.html</loc>
+    <lastmod>2026-09-28T05:31:12.225Z</lastmod>
+  </url>
+  <url>
     <loc>https://nipunbatra.github.io/psdv25/videos/videos.html</loc>
-    <lastmod>2025-07-13T04:02:55.224Z</lastmod>
+    <lastmod>2026-09-28T05:18:14.035Z</lastmod>
   </url>
   <url>
     <loc>https://nipunbatra.github.io/psdv25/index.html</loc>
-    <lastmod>2025-07-13T04:02:54.788Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nipunbatra.github.io/psdv25/faq.html</loc>
-    <lastmod>2025-07-13T04:02:54.782Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nipunbatra.github.io/psdv25/schedule.html</loc>
-    <lastmod>2025-07-13T04:02:54.788Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nipunbatra.github.io/psdv25/slides/transformation.html</loc>
-    <lastmod>2025-07-13T04:02:55.223Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nipunbatra.github.io/psdv25/grading.html</loc>
-    <lastmod>2025-07-13T04:02:54.782Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nipunbatra.github.io/psdv25/lectures.html</loc>
-    <lastmod>2025-07-13T04:02:54.788Z</lastmod>
+    <lastmod>2026-09-28T05:29:07.471Z</lastmod>
   </url>
   <url>
     <loc>https://nipunbatra.github.io/psdv25/exposition.html</loc>
-    <lastmod>2025-07-13T04:02:54.782Z</lastmod>
+    <lastmod>2026-09-28T05:18:13.645Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nipunbatra.github.io/psdv25/grading.html</loc>
+    <lastmod>2026-09-28T05:26:11.211Z</lastmod>
   </url>
   <url>
     <loc>https://nipunbatra.github.io/psdv25/tentative.html</loc>
-    <lastmod>2025-07-13T04:02:55.223Z</lastmod>
+    <lastmod>2026-09-28T05:26:29.010Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nipunbatra.github.io/psdv25/slides/transformation.html</loc>
+    <lastmod>2026-09-28T05:18:14.033Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nipunbatra.github.io/psdv25/faq.html</loc>
+    <lastmod>2026-09-28T05:26:29.000Z</lastmod>
   </url>
 </urlset>

@@ -1,5 +1,54 @@
 [
   {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lecture library",
+    "section": "",
+    "text": "Each row is one lecture, grouped by part of the course. The notebooks are from psdv-teaching, which has the source code for the lectures and all rendered notebooks. Recordings of the tutorials are in a YouTube playlist. The Shorts are also collected, in course order, on the Probability and statistics in 1 minute page and in a YouTube playlist.\nSlides: chapter slides from Introduction to Probability for Data Science and handwritten notes from class (PDF) · Notebooks: worked code, or a Colab notebook for a lab · Apps: interactive demos · Cheat sheet: a two-page A4 summary (PDF) · Shorts: one-minute videos, each answering one question; point at a number to see the question · Videos: explainers by others (point at one to see its author) · Recording: a tutorial video by the instructor."
+  },
+  {
+    "objectID": "lectures.html#python-tools-for-data",
+    "href": "lectures.html#python-tools-for-data",
+    "title": "Lecture library",
+    "section": "Python tools for data",
+    "text": "Python tools for data\n\n\n\nNo.\nLecture\nResources\n\n\n\n\n0 6 Jan\nIntroduction and logistics How the course runs, and what probability, statistics and data visualization are for.\n\n\n\n1 7 Jan\nNumPy Arrays, shapes and axes, vectorised operations and broadcasting.\nNotebook Cheat sheet Recording\n\n\n2 8 Jan\nLab 1: NumPy NumPy exercises to work through in the lab.\nColab notebook \n\n\n3 13 Jan\nPandas Series and data frames: selecting, summarising, grouping and merging tables.\nNotebook Cheat sheet Shorts 1 Recording\n\n\n4 14 Jan\nMatplotlib Figures and axes, and which plot answers which question: line, scatter, bar, histogram and box plot.\nNotebook Cheat sheet Shorts 1 2 3 4 Recording\n\n\n5 15 Jan\nLab viva 1 Viva on assignment 1.\n\n\n\n6 20 Jan\nLab 2: Pandas Pandas exercises to work through in the lab.\nColab notebook"
+  },
+  {
+    "objectID": "lectures.html#sets-and-probability",
+    "href": "lectures.html#sets-and-probability",
+    "title": "Lecture library",
+    "section": "Sets and probability",
+    "text": "Sets and probability\n\n\n\nNo.\nLecture\nResources\n\n\n\n\n7 21 Jan\nSet theory Sets and their operations: union, intersection, complement and De Morgan's laws.\nSlides Notebook Cheat sheet Shorts 1\n\n\n8 22 Jan\nLab 2: Pandas (continued) The second lab, continued.\n\n\n\n9 23 Jan\nJupyter widgets Making a notebook interactive with sliders and other controls.\nNotebook  Recording\n\n\n10 23 Jan\nMore set theory questions Practice problems on sets.\nColab notebook Cheat sheet\n\n\n11 27 Jan\nSet theory (continued) More on sets and set operations.\nSlides Sets, Handwritten notes Cheat sheet\n\n\n12 28 Jan\nProbability Sample spaces, events and the axioms of probability, and counting equally likely outcomes.\nSlides Part 1, Part 2, Handwritten notes Cheat sheet Shorts 1 2 3 4 5\n\n\n13 29 Jan\nLab viva 2 Viva on assignment 2.\n\n\n\n14 3 Feb\nConditional probability and independence The chance of A given B, the multiplication rule, and when two events are independent.\nSlides Conditional probability, Independence, Handwritten notes Cheat sheet Shorts 1 2 3 4\n\n\n15 4 Feb\nBayes' theorem and total probability Splitting a probability over cases, and turning the chance of B given A into the chance of A given B.\nSlides Bayes' theorem, Handwritten notes (continued) Cheat sheet Shorts 1 2 3 4\n\n\n16 5 Feb\nQuiz 1 The first quiz."
+  },
+  {
+    "objectID": "lectures.html#random-variables-and-expectation",
+    "href": "lectures.html#random-variables-and-expectation",
+    "title": "Lecture library",
+    "section": "Random variables and expectation",
+    "text": "Random variables and expectation\n\n\n\nNo.\nLecture\nResources\n\n\n\n\n17 10 Feb\nRandom variables A random variable is a number worked out from each outcome. Also a discussion of quiz 1.\nSlides Cheat sheet Shorts 1 2\n\n\n18 11 Feb\nProbability mass functions The chance of each value, and the common discrete distributions: Bernoulli, binomial, geometric and Poisson.\nSlides Notebook Cheat sheet Shorts 1 2 3 4 5 Recording\n\n\n19 17 Feb\nDiscrete random variables and expectation The expected value as a long-run average, and the binomial and Poisson distributions.\nSlides Expectation, Handwritten notes Notebook Cheat sheet Shorts 1 2 Videos Binomial and Poisson\n\n\n20 18 Feb\nMoments Variance, standard deviation and higher moments, and a first look at continuous random variables.\nSlides Moments, Handwritten notes (continued), Continuous variables, handwritten Cheat sheet Shorts 1\n\n\n21 19 Feb\nLab viva 3 Viva on assignment 3.\n\n\n\n22 24 Feb\nContinuous random variables and a coin-flip game Densities, where probability is an area, and a coin-flip game that shows how far a total can drift.\nNotebooks Expectation, Continuous distributions Cheat sheet Shorts 1 2 3 4\n\n\n23 25 Feb\nExpectation and moments of continuous random variables Mean and variance for a density, by integration. Continues the notebooks of lecture 22.\nSlides Handwritten notes Notebooks Expectation, Continuous distributions Cheat sheet Shorts 1\n\n\n24 17 Mar\nCumulative distribution functions The running total of probability, and how to use it to draw random samples.\nSlides Handwritten notes Notebook Cheat sheet Shorts 1 2 3"
+  },
+  {
+    "objectID": "lectures.html#joint-distributions",
+    "href": "lectures.html#joint-distributions",
+    "title": "Lecture library",
+    "section": "Joint distributions",
+    "text": "Joint distributions\n\n\n\nNo.\nLecture\nResources\n\n\n\n\n25 18 Mar\nJoint PDF and CDF, 2D distributions and GeoGebra Two random variables at once: joint densities, probability as a volume, and double integrals.\nSlides Notebook Apps 2D distributions Cheat sheet Shorts 1 Videos Double integrals Recording\n\n\n26 24 Mar\nJoint expectation Expected values of functions of two variables, and the angle between embedding vectors.\nSlides Joint expectation, Handwritten notes Notebook Cheat sheet Shorts 1\n\n\n27 25 Mar\nCorrelation and covariance How two variables vary together, measured by covariance and correlation.\nSlides Covariance, Handwritten notes Notebook Cheat sheet Shorts 1 2\n\n\n28 1 Apr\nConditional distributions The distribution of one variable once the value of another is known.\nSlides Cheat sheet\n\n\n29 2 Apr\nSums of random variables The distribution of X + Y: means and variances add, and distributions convolve.\nSlides Handwritten notes, Sums of random variables, X + Y Notebook Cheat sheet Shorts 1 2 Videos Convolutions\n\n\n30 5 Apr\nTransformations of random variables The distribution of a function of a random variable.\nSlides Notebook Shorts 1"
+  },
+  {
+    "objectID": "lectures.html#limit-theorems-random-vectors-and-pca",
+    "href": "lectures.html#limit-theorems-random-vectors-and-pca",
+    "title": "Lecture library",
+    "section": "Limit theorems, random vectors and PCA",
+    "text": "Limit theorems, random vectors and PCA\n\n\n\nNo.\nLecture\nResources\n\n\n\n\n31 7 Apr\nLaw of large numbers and inequalities Why averages settle down as samples grow, and the Jensen, Markov and Chebyshev inequalities.\nSlides Handwritten notes, Jensen's inequality, Markov and Chebyshev inequalities Notebook Apps LLN and CLT (Streamlit source) Cheat sheet Shorts 1 2 3 4\n\n\n32 15 Apr\nRandom vectors and the multivariate normal Mean vectors, covariance matrices and the multivariate normal distribution.\nSlides Deriving the bivariate normal, Random vectors, Multidimensional Gaussian, Gaussian whitening Notebook Apps Normal shape (Streamlit source) Cheat sheet Shorts 1\n\n\n33 16 Apr\nPrincipal component analysis Finding the directions along which data varies most.\nSlides Cheat sheet Shorts 1 Videos Eigenvectors"
+  },
+  {
+    "objectID": "lectures.html#also-in-the-series",
+    "href": "lectures.html#also-in-the-series",
+    "title": "Lecture library",
+    "section": "Also in the series",
+    "text": "Also in the series\nA topic with a cheat sheet and Shorts that was not a separate lecture in 2025. The PMF and continuous-distribution notebooks use it to fit distributions to data.\n\n\n\n\n\n\n\n\nNo.\nTopic\nResources\n\n\n\n\n\nLikelihood, log probabilities and entropy How likely the data is under each guess, why software adds log probabilities instead of multiplying chances, and entropy as the average surprise.\nCheat sheet Shorts 1 2 3"
+  },
+  {
     "objectID": "videos/videos.html",
     "href": "videos/videos.html",
     "title": "Student Exposition Submissions",
@@ -9,51 +58,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ES 114 Probability, Statistics and Data Visualization",
+    "title": "ES 114: Probability, statistics and data visualization",
     "section": "",
-    "text": "Summary\n\n\n\n\nInstructors:\n\nNipun Batra nipun.batra@iitgn.ac.in\n\nOffice: AB13/401C\nYouTube video showing the directions to my office\nHomePage\n\nManisha Padala manisha.padala@iitgn.ac.in\n\nOffice: AB13/405C\nHomePage\n\n\nTeaching Assistants:\n\nAyush Shrivastava shrivastavaayush@iitgn.ac.in\nRisabh Mondal rishabh.mondal@iitgn.ac.in\nAbhyudaya Nair 24210005@iitgn.ac.in\nAlay Patel alay.patel@iitgn.ac.in\nAshish Rawat ashish.rawat@iitgn.ac.in\nBalkrishna Sehra 24210022@iitgn.ac.in\nCharan Teja 24210056@iitgn.ac.in\nChetana Dubey 24250030@iitgn.ac.in\nDekka Muni Kumar 24210028@iitgn.ac.in\nDhruv Patel dhruv.patel@iitgn.ac.in\nDiya 24210032@iitgn.ac.in\nDrishti 24210033@iitgn.ac.in\nIndrayudh Mandal 24210041@iitgn.ac.in\nJenil Patel 24210048@iitgn.ac.in\nKaloori Shiva Prasad 24250041@iitgn.ac.in\nManish Bairwa manish.bairwa@iitgn.ac.in\nMithlesh Singla 24210063@iitgn.ac.in\nPalak Gupta 24250063@iitgn.ac.in\nSawan Verma sawan.verma@iitgn.ac.in\nShataxi Dubey shataxi.dubey@iitgn.ac.in\nShivansh Gupta 24250086@iitgn.ac.in\nSuruchi Hardaha 24250097@iitgn.ac.in\nVinayak Rana 24210114@iitgn.ac.in\nAadya Arora aadya.arora@iitgn.ac.in\nAbhishek Kushwaha abhishek.kushwaha@iitgn.ac.in\nAryan Sahu aryan.sahu@iitgn.ac.in\nBhavik Patel bhavik.patel@iitgn.ac.in\nBhoumik Patidar bhoumik.patidar@iitgn.ac.in\nDewansh Chandel dewanshsingh.chandel@iitgn.ac.in\nDewansh Kumar dewansh.kumar@iitgn.ac.in\nGuntas Singh Saran guntassingh.saran@iitgn.ac.in\nShreyans Jain shreyans.jain@iitgn.ac.in\nVamsi Srivathsa vamsi.srivathsa@iitgn.ac.in\nViraj Vekaria viraj.vekaria@iitgn.ac.in\nYash Bachwana yash.bachwana@iitgn.ac.in\n\nClass Venue and Timings:\n\nLecture : Jasubhai Auditorium, Monday, 8:30 AM - 10:00 AM (A1 slot)\nLabs : Jasubhai Auditorium, Computer Labs (A2, D1 slots) – more details soon\n\nCommunications\n\nAll communications will be handled via slack. Join using the link here\n\n\n\n\n\nPre-requisites:\n\nNone, First Year Undergrad Course\n\n\n\nReference textbooks:\n\nChan, Stanley. “Introduction to Probability for Data Science.” The University of Michigan Library, Michigan Publishing (2021). Free Digital Copy\nAdhikari, Ani, John DeNero, and D. Wagner. “Computational and Inferential Thinking: The Foundations of Data Science.” Second Edition. The University of California, Berkeley (2019). Free Digital Copy\nDeisenroth, Marc Peter, A. Aldo Faisal, and Cheng Soon Ong. Mathematics for Machine Learning. Cambridge University Press, 2020. Free Digital Copy\nSpiegelhalter, David. The Art of Statistics: Learning from Data. Penguin UK, 2019.\nRougier, Nicolas. Scientific Visualization: Python+ Matplotlib. 2021. Free Digital Copy"
+    "text": "A first-year course on reasoning with uncertainty and data: working with data in Python (NumPy, Pandas and Matplotlib), sets and probability, conditional probability and Bayes' theorem, random variables and their distributions, expectation and variance, joint distributions, sums of random variables, the law of large numbers, and random vectors and principal component analysis. Every lecture's slides, notebooks, cheat sheet and short videos are in the lecture library.\nAll communication is on the course Slack: join the ES 114 workspace."
   },
   {
-    "objectID": "faq.html",
-    "href": "faq.html",
-    "title": "FAQ",
-    "section": "",
-    "text": "Prerequisites\n\nWhat are the course prerequisites?\n\nThe course has no “formal” prerequisites like all courses at IITGn. However, it is assumed that you have a basic understanding of:\n\nprogramming (Python)\n\n\nWhat is the prerequisite exam?\n\nThis is an exam that we have designed to ensure that you have the necessary background to take the course.\n\nHow can I prepare for the prerequisite exam?\n\nYour UG course material should be sufficient to prepare for the exam.\n\nWhat happens if I do not clear the prerequisite exam?\n\nYou will not be allowed to take the course.\n\nWhat do you mean by “clear” the exam?\n\nLike all courses at IITGn, the instructor will decide the cut-off for the exam. You will have to score above the cut-off to clear the exam. No cut-off will be revealed to the students apriori.\n\n\n\n\nLaptop policy\n\nCan I use my laptop or phone in the class?\n\nNo. You are not allowed to use your laptop or phone in the class for any reason, unless it is a lab session, wheer the instructor has explicitly allowed you to use your laptop.\n\n\n\n\nQuizzes\n\nWhat happens if I miss a quiz due to any reason?\n\nThe quiz will be marked as 0.\nThe provision of best 3 out of 4 quizzes is designed keeping in mind such scenarios.\n\nWill the quizzes and end-semester exam be open book? Will I be allowed to carry notes?\n\nNo, the exams and quizzes will be closed book. You are not permitted to carry notes.\n\nHow soon can I expect to receive my answer sheets back?\n\nYou should expect to receive answer sheets back in 4-5 working days.\n\nIs there an end-semester exam or mid-semester exam?\n\n2 out of the 4 quizzes will be held in the mid-semester and end-semester slots. The remaining two quizzes will be held during the semester.\n\nWill the quizzes be MCQs or subjective?\n\nThe quizzes may contain both the MCQs and subjective questions.\n\n\n\n\nAssignments\n\nWhat happens if I miss an assignment due to any reason?\n\nThere will no extensions for assignments.\n\nI have a doubt in the assignment. Whom should I write to?\n\nAsk on the slack #assignments channel. If you don’t get a response within 2 days, write to the course instructor.\n\nI do not know Python. Can I code assignments in some other language?\n\nUnfortunately, no. You have to stick to Python.\n\nHow will you evaluate the assignment?\n\nThe assignments would be followed by a viva. The TAs would first check the code and compare against the submission. Any change from the submitted code is not allowed and any instance of the same would culminate in a warning. The TAs would run the code and ask a few questions. About 75% of these questions would be based on the assignment in question and about 25% would be based on the theory behind the concepts covered in the assignment.\nThe grade breakup would be: i) code runs correctly and solves the problem [50% marks]; ii) questions based on the assignment and student understanding of code [25% marks]; iii) code quality [12.5% marks]; iv) questions based on the theory behind the concepts covered in the assignments [12.5% marks]\n\nIs the assignment individual or group?\n\nThe assignment is group. In case of group, all team members get the same grade for the assignment.\n\n\n\n\n\nAttendance\n\nAttendance policy\n\nAttendance is mentioned in the grading policy clearly.\n\n\n\n\n\nAudit policy\nYou are free to attend the lectures. However, given the limited number of TAs and the large number of students, we will not be able to grade your submissions. You can not formally contribute to any team in their assignments.\n\n\n\nComputational resources\nTypically, we have been kindly provided with Google Cloud credits. We will update this section once we have the credits. Once you get these credits, you can use them for your assignments. They are more than sufficient for the assignments."
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "ES 114: Probability, statistics and data visualization",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nNone. This is a first-year undergraduate course."
   },
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Lectures",
-    "section": "",
-    "text": "Summary\n\n\n\n\nGithub repo containing source code for lectures and notebooks\nRendered Lecture notebooks\nYouTube playlist containing recordings\n\nContent will get added here as the course progresses\n\n\n\n\n\n\n\n\n\n\n\nLecture #\nDate\nTopic\nMaterial\n\n\n\n\n0\n06 Jan 2025\nIntroduction and Logistics\n\n\n\n1\n07 Jan 2025\nNumPy\nNotebook, Youtube\n\n\n2\n08 Jan 2025\nLab 1: NumPy\nColab\n\n\n3\n13 Jan 2025\nPandas\nNotebook, Youtube\n\n\n4\n14 Jan 2025\nMatplotlib\nNotebook, Youtube\n\n\n5\n15 Jan 2025\nLab Viva 1\n\n\n\n6\n20 Jan 2025\nLab 2: Pandas\nColab\n\n\n7\n21 Jan 2025\nSet Theory\nNotebook, Slides\n\n\n8\n22 Jan 2025\nLab 2: Pandas (continued)\n\n\n\n9\n23 Jan 2025\nJupyter Widgets\nNotebook, YouTube\n\n\n10\n23 Jan 2025\nMore Set Theory Questions\nColab\n\n\n11\n27 Jan 2025\nSet Theory (continued)\nSlides, Handwritten Slides\n\n\n12\n28 Jan 2025\nProbability\nSlides1, Slides2, Handwritten Slides\n\n\n13\n29 Jan 2025\nLab Viva 2\n\n\n\n14\n03 Feb 2025\nConditional Probability & Independence\nSlides Conditional, Slides Independence, Handwritten Slides\n\n\n15\n04 Feb 2025\nBayes Theorem & Total Probability\nSlides, Handwritten Slides (continued)\n\n\n16\n05 Feb 2025\nQuiz 1\n\n\n\n17\n10 Feb 2025\nRandom Variables + Quiz Discussion\nSlides\n\n\n18\n11 Feb 2025\nProbability Mass Function\nSlides, Notebook, YouTube\n\n\n19\n17 Feb 2025\nDiscrete RVs and Expectation\nSlides, Handwritten Slides PMF Expectation-Moments, Notebook, YT Video on Binomial & Poisson\n\n\n20\n18 Feb 2025\nMoments\nSlides, Handwritten Slides (continued), Handwritten Slides Continuous RV\n\n\n21\n19 Feb 2025\nLab Viva 3\n\n\n\n22\n24 Feb 2025\nContinuous RVs and Coin-Flip Game\nNotebook Expectation, Notebook PDF Continuous RV\n\n\n23\n25 Feb 2025\nExpectation and Moments of Continuous RVs\nHandwritten Slides PDF Expectation-Moments, Notebook Expectation, Notebook PDF Continuous RV [continued]\n\n\n24\n17 Mar 2025\nCumulative Distribution Function\nHandwritten Slides CDF, Notebook CDF\n\n\n25\n18 Mar 2025\nJoint PDF and CDF + 2D Distributions + Geogebra\nSlides Joint PDF and CDF, Notebook 2D Distributions, HuggingFace Spaces, Double Integrals Video, Instructor’s Demo on Geogebra\n\n\n26\n24 Mar 2025\nJoint Expectation\nSlides Joint Expectation, Notebook Embeddings, Handwritten Slides Joint Expectation\n\n\n27\n25 Mar 2025\nCorrelation & Covariance\nSlides Covariance, Notebook Joint Distributions, Handwritten Slides Joint Expectation\n\n\n28\n1 Apr 2025\nConditional Distributions\nSlides\n\n\n29\n2 Apr 2025\nSum of Random Variables\nHandwritten Slides Sum of RVs, Slides Sum of RVs, Slides X+Y, YouTube Video, Notebook Sum of RVs\n\n\n30\n5 Apr 2025\nTransformation of RVs\nSlides Transformation, Notebook Transformation\n\n\n31\n7 Apr 2025\nLaw of Large Numbers & Inequalities\nHandwritten Slides LLN, Slides Jensen’s Inequality, Slides Markov and Chebyshev Inequality, Notebook LLN, Streamlit App LLN/CLT\n\n\n32\n15 Apr 2025\nRandom Vectors & Multi-Variate Normal Distribution\nSlides Derivation of Bivariate Normal Distribution, Slides Random Vector, Slides Multi-dimensional Gaussian, Slides Gaussian Whitening, Notebook Random Vectors, Streamlit App Normal Shape\n\n\n33\n16 Apr 2025\nPrincipal Component Analysis\nSlides PCA, 3B1B Video Eigenvalues & Eigenvectors"
-  },
-  {
-    "objectID": "slides/transformation.html",
-    "href": "slides/transformation.html",
-    "title": "Uniform Distribution Transformation",
-    "section": "",
-    "text": "import torch\nimport matplotlib.pyplot as plt\n\n%matplotlib inline\n%config InlineBackend.figure_format = 'retina'\na, b = 1, 3\nnum_samples = 100000\n\nuniform_dist = torch.distributions.Uniform(a, b)\nX_samples = uniform_dist.sample((num_samples,))\n\nY_samples = X_samples ** 2\n\ny_values = torch.linspace(a**2, b**2, 500)\nf_Y = 1 / (2 * torch.sqrt(y_values) * (b - a))\n\nfig, axes = plt.subplots(1, 2, figsize=(12, 6), sharey=True)\n\naxes[0].hist(X_samples.numpy(), bins=50, density=True, alpha=0.6, label=\"Empirical PDF\")\naxes[0].axhline(1 / (b - a), color='r', linestyle='--', label=\"Theoretical PDF\")\naxes[0].set_xlabel(\"X ~ Uniform(a, b)\")\naxes[0].set_ylabel(\"Density\")\naxes[0].set_title(\"PDF of Uniform(a, b)\")\naxes[0].legend()\naxes[0].grid()\n\naxes[1].hist(Y_samples.numpy(), bins=50, density=True, alpha=0.6, label=\"Empirical PDF\")\naxes[1].plot(y_values.numpy(), f_Y.numpy(), 'r-', label=\"Theoretical PDF\")\naxes[1].set_xlabel(\"Y = X^2\")\naxes[1].set_ylabel(\"Density\")\naxes[1].set_title(\"Transformation of Uniform(a, b) via Y = X^2\")\naxes[1].legend()\naxes[1].grid()\nplt.tight_layout()\nplt.show()\n\\(Y = X^2 \\Rightarrow X = \\sqrt{Y}\\) or \\(X = -\\sqrt{Y}\\)\nSince \\(X \\in [a, b]\\) and \\(a &gt; 0\\), only the positive root is valid.\n\\[\nf_Y(y) = f_X(x(y)) \\cdot \\left|\\frac{dx}{dy}\\right| = f_X(\\sqrt{y}) \\cdot \\frac{1}{2\\sqrt{y}}\n\\] And since \\(f_X(x) = \\frac{1}{b - a}\\) (for uniform),\n\\[\nf_Y(y) = \\frac{1}{b - a} \\cdot \\frac{1}{2\\sqrt{y}}, \\quad \\text{for } y \\in [a^2, b^2]\n\\]\n\\[\nf_Y(y) = \\frac{1}{2(b - a)\\sqrt{y}}, \\quad y \\in [a^2, b^2]\n\\]"
-  },
-  {
-    "objectID": "slides/transformation.html#exponentional-rv",
-    "href": "slides/transformation.html#exponentional-rv",
-    "title": "Uniform Distribution Transformation",
-    "section": "Exponentional RV",
-    "text": "Exponentional RV\n\\[\nf_X(x) = \\lambda e^{-\\lambda x}, \\quad x \\ge 0\n\\]\n\\[\nF_X(x) = 1 - e^{-\\lambda x}\n\\]\n\\[\nF_X^{-1}(u) = -\\frac{\\ln(1 - u)}{\\lambda}\n\\]\n\nlambda_ = 1.0\nn_samples = 10000\n\n# Sample from Uniform(0,1)\nu = torch.rand(n_samples)\n\n# Apply inverse CDF of exponential\nsamples = -torch.log(1 - u) / lambda_\n\n# True distribution using torch.distributions\nexp_dist = torch.distributions.Exponential(rate=lambda_)\n\nx_vals = torch.linspace(0, 6, 100)\npdf_vals = exp_dist.log_prob(x_vals).exp()  # f_X(x) = λ e^(-λx)\n\nplt.figure(figsize=(8, 5))\nplt.hist(samples.numpy(), bins=50, density=True, alpha=0.6, label=\"Inverse CDF Samples\")\nplt.plot(x_vals.numpy(), pdf_vals.numpy(), 'r-', label=\"True Exponential PDF\")\nplt.title(\"Inverse Transform Sampling using PyTorch\")\nplt.xlabel(\"x\")\nplt.ylabel(\"Density\")\nplt.legend()\nplt.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "grading.html",
-    "href": "grading.html",
-    "title": "Grading Policy",
-    "section": "",
-    "text": "Grading Policy\n\nAssignments: 32%\n\n6 assignments\nDone in groups of 3\nVariable weight (e.g. some assignments would be 10%, some 12%, etc.)\nSome assignments would involve:\n\nMaking pull requests to public repositories\nWriting Hugging Face Spaces like demos\n\n\nQuizzes: 60%\n\n20% each\nBest 3 out of 4\nIf you miss a single quiz for any reason, there will be no makeups\nMid-Sem and End-Sem exams are also considered quizzes\n\nAttendance: 8%\n\n&lt;= 3 absences: 8%\n4 or 5 absences: 7%\n6 or 7 absences: 6%\n8 or 9 absences: 4%\n10 or 11 absences: 2%\n12 or more absences: 0%\n\n\n\n\n\nLeave Policy\n\nSend an email to all three TAs while filling out the leave application form.\n\nDrishti 24210033@iitgn.ac.in\nPalak Gupta 24250063@iitgn.ac.in\nShataxi Dubey shataxi.dubey@iitgn.ac.in\n\nSending an email ensures faster processing of your request.\nUse the subject line “ES114 Leave Request” in your email, strictly adhering to this format.\nFor long leave requests, include all three TAs in CC and seek permission from Sir in the email."
-  },
-  {
-    "objectID": "lectures.html",
-    "href": "lectures.html",
-    "title": "Lectures & Materials",
-    "section": "",
-    "text": "Course Resources\n\n\n\n\n📚 GitHub repository with source code for lectures and notebooks\n📖 Rendered Lecture notebooks\n🎥 YouTube playlist with all recordings\n\nContent is updated as the course progresses. Click on any topic below to access materials.\n\n\n\n\n\n\n\n\n\n\n\n\n#\nDate\nTopic\nMaterials\n\n\n\n\n0\n06 Jan 2025\nIntroduction and Logistics\n\n\n\n1\n07 Jan 2025\nNumPy\nNotebook, Youtube\n\n\n2\n08 Jan 2025\nLab 1: NumPy\nColab\n\n\n3\n13 Jan 2025\nPandas\nNotebook, Youtube\n\n\n4\n14 Jan 2025\nMatplotlib\nNotebook, Youtube\n\n\n5\n15 Jan 2025\nLab Viva 1\n\n\n\n6\n20 Jan 2025\nLab 2: Pandas\nColab\n\n\n7\n21 Jan 2025\nSet Theory\nNotebook, Slides\n\n\n8\n22 Jan 2025\nLab 2: Pandas (continued)\n\n\n\n9\n23 Jan 2025\nJupyter Widgets\nNotebook, YouTube\n\n\n10\n23 Jan 2025\nMore Set Theory Questions\nColab\n\n\n11\n27 Jan 2025\nSet Theory (continued)\nSlides, Handwritten Slides\n\n\n12\n28 Jan 2025\nProbability\nSlides1, Slides2, Handwritten Slides\n\n\n13\n29 Jan 2025\nLab Viva 2\n\n\n\n14\n03 Feb 2025\nConditional Probability & Independence\nSlides Conditional, Slides Independence, Handwritten Slides\n\n\n15\n04 Feb 2025\nBayes Theorem & Total Probability\nSlides, Handwritten Slides (continued)\n\n\n16\n05 Feb 2025\nQuiz 1\n\n\n\n17\n10 Feb 2025\nRandom Variables + Quiz Discussion\nSlides\n\n\n18\n11 Feb 2025\nProbability Mass Function\nSlides, Notebook, YouTube\n\n\n19\n17 Feb 2025\nDiscrete RVs and Expectation\nSlides, Handwritten Slides PMF Expectation-Moments, Notebook, YT Video on Binomial & Poisson\n\n\n20\n18 Feb 2025\nMoments\nSlides, Handwritten Slides (continued), Handwritten Slides Continuous RV\n\n\n21\n19 Feb 2025\nLab Viva 3\n\n\n\n22\n24 Feb 2025\nContinuous RVs and Coin-Flip Game\nNotebook Expectation, Notebook PDF Continuous RV\n\n\n23\n25 Feb 2025\nExpectation and Moments of Continuous RVs\nHandwritten Slides PDF Expectation-Moments, Notebook Expectation, Notebook PDF Continuous RV [continued]\n\n\n24\n17 Mar 2025\nCumulative Distribution Function\nHandwritten Slides CDF, Notebook CDF\n\n\n25\n18 Mar 2025\nJoint PDF and CDF + 2D Distributions + Geogebra\nSlides Joint PDF and CDF, Notebook 2D Distributions, HuggingFace Spaces, Double Integrals Video, Instructor’s Demo on Geogebra\n\n\n26\n24 Mar 2025\nJoint Expectation\nSlides Joint Expectation, Notebook Embeddings, Handwritten Slides Joint Expectation\n\n\n27\n25 Mar 2025\nCorrelation & Covariance\nSlides Covariance, Notebook Joint Distributions, Handwritten Slides Joint Expectation\n\n\n28\n1 Apr 2025\nConditional Distributions\nSlides\n\n\n29\n2 Apr 2025\nSum of Random Variables\nHandwritten Slides Sum of RVs, Slides Sum of RVs, Slides X+Y, YouTube Video, Notebook Sum of RVs\n\n\n30\n5 Apr 2025\nTransformation of RVs\nSlides Transformation, Notebook Transformation\n\n\n31\n7 Apr 2025\nLaw of Large Numbers & Inequalities\nHandwritten Slides LLN, Slides Jensen’s Inequality, Slides Markov and Chebyshev Inequality, Notebook LLN, Streamlit App LLN/CLT\n\n\n32\n15 Apr 2025\nRandom Vectors & Multi-Variate Normal Distribution\nSlides Derivation of Bivariate Normal Distribution, Slides Random Vector, Slides Multi-dimensional Gaussian, Slides Gaussian Whitening, Notebook Random Vectors, Streamlit App Normal Shape\n\n\n33\n16 Apr 2025\nPrincipal Component Analysis\nSlides PCA, 3B1B Video Eigenvalues & Eigenvectors"
+    "objectID": "index.html#reference-textbooks",
+    "href": "index.html#reference-textbooks",
+    "title": "ES 114: Probability, statistics and data visualization",
+    "section": "Reference textbooks",
+    "text": "Reference textbooks\n\nChan, Stanley. \"Introduction to Probability for Data Science.\" The University of Michigan Library, Michigan Publishing (2021). Free digital copy\nAdhikari, Ani, John DeNero, and D. Wagner. \"Computational and Inferential Thinking: The Foundations of Data Science.\" Second Edition. The University of California, Berkeley (2019). Free digital copy\nDeisenroth, Marc Peter, A. Aldo Faisal, and Cheng Soon Ong. Mathematics for Machine Learning. Cambridge University Press, 2020. Free digital copy\nSpiegelhalter, David. The Art of Statistics: Learning from Data. Penguin UK, 2019.\nRougier, Nicolas. Scientific Visualization: Python + Matplotlib. 2021. Free digital copy"
   },
   {
     "objectID": "exposition.html",
@@ -126,10 +147,115 @@
     "text": "Plagiarism will not be tolerated.\nEnsure your explanations are original and insightful."
   },
   {
+    "objectID": "grading.html",
+    "href": "grading.html",
+    "title": "Grading and leave",
+    "section": "",
+    "text": "Component\nWeight\n\n\n\n\nQuizzes (best 3 of 4)\n60%\n\n\nAssignments\n32%\n\n\nAttendance\n8%"
+  },
+  {
+    "objectID": "grading.html#quizzes-60",
+    "href": "grading.html#quizzes-60",
+    "title": "Grading and leave",
+    "section": "Quizzes: 60%",
+    "text": "Quizzes: 60%\n\nThere are 4 quizzes, each worth 20%.\nThe best 3 of the 4 count.\nThere are no makeup quizzes: if you miss a single quiz for any reason, it is not made up.\nThe mid-semester and end-semester exams are also quizzes."
+  },
+  {
+    "objectID": "grading.html#assignments-32",
+    "href": "grading.html#assignments-32",
+    "title": "Grading and leave",
+    "section": "Assignments: 32%",
+    "text": "Assignments: 32%\n\n6 assignments, done in groups of 3.\nWeights vary (for example, some assignments are 10%, some 12%).\nSome assignments involve:\n\nmaking pull requests to public repositories;\nwriting demos such as Hugging Face Spaces."
+  },
+  {
+    "objectID": "grading.html#attendance-8",
+    "href": "grading.html#attendance-8",
+    "title": "Grading and leave",
+    "section": "Attendance: 8%",
+    "text": "Attendance: 8%\n\n\n\nAbsences\nMarks\n\n\n\n\n≤ 3\n8%\n\n\n4, 5\n7%\n\n\n6, 7\n6%\n\n\n8, 9\n4%\n\n\n10, 11\n2%\n\n\n≥ 12\n0%"
+  },
+  {
+    "objectID": "grading.html#leave-policy",
+    "href": "grading.html#leave-policy",
+    "title": "Grading and leave",
+    "section": "Leave policy",
+    "text": "Leave policy\n\nSend an email to all three TAs while filling out the leave application form.\n\nDrishti 24210033@iitgn.ac.in\nPalak Gupta 24250063@iitgn.ac.in\nShataxi Dubey shataxi.dubey@iitgn.ac.in\n\nSending an email makes sure your request is processed faster.\nUse the subject line \"ES114 Leave Request\" in your email, exactly in this format.\nFor long leave requests, include all three TAs in CC and ask the instructor for permission in the same email."
+  },
+  {
     "objectID": "tentative.html",
     "href": "tentative.html",
-    "title": "Tentative Deadlines",
+    "title": "Deadlines",
     "section": "",
-    "text": "Date\nDay\nEvent\n\n\n\n\n15 January\nWednesday\nAssignment 1 Viva\n\n\n29 January\nWednesday\nAssignment 2 Viva\n\n\n5 February\nWednesday\nQuiz 1\n\n\n19 February\nWednesday\nAssignment 3 Viva\n\n\n25 February\nTuesday\nAssignment 4 Submission (Exposition)\n\n\n3 March\nMonday\nMid-Sem Theory Exam (Quiz 2)\n\n\n26 March\nWednesday\nAssignment 5 Viva\n\n\n9 April\nWednesday\nQuiz 3\n\n\n16 April\nWednesday\nAssignment 6 Viva\n\n\n24-30 April\n–\nEnd-Sem Theory Exam (Quiz 4)"
+    "text": "All of these have taken place. The lecture library lists the quizzes and vivas in course order.\n\n\n\nDate\nDay\nEvent\n\n\n\n\n15 January\nWednesday\nAssignment 1 viva\n\n\n29 January\nWednesday\nAssignment 2 viva\n\n\n5 February\nWednesday\nQuiz 1\n\n\n19 February\nWednesday\nAssignment 3 viva\n\n\n25 February\nTuesday\nAssignment 4 submission (exposition)\n\n\n3 March\nMonday\nMid-semester theory exam (quiz 2)\n\n\n26 March\nWednesday\nAssignment 5 viva\n\n\n9 April\nWednesday\nQuiz 3\n\n\n16 April\nWednesday\nAssignment 6 viva\n\n\n24 to 30 April\n\nEnd-semester theory exam (quiz 4)"
+  },
+  {
+    "objectID": "slides/transformation.html",
+    "href": "slides/transformation.html",
+    "title": "Uniform Distribution Transformation",
+    "section": "",
+    "text": "import torch\nimport matplotlib.pyplot as plt\n\n%matplotlib inline\n%config InlineBackend.figure_format = 'retina'\na, b = 1, 3\nnum_samples = 100000\n\nuniform_dist = torch.distributions.Uniform(a, b)\nX_samples = uniform_dist.sample((num_samples,))\n\nY_samples = X_samples ** 2\n\ny_values = torch.linspace(a**2, b**2, 500)\nf_Y = 1 / (2 * torch.sqrt(y_values) * (b - a))\n\nfig, axes = plt.subplots(1, 2, figsize=(12, 6), sharey=True)\n\naxes[0].hist(X_samples.numpy(), bins=50, density=True, alpha=0.6, label=\"Empirical PDF\")\naxes[0].axhline(1 / (b - a), color='r', linestyle='--', label=\"Theoretical PDF\")\naxes[0].set_xlabel(\"X ~ Uniform(a, b)\")\naxes[0].set_ylabel(\"Density\")\naxes[0].set_title(\"PDF of Uniform(a, b)\")\naxes[0].legend()\naxes[0].grid()\n\naxes[1].hist(Y_samples.numpy(), bins=50, density=True, alpha=0.6, label=\"Empirical PDF\")\naxes[1].plot(y_values.numpy(), f_Y.numpy(), 'r-', label=\"Theoretical PDF\")\naxes[1].set_xlabel(\"Y = X^2\")\naxes[1].set_ylabel(\"Density\")\naxes[1].set_title(\"Transformation of Uniform(a, b) via Y = X^2\")\naxes[1].legend()\naxes[1].grid()\nplt.tight_layout()\nplt.show()\n\\(Y = X^2 \\Rightarrow X = \\sqrt{Y}\\) or \\(X = -\\sqrt{Y}\\)\nSince \\(X \\in [a, b]\\) and \\(a &gt; 0\\), only the positive root is valid.\n\\[\nf_Y(y) = f_X(x(y)) \\cdot \\left|\\frac{dx}{dy}\\right| = f_X(\\sqrt{y}) \\cdot \\frac{1}{2\\sqrt{y}}\n\\] And since \\(f_X(x) = \\frac{1}{b - a}\\) (for uniform),\n\\[\nf_Y(y) = \\frac{1}{b - a} \\cdot \\frac{1}{2\\sqrt{y}}, \\quad \\text{for } y \\in [a^2, b^2]\n\\]\n\\[\nf_Y(y) = \\frac{1}{2(b - a)\\sqrt{y}}, \\quad y \\in [a^2, b^2]\n\\]"
+  },
+  {
+    "objectID": "slides/transformation.html#exponentional-rv",
+    "href": "slides/transformation.html#exponentional-rv",
+    "title": "Uniform Distribution Transformation",
+    "section": "Exponentional RV",
+    "text": "Exponentional RV\n\\[\nf_X(x) = \\lambda e^{-\\lambda x}, \\quad x \\ge 0\n\\]\n\\[\nF_X(x) = 1 - e^{-\\lambda x}\n\\]\n\\[\nF_X^{-1}(u) = -\\frac{\\ln(1 - u)}{\\lambda}\n\\]\n\nlambda_ = 1.0\nn_samples = 10000\n\n# Sample from Uniform(0,1)\nu = torch.rand(n_samples)\n\n# Apply inverse CDF of exponential\nsamples = -torch.log(1 - u) / lambda_\n\n# True distribution using torch.distributions\nexp_dist = torch.distributions.Exponential(rate=lambda_)\n\nx_vals = torch.linspace(0, 6, 100)\npdf_vals = exp_dist.log_prob(x_vals).exp()  # f_X(x) = λ e^(-λx)\n\nplt.figure(figsize=(8, 5))\nplt.hist(samples.numpy(), bins=50, density=True, alpha=0.6, label=\"Inverse CDF Samples\")\nplt.plot(x_vals.numpy(), pdf_vals.numpy(), 'r-', label=\"True Exponential PDF\")\nplt.title(\"Inverse Transform Sampling using PyTorch\")\nplt.xlabel(\"x\")\nplt.ylabel(\"Density\")\nplt.legend()\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "Frequently asked questions",
+    "section": "",
+    "text": "What are the prerequisites?\n\n\n\n\n\nThe course has no formal prerequisites, like all courses at IITGN. It assumes a basic understanding of programming in Python.\n\n\n\n\n\n\n\n\n\nWhat is the prerequisite exam?\n\n\n\n\n\nAn exam we designed to make sure you have the background needed for the course.\n\n\n\n\n\n\n\n\n\nHow can I prepare for the prerequisite exam?\n\n\n\n\n\nYour UG course material should be enough to prepare for it.\n\n\n\n\n\n\n\n\n\nWhat happens if I do not clear the prerequisite exam?\n\n\n\n\n\nYou will not be allowed to take the course.\n\n\n\n\n\n\n\n\n\nWhat does \"clear\" the exam mean?\n\n\n\n\n\nAs in all courses at IITGN, the instructor decides the cut-off, and you have to score above it. The cut-off is not revealed to students in advance."
+  },
+  {
+    "objectID": "faq.html#prerequisites",
+    "href": "faq.html#prerequisites",
+    "title": "Frequently asked questions",
+    "section": "",
+    "text": "What are the prerequisites?\n\n\n\n\n\nThe course has no formal prerequisites, like all courses at IITGN. It assumes a basic understanding of programming in Python.\n\n\n\n\n\n\n\n\n\nWhat is the prerequisite exam?\n\n\n\n\n\nAn exam we designed to make sure you have the background needed for the course.\n\n\n\n\n\n\n\n\n\nHow can I prepare for the prerequisite exam?\n\n\n\n\n\nYour UG course material should be enough to prepare for it.\n\n\n\n\n\n\n\n\n\nWhat happens if I do not clear the prerequisite exam?\n\n\n\n\n\nYou will not be allowed to take the course.\n\n\n\n\n\n\n\n\n\nWhat does \"clear\" the exam mean?\n\n\n\n\n\nAs in all courses at IITGN, the instructor decides the cut-off, and you have to score above it. The cut-off is not revealed to students in advance."
+  },
+  {
+    "objectID": "faq.html#laptop-policy",
+    "href": "faq.html#laptop-policy",
+    "title": "Frequently asked questions",
+    "section": "Laptop policy",
+    "text": "Laptop policy\n\n\n\n\n\n\nCan I use my laptop or phone in class?\n\n\n\n\n\nNo. You may not use your laptop or phone in class for any reason, unless it is a lab session where the instructor has explicitly allowed laptops."
+  },
+  {
+    "objectID": "faq.html#quizzes",
+    "href": "faq.html#quizzes",
+    "title": "Frequently asked questions",
+    "section": "Quizzes",
+    "text": "Quizzes\n\n\n\n\n\n\nWhat happens if I miss a quiz for any reason?\n\n\n\n\n\n\nThe quiz is marked 0.\nThe best 3 of 4 rule is designed with such cases in mind.\n\n\n\n\n\n\n\n\n\n\nAre the quizzes and the end-semester exam open book? Can I bring notes?\n\n\n\n\n\nNo. The exams and quizzes are closed book, and you may not bring notes.\n\n\n\n\n\n\n\n\n\nHow soon do I get my answer sheets back?\n\n\n\n\n\nExpect them back in 4 to 5 working days.\n\n\n\n\n\n\n\n\n\nIs there a mid-semester or end-semester exam?\n\n\n\n\n\n2 of the 4 quizzes are held in the mid-semester and end-semester slots. The other two are held during the semester.\n\n\n\n\n\n\n\n\n\nAre the quizzes multiple choice or written?\n\n\n\n\n\nA quiz may have both multiple-choice and written questions."
+  },
+  {
+    "objectID": "faq.html#assignments",
+    "href": "faq.html#assignments",
+    "title": "Frequently asked questions",
+    "section": "Assignments",
+    "text": "Assignments\n\n\n\n\n\n\nWhat happens if I miss an assignment for any reason?\n\n\n\n\n\nThere are no extensions for assignments.\n\n\n\n\n\n\n\n\n\nI have a doubt about an assignment. Whom should I write to?\n\n\n\n\n\nAsk on the Slack #assignments channel. If you get no response within 2 days, write to the course instructor.\n\n\n\n\n\n\n\n\n\nI do not know Python. Can I write the assignments in another language?\n\n\n\n\n\nNo. You have to use Python.\n\n\n\n\n\n\n\n\n\nHow are assignments evaluated?\n\n\n\n\n\nEach assignment is followed by a viva. The TAs first check the code against the submission; any change from the submitted code is not allowed, and any instance of it leads to a warning. The TAs then run the code and ask a few questions: about 75% on the assignment itself and about 25% on the theory behind the concepts it covers.\n\n\n\n\n\n\n\nAssignment marks\nShare\n\n\n\n\nCode runs correctly and solves the problem\n50%\n\n\nQuestions on the assignment and your understanding of the code\n25%\n\n\nCode quality\n12.5%\n\n\nQuestions on the theory behind the concepts in the assignment\n12.5%\n\n\n\n\n\n\n\n\n\n\n\n\nAre assignments individual or in groups?\n\n\n\n\n\nIn groups. All members of a team get the same grade for the assignment."
+  },
+  {
+    "objectID": "faq.html#attendance",
+    "href": "faq.html#attendance",
+    "title": "Frequently asked questions",
+    "section": "Attendance",
+    "text": "Attendance\n\n\n\n\n\n\nWhat is the attendance policy?\n\n\n\n\n\nAttendance is set out in the grading policy."
+  },
+  {
+    "objectID": "faq.html#audit-policy",
+    "href": "faq.html#audit-policy",
+    "title": "Frequently asked questions",
+    "section": "Audit policy",
+    "text": "Audit policy\n\n\n\n\n\n\nCan I audit the course?\n\n\n\n\n\nYou are free to attend the lectures. However, with a limited number of TAs and a large number of students, we cannot grade your submissions, and you cannot formally contribute to any team's assignments."
+  },
+  {
+    "objectID": "faq.html#computational-resources",
+    "href": "faq.html#computational-resources",
+    "title": "Frequently asked questions",
+    "section": "Computational resources",
+    "text": "Computational resources\n\n\n\n\n\n\nWill we get cloud credits?\n\n\n\n\n\nTypically we have been kindly given Google Cloud credits. We will update this section once we have them. The credits are more than enough for the assignments."
   }
 ]
