@@ -1,85 +1,86 @@
 ---
-title: "ES 114 Probability, Statistics and Data Visualization"
+title: "ES 114: Probability, statistics and data visualization"
+subtitle: "January 2025 · IIT Gandhinagar"
 ---
 
-
-![](images/psdv_logo.svg)
-
-::: {.callout-tip}
-## Summary
-
-* Instructors: 
-    1. Nipun Batra <nipun.batra@iitgn.ac.in>
-        * Office: AB13/401C
-        * [YouTube video](https://www.youtube.com/shorts/FmCbCkJQN1g) showing the directions to my office
-        * [HomePage](https://nipunbatra.github.io/)
-    2. Manisha Padala <manisha.padala@iitgn.ac.in>
-        * Office: AB13/405C 
-        * [HomePage](https://sites.google.com/view/manishapadala/home)
-
-
-* Teaching Assistants: 
-    * Ayush Shrivastava <shrivastavaayush@iitgn.ac.in>
-    * Risabh Mondal <rishabh.mondal@iitgn.ac.in>
-    * Abhyudaya Nair <24210005@iitgn.ac.in>
-    * Alay Patel <alay.patel@iitgn.ac.in>
-    * Ashish Rawat <ashish.rawat@iitgn.ac.in>
-    * Balkrishna Sehra <24210022@iitgn.ac.in>
-    * Charan Teja <24210056@iitgn.ac.in>
-    * Chetana Dubey <24250030@iitgn.ac.in>
-    * Dekka Muni Kumar <24210028@iitgn.ac.in>
-    * Dhruv Patel <dhruv.patel@iitgn.ac.in>
-    * Diya <24210032@iitgn.ac.in>
-    * Drishti <24210033@iitgn.ac.in>
-    * Indrayudh	Mandal <24210041@iitgn.ac.in>
-    * Jenil	Patel <24210048@iitgn.ac.in>
-    * Kaloori Shiva Prasad <24250041@iitgn.ac.in>
-    * Manish Bairwa	<manish.bairwa@iitgn.ac.in>
-    * Mithlesh Singla <24210063@iitgn.ac.in>
-    * Palak Gupta <24250063@iitgn.ac.in>
-    * Sawan	Verma <sawan.verma@iitgn.ac.in>
-    * Shataxi Dubey <shataxi.dubey@iitgn.ac.in>
-    * Shivansh Gupta <24250086@iitgn.ac.in>
-    * Suruchi Hardaha <24250097@iitgn.ac.in>
-    * Vinayak Rana <24210114@iitgn.ac.in>
-    * Aadya Arora <aadya.arora@iitgn.ac.in>
-    * Abhishek Kushwaha	<abhishek.kushwaha@iitgn.ac.in>
-    * Aryan Sahu <aryan.sahu@iitgn.ac.in>
-    * Bhavik Patel <bhavik.patel@iitgn.ac.in>
-    * Bhoumik Patidar <bhoumik.patidar@iitgn.ac.in>
-    * Dewansh Chandel <dewanshsingh.chandel@iitgn.ac.in>
-    * Dewansh Kumar	<dewansh.kumar@iitgn.ac.in>
-    * Guntas Singh Saran <guntassingh.saran@iitgn.ac.in>
-    * Shreyans Jain <shreyans.jain@iitgn.ac.in>
-    * Vamsi Srivathsa <vamsi.srivathsa@iitgn.ac.in>
-    * Viraj Vekaria <viraj.vekaria@iitgn.ac.in>
-    * Yash Bachwana <yash.bachwana@iitgn.ac.in>
-
-* Class Venue and Timings:
-    * Lecture : Jasubhai Auditorium, Monday, 8:30 AM - 10:00 AM (A1 slot)
-    * Labs : Jasubhai Auditorium, Computer Labs (A2, D1 slots) -- more details soon
-
-* Communications
-    * All communications will  be handled via slack. Join using the link [here](https://join.slack.com/t/es1142025/shared_invite/zt-2w15bop68-YdIMFQxAdUGFvOE7R3FM1Q)
-
-
+::: {.lead}
+A first-year course on reasoning with uncertainty and data: working with data in Python (NumPy, Pandas and
+Matplotlib), sets and probability, conditional probability and Bayes' theorem, random variables and their
+distributions, expectation and variance, joint distributions, sums of random variables, the law of large numbers,
+and random vectors and principal component analysis. Every lecture's slides, notebooks, cheat sheet and short
+videos are in the [lecture library](lectures.qmd).
 :::
 
+All communication is on the course Slack:
+[join the ES 114 workspace](https://join.slack.com/t/es1142025/shared_invite/zt-2w15bop68-YdIMFQxAdUGFvOE7R3FM1Q).
 
-### Pre-requisites:
+::: {.callout-note}
+## Course information
 
-* None, First Year Undergrad Course
+**Instructors:**
 
+1. Nipun Batra <nipun.batra@iitgn.ac.in>  
+   Office: AB13/401C  
+   [Directions to office](https://www.youtube.com/shorts/FmCbCkJQN1g) (YouTube video) · [Home page](https://nipunbatra.github.io/)
+2. Manisha Padala <manisha.padala@iitgn.ac.in>  
+   Office: AB13/405C  
+   [Home page](https://sites.google.com/view/manishapadala/home)
 
-### Reference textbooks:
+**Class venue and timings:**
 
-1. Chan, Stanley. “Introduction to Probability for Data Science.” The University of Michigan Library, Michigan Publishing (2021). [Free Digital Copy](https://probability4datascience.com/)
-2. Adhikari, Ani, John DeNero, and D. Wagner. "Computational and Inferential Thinking: The Foundations of Data Science." Second Edition. The University of California, Berkeley (2019). [Free Digital Copy](https://inferentialthinking.com/chapters/intro.html)
-3. Deisenroth, Marc Peter, A. Aldo Faisal, and Cheng Soon Ong. Mathematics for Machine Learning. Cambridge University Press, 2020. [Free Digital Copy](https://mml-book.github.io/)
+- Lecture: Jasubhai Auditorium, Monday, 8:30 AM to 10:00 AM (A1 slot)
+- Labs: Jasubhai Auditorium, Computer Labs (A2, D1 slots); more details soon
+
+**Teaching assistants:**
+
+- Ayush Shrivastava <shrivastavaayush@iitgn.ac.in>
+- Risabh Mondal <rishabh.mondal@iitgn.ac.in>
+- Abhyudaya Nair <24210005@iitgn.ac.in>
+- Alay Patel <alay.patel@iitgn.ac.in>
+- Ashish Rawat <ashish.rawat@iitgn.ac.in>
+- Balkrishna Sehra <24210022@iitgn.ac.in>
+- Charan Teja <24210056@iitgn.ac.in>
+- Chetana Dubey <24250030@iitgn.ac.in>
+- Dekka Muni Kumar <24210028@iitgn.ac.in>
+- Dhruv Patel <dhruv.patel@iitgn.ac.in>
+- Diya <24210032@iitgn.ac.in>
+- Drishti <24210033@iitgn.ac.in>
+- Indrayudh	Mandal <24210041@iitgn.ac.in>
+- Jenil	Patel <24210048@iitgn.ac.in>
+- Kaloori Shiva Prasad <24250041@iitgn.ac.in>
+- Manish Bairwa	<manish.bairwa@iitgn.ac.in>
+- Mithlesh Singla <24210063@iitgn.ac.in>
+- Palak Gupta <24250063@iitgn.ac.in>
+- Sawan	Verma <sawan.verma@iitgn.ac.in>
+- Shataxi Dubey <shataxi.dubey@iitgn.ac.in>
+- Shivansh Gupta <24250086@iitgn.ac.in>
+- Suruchi Hardaha <24250097@iitgn.ac.in>
+- Vinayak Rana <24210114@iitgn.ac.in>
+- Aadya Arora <aadya.arora@iitgn.ac.in>
+- Abhishek Kushwaha	<abhishek.kushwaha@iitgn.ac.in>
+- Aryan Sahu <aryan.sahu@iitgn.ac.in>
+- Bhavik Patel <bhavik.patel@iitgn.ac.in>
+- Bhoumik Patidar <bhoumik.patidar@iitgn.ac.in>
+- Dewansh Chandel <dewanshsingh.chandel@iitgn.ac.in>
+- Dewansh Kumar	<dewansh.kumar@iitgn.ac.in>
+- Guntas Singh Saran <guntassingh.saran@iitgn.ac.in>
+- Shreyans Jain <shreyans.jain@iitgn.ac.in>
+- Vamsi Srivathsa <vamsi.srivathsa@iitgn.ac.in>
+- Viraj Vekaria <viraj.vekaria@iitgn.ac.in>
+- Yash Bachwana <yash.bachwana@iitgn.ac.in>
+:::
+
+## Prerequisites
+
+None. This is a first-year undergraduate course.
+
+## Reference textbooks
+
+1. Chan, Stanley. "Introduction to Probability for Data Science." The University of Michigan Library, Michigan Publishing (2021). [Free digital copy](https://probability4datascience.com/)
+2. Adhikari, Ani, John DeNero, and D. Wagner. "Computational and Inferential Thinking: The Foundations of Data Science." Second Edition. The University of California, Berkeley (2019). [Free digital copy](https://inferentialthinking.com/chapters/intro.html)
+3. Deisenroth, Marc Peter, A. Aldo Faisal, and Cheng Soon Ong. Mathematics for Machine Learning. Cambridge University Press, 2020. [Free digital copy](https://mml-book.github.io/)
 4. Spiegelhalter, David. The Art of Statistics: Learning from Data. Penguin UK, 2019.
-5. Rougier, Nicolas. Scientific Visualization: Python+ Matplotlib. 2021. [Free Digital Copy](https://github.com/rougier/scientific-visualization-book)
-
-
+5. Rougier, Nicolas. Scientific Visualization: Python + Matplotlib. 2021. [Free digital copy](https://github.com/rougier/scientific-visualization-book)
 
 <!-- ### Some other ML courses
 
@@ -89,4 +90,3 @@ title: "ES 114 Probability, Statistics and Data Visualization"
 4.  [FAST.ai course on ML](https://course.fast.ai/ml)
 5.  [Practical deep learning for coders by FAST.ai](https://course.fast.ai/index.html)
 6.  [Course by Alex Ihler, UCI](http://sli.ics.uci.edu/Classes/2015W-273a) -->
-

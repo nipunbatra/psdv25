@@ -1,17 +1,18 @@
 ---
-title: "Tentative Deadlines"
+title: "Deadlines"
 ---
 
-| **Date**           | **Day**       | **Event**                          |
-|---------------------|---------------|-------------------------------------|
-| [15 January]{style="color:green;"}         | [Wednesday]{style="color:green;"}     | [Assignment 1 Viva]{style="color:green;"}                  |
-| [29 January]{style="color:green;"}          | [Wednesday]{style="color:green;"}     | [Assignment 2 Viva]{style="color:green;"}                  |
-| [5 February]{style="color:green;"}          | [Wednesday]{style="color:green;"}     | [Quiz 1]{style="color:green;"}                             |
-| [19 February]{style="color:green;"}         | [Wednesday]{style="color:green;"}     | [Assignment 3 Viva]{style="color:green;"}                  |
-| [25 February]{style="color:green;"}         | [Tuesday]{style="color:green;"}       | [Assignment 4 Submission (Exposition)]{style="color:green;"}  |
-| [3 March]{style="color:green;"}             | [Monday]{style="color:green;"}        | [Mid-Sem Theory Exam (Quiz 2)]{style="color:green;"}       |
-| [26 March]{style="color:green;"}            | [Wednesday]{style="color:green;"}     | [Assignment 5 Viva]{style="color:green;"}                  |
-|[9 April]{style="color:green;"}             | [Wednesday]{style="color:green;"}     | [Quiz 3]{style="color:green;"}                             |
-| [16 April]{style="color:green;"}            | [Wednesday]{style="color:green;"}    | [Assignment 6 Viva]{style="color:green;"}                  |
-| [24-30 April]{style="color:green;"}         | [--]{style="color:green;"}             | [End-Sem Theory Exam (Quiz 4)]{style="color:green;"}       |
+All of these have taken place. The [lecture library](lectures.qmd) lists the quizzes and vivas in course order.
 
+| Date | Day | Event |
+|:--|:--|:--|
+| 15 January | Wednesday | Assignment 1 viva |
+| 29 January | Wednesday | Assignment 2 viva |
+| 5 February | Wednesday | Quiz 1 |
+| 19 February | Wednesday | Assignment 3 viva |
+| 25 February | Tuesday | Assignment 4 submission (exposition) |
+| 3 March | Monday | Mid-semester theory exam (quiz 2) |
+| 26 March | Wednesday | Assignment 5 viva |
+| 9 April | Wednesday | Quiz 3 |
+| 16 April | Wednesday | Assignment 6 viva |
+| 24 to 30 April | | End-semester theory exam (quiz 4) |

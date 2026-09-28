@@ -1,36 +1,45 @@
-# Grading Policy
-
-- Assignments: 32%
-    - 6 assignments
-    - Done in groups of **3** 
-    - Variable weight (e.g. some assignments would be 10%, some 12%, etc.)
-    - Some assignments would involve:
-        - Making pull requests to public repositories
-        - Writing Hugging Face Spaces like demos
-
-- Quizzes: 60%
-    - 20% each
-    - Best 3 out of 4
-    - If you miss a single quiz for any reason, there will be no makeups
-    - Mid-Sem and End-Sem exams are also considered quizzes
-
-
-- Attendance: 8%
-    - <= 3 absences: 8%
-    - 4 or 5 absences: 7%
-    - 6 or 7 absences: 6%
-    - 8 or 9 absences: 4%
-    - 10 or 11 absences: 2%
-    - 12 or more absences: 0% 
-
-
 ---
-# Leave Policy
+title: "Grading and leave"
+---
+
+| Component | Weight |
+|:--|--:|
+| Quizzes (best 3 of 4) | 60% |
+| Assignments | 32% |
+| Attendance | 8% |
+
+## Quizzes: 60%
+
+- There are 4 quizzes, each worth 20%.
+- The best 3 of the 4 count.
+- There are no makeup quizzes: if you miss a single quiz for any reason, it is not made up.
+- The mid-semester and end-semester exams are also quizzes.
+
+## Assignments: 32%
+
+- 6 assignments, done in groups of **3**.
+- Weights vary (for example, some assignments are 10%, some 12%).
+- Some assignments involve:
+    - making pull requests to public repositories;
+    - writing demos such as Hugging Face Spaces.
+
+## Attendance: 8%
+
+| Absences | Marks |
+|:--|--:|
+| ≤ 3 | 8% |
+| 4, 5 | 7% |
+| 6, 7 | 6% |
+| 8, 9 | 4% |
+| 10, 11 | 2% |
+| ≥ 12 | 0% |
+
+## Leave policy
 
 - Send an email to all three TAs while filling out the [leave application form](https://docs.google.com/forms/d/e/1FAIpQLSdOGovhZEoIAM8kCl7wnfJxXjk8LVdaWx5_S9fJQwmUNp76zQ/viewform?usp=dialog).
     - Drishti <24210033@iitgn.ac.in>
     - Palak Gupta <24250063@iitgn.ac.in>
     - Shataxi Dubey <shataxi.dubey@iitgn.ac.in>
- - Sending an email ensures faster processing of your request.
- - Use the subject line **"ES114 Leave Request"** in your email, strictly adhering to this format.
- - **For long leave requests, include all three TAs in CC and seek permission from Sir in the email.**
+- Sending an email makes sure your request is processed faster.
+- Use the subject line **"ES114 Leave Request"** in your email, exactly in this format.
+- **For long leave requests, include all three TAs in CC and ask the instructor for permission in the same email.**
