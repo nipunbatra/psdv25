@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lectures – ES114 - PSDV</title>
+<title>Lectures – ES 114 · Probability, Statistics and Data Visualization</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -24,36 +30,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<link href="./favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/psdv_favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-c3c2c9e745155556954bc4da23476b10.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e3ea934c98f81488709185b9628b3708.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1bcae5ab5aee94fef3bf62e18e9b5fc8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -68,77 +56,71 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&amp;display=swap" rel="stylesheet">
+<script>
+// Light and dark: follow the system unless the switch has saved a choice. Runs before the page paints.
+(() => {
+  const root = document.documentElement, key = 'psdv25-theme';
+  const mq = window.matchMedia ? matchMedia('(prefers-color-scheme: dark)') : { matches: false };
+  const get = () => { try { return localStorage.getItem(key); } catch { return null; } };
+  const set = v => { try { v ? localStorage.setItem(key, v) : localStorage.removeItem(key); } catch {} };
+  function apply() {
+    const t = get();
+    if (t === 'light' || t === 'dark') root.setAttribute('data-theme', t); else root.removeAttribute('data-theme');
+    const dark = t === 'light' || t === 'dark' ? t === 'dark' : mq.matches;
+    root.setAttribute('data-bs-theme', dark ? 'dark' : 'light');
+    document.querySelectorAll('.mode').forEach(b => {
+      b.setAttribute('aria-checked', String(dark));
+      b.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+      b.title = b.getAttribute('aria-label');
+    });
+    return dark;
+  }
+  apply();
+  if (mq.addEventListener) mq.addEventListener('change', apply);
+  window.addEventListener('storage', e => { if (e.key === key) apply(); });
+  document.addEventListener('DOMContentLoaded', () => {
+    apply();
+    document.querySelectorAll('.mode').forEach(b => b.addEventListener('click', () => {
+      const dark = b.getAttribute('aria-checked') !== 'true';
+      // A choice that matches the system clears the override, so the site keeps following the system.
+      set(dark === mq.matches ? null : (dark ? 'dark' : 'light'));
+      apply();
+    }));
+  });
+})();
+</script>
 
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="dl wide fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/psdv_logo.svg" alt="" class="navbar-logo">
-    </a>
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">ES114 - PSDV</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./grading.html"> 
-<span class="menu-text">Grading &amp; Leave Policy</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./faq.html"> 
-<span class="menu-text">FAQs</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./lectures.html"> 
-<span class="menu-text">Lectures</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./tentative.html"> 
-<span class="menu-text">Tentative Deadlines</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./videos/videos.html"> 
-<span class="menu-text">Exposition Submissions</span></a>
-  </li>  
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">---</span>
-    </span>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://nipunbatra.github.io"> 
-<span class="menu-text">Instructor’s Homepage</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
+<aside class="rail">
+  <a class="code" href="./index.html" data-page="index.html">ES 114</a>
+  <span class="inst">IIT Gandhinagar</span>
+  <div class="appearance"><button type="button" class="mode" role="switch" aria-checked="false" aria-label="Switch to dark mode"><span class="sky"></span><span class="stars"><b style="left:9px;top:6px"></b><b style="left:15px;top:15px"></b><b style="left:5px;top:17px"></b></span><span class="knob"></span></button></div>
+  <nav aria-label="Course">
+    <a href="./index.html" data-page="index.html">Home</a>
+    <a href="./schedule.html" data-page="schedule.html">Lectures</a>
+    <a href="./assessment.html" data-page="assessment.html">Assessment</a>
+    <a href="./exposition.html" data-page="exposition.html">Exposition</a>
+    <a href="./videos/videos.html" data-page="videos/videos.html">Showcase</a>
+    <a href="./faq.html" data-page="faq.html">FAQ</a>
+    <a class="ext" href="https://join.slack.com/t/es1142025/shared_invite/zt-2w15bop68-YdIMFQxAdUGFvOE7R3FM1Q" target="_blank" rel="noopener noreferrer">Slack</a>
+  </nav>
+</aside>
+<script>document.body.prepend(document.currentScript.previousElementSibling);</script>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -159,259 +141,224 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<!-- Generated in the dl-2026 format: one <tr id="lecture-N"> per lecture, resources grouped as reading (mats), videos (vids) and practice (prac). Copy an existing link to add one. -->
+<p class="lede">Each lecture lists its reading first (slides, handwritten slides and cheat sheet), then its videos, then practice: notebooks and apps. Slides marked (Chan) are from Stanley Chan's <a href="https://probability4datascience.com/"><i>Introduction to Probability for Data Science</i></a>. Notebooks and their source are in <a href="https://github.com/nipunbatra/psdv-teaching">psdv-teaching</a>, which also lists <a href="https://nipunbatra.github.io/psdv-teaching/notebooks.html">all rendered notebooks</a>.</p>
+<div class="key" aria-label="Key to resource icons"><span><svg class="ic ic-notes" viewbox="0 0 24 24" aria-hidden="true"><path d="M3 5.5c3-1.3 6-1.3 9 .8 3-2.1 6-2.1 9-.8V19c-3-1.3-6-1.3-9 .8-3-2.1-6-2.1-9-.8z"></path><path d="M12 6.3v13.5"></path></svg>Notes</span><span><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg>Slides</span><span><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg>Cheat sheet</span><span><svg class="ic ic-recording" viewbox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg>Full recording</span><span><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg>Notebook</span><span><svg class="ic ic-lab" viewbox="0 0 24 24" aria-hidden="true"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"></path><circle cx="15" cy="7" r="2"></circle><circle cx="9" cy="17" r="2"></circle></svg>Interactive lab</span><span><svg class="ic ic-code" viewbox="0 0 24 24" aria-hidden="true"><path d="m8 8-5 4 5 4M16 8l5 4-5 4M13.5 5l-3 14"></path></svg>Code</span><span><svg class="ic ic-link" viewbox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2"></path><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"></path></svg>Reading</span></div>
+<nav class="jump" aria-label="Modules"><a href="#python-for-data">Python for data<span class="num">1–5</span></a><a href="#sets-and-probability">Sets and probability<span class="num">6–11</span></a><a href="#random-variables">Random variables<span class="num">12–18</span></a><a href="#multiple-random-variables">Multiple random variables<span class="num">19–24</span></a><a href="#limits-random-vectors-and-pca">Limit theorems, random vectors and PCA<span class="num">25–27</span></a></nav>
+<div class="playlists"><a class="btn ib" href="https://www.youtube.com/watch?v=CAzR00au0T0&amp;list=PLftoLyLEwECCTFpc8_-gV8NqG_LgdL3Uy&amp;index=1" target="_blank" rel="noopener noreferrer"><svg class="ic ic-recording" viewbox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg>YouTube playlist of recordings</a><a class="btn ib" href="https://nipunbatra.github.io/teaching.html#sheets-psdv-2025" target="_blank" rel="noopener noreferrer"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg>All 15 cheat sheets</a></div>
+<div class="lectures">
+<section class="mod" id="python-for-data" aria-labelledby="python-for-data-title"><div class="mod-h"><h2 id="python-for-data-title">Python for data</h2><span class="r">Lectures 1–5</span></div>
+<table class="lt" data-quarto-disable-processing="true"><tbody>
+<tr id="lecture-1"><td class="no"><span class="visually-hidden">Lecture </span>01</td><td class="topic"><h3 id="lecture-1-title">Introduction and logistics</h3></td>
+<td class="res"></td></tr>
+<tr id="lecture-2"><td class="no"><span class="visually-hidden">Lecture </span>02</td><td class="topic"><h3 id="lecture-2-title">NumPy</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS01-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: NumPy and pandas, lecture 2"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: NumPy and pandas</span></a></div><div class="rl vids"><a class="r r-recording" href="https://www.youtube.com/watch?v=CAzR00au0T0" target="_blank" rel="noopener noreferrer" aria-label="Video: Introduction to NumPy, lecture 2"><svg class="ic ic-recording" viewbox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg><span class="t">Video: Introduction to NumPy</span></a></div><div class="rl prac"><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/intro-numpy.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook, lecture 2"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook</span></a></div></td></tr>
+<tr id="lab-1"><td class="no"><span aria-hidden="true">·</span></td><td class="topic"><h3 id="lab-1-title">Lab 1: NumPy</h3></td>
+<td class="res"><div class="rl prac"><a class="r r-notebook" href="https://colab.research.google.com/drive/169vg_FV35sJ8irVXU82RrTwlR762Ph2g?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Colab notebook, lecture 2"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Colab notebook</span></a></div></td></tr>
+<tr id="lecture-3"><td class="no"><span class="visually-hidden">Lecture </span>03</td><td class="topic"><h3 id="lecture-3-title">Pandas</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS01-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: NumPy and pandas, lecture 3"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: NumPy and pandas</span></a></div><div class="rl vids"><a class="r r-recording" href="https://www.youtube.com/watch?v=iaQDhwFkAhA" target="_blank" rel="noopener noreferrer" aria-label="Video: Introduction to pandas, lecture 3"><svg class="ic ic-recording" viewbox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg><span class="t">Video: Introduction to pandas</span></a></div><div class="rl prac"><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-pandas.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook, lecture 3"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook</span></a></div></td></tr>
+<tr id="lecture-4"><td class="no"><span class="visually-hidden">Lecture </span>04</td><td class="topic"><h3 id="lecture-4-title">Matplotlib</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS02-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Plotting and honest charts, lecture 4"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Plotting and honest charts</span></a></div><div class="rl vids"><a class="r r-recording" href="https://www.youtube.com/watch?v=ERu46g5EzVk" target="_blank" rel="noopener noreferrer" aria-label="Video: Introduction to Matplotlib, lecture 4"><svg class="ic ic-recording" viewbox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg><span class="t">Video: Introduction to Matplotlib</span></a></div><div class="rl prac"><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-matplotlib.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook, lecture 4"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook</span></a></div></td></tr>
+<tr id="lab-2"><td class="no"><span aria-hidden="true">·</span></td><td class="topic"><h3 id="lab-2-title">Lab 2: Pandas</h3><p class="sub">Held over two lab sessions.</p></td>
+<td class="res"><div class="rl prac"><a class="r r-notebook" href="https://colab.research.google.com/drive/1pmt8hSfwzhp8ke3uXsGrOt4XELdoTmr1?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Colab notebook, lecture 4"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Colab notebook</span></a></div></td></tr>
+<tr id="lecture-5"><td class="no"><span class="visually-hidden">Lecture </span>05</td><td class="topic"><h3 id="lecture-5-title">Jupyter widgets</h3></td>
+<td class="res"><div class="rl vids"><a class="r r-recording" href="https://www.youtube.com/watch?v=BJAaZaKxf00" target="_blank" rel="noopener noreferrer" aria-label="Video: Jupyter widgets tutorial, lecture 5"><svg class="ic ic-recording" viewbox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg><span class="t">Video: Jupyter widgets tutorial</span></a></div><div class="rl prac"><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/widgets.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook, lecture 5"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook</span></a></div></td></tr>
+</tbody></table></section>
+
+<section class="mod" id="sets-and-probability" aria-labelledby="sets-and-probability-title"><div class="mod-h"><h2 id="sets-and-probability-title">Sets and probability</h2><span class="r">Lectures 6–11</span></div>
+<table class="lt" data-quarto-disable-processing="true"><tbody>
+<tr id="lecture-6"><td class="no"><span class="visually-hidden">Lecture </span>06</td><td class="topic"><h3 id="lecture-6-title">Set theory</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_2_01.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides (Chan), lecture 6"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides (Chan)</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS03-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Sets, sample spaces and events, lecture 6"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Sets, sample spaces and events</span></a></div><div class="rl prac"><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/set.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook, lecture 6"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook</span></a></div></td></tr>
+<tr id="lecture-7"><td class="no"><span class="visually-hidden">Lecture </span>07</td><td class="topic"><h3 id="lecture-7-title">More set theory questions</h3></td>
+<td class="res"><div class="rl prac"><a class="r r-notebook" href="https://colab.research.google.com/drive/1RrjF2VZDcst0iUgW5zrpsBy-VWUfjtkJ?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Colab notebook, lecture 7"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Colab notebook</span></a></div></td></tr>
+<tr id="lecture-8"><td class="no"><span class="visually-hidden">Lecture </span>08</td><td class="topic"><h3 id="lecture-8-title">Set theory (continued)</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_2_01.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides (Chan), lecture 8"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides (Chan)</span></a><a class="r r-notes" href="slides/Set-Theory_27Jan.pdf" target="_blank" rel="noopener noreferrer" aria-label="Handwritten slides, lecture 8"><svg class="ic ic-notes" viewbox="0 0 24 24" aria-hidden="true"><path d="M3 5.5c3-1.3 6-1.3 9 .8 3-2.1 6-2.1 9-.8V19c-3-1.3-6-1.3-9 .8-3-2.1-6-2.1-9-.8z"></path><path d="M12 6.3v13.5"></path></svg><span class="t">Handwritten slides</span></a></div></td></tr>
+<tr id="lecture-9"><td class="no"><span class="visually-hidden">Lecture </span>09</td><td class="topic"><h3 id="lecture-9-title">Probability</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_2_02.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides, part 1 (Chan), lecture 9"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides, part 1 (Chan)</span></a><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_2_03.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides, part 2 (Chan), lecture 9"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides, part 2 (Chan)</span></a><a class="r r-notes" href="slides/Probability_28Jan.pdf" target="_blank" rel="noopener noreferrer" aria-label="Handwritten slides, lecture 9"><svg class="ic ic-notes" viewbox="0 0 24 24" aria-hidden="true"><path d="M3 5.5c3-1.3 6-1.3 9 .8 3-2.1 6-2.1 9-.8V19c-3-1.3-6-1.3-9 .8-3-2.1-6-2.1-9-.8z"></path><path d="M12 6.3v13.5"></path></svg><span class="t">Handwritten slides</span></a></div></td></tr>
+<tr id="lecture-10"><td class="no"><span class="visually-hidden">Lecture </span>10</td><td class="topic"><h3 id="lecture-10-title">Conditional probability and independence</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_2_04.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides: Conditional probability (Chan), lecture 10"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides: Conditional probability (Chan)</span></a><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_2_05.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides: Independence (Chan), lecture 10"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides: Independence (Chan)</span></a><a class="r r-notes" href="slides/Conditional_Bayes_3_4Feb.pdf" target="_blank" rel="noopener noreferrer" aria-label="Handwritten slides, lecture 10"><svg class="ic ic-notes" viewbox="0 0 24 24" aria-hidden="true"><path d="M3 5.5c3-1.3 6-1.3 9 .8 3-2.1 6-2.1 9-.8V19c-3-1.3-6-1.3-9 .8-3-2.1-6-2.1-9-.8z"></path><path d="M12 6.3v13.5"></path></svg><span class="t">Handwritten slides</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS05-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Conditional probability, independence and Bayes' rule, lecture 10"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Conditional probability, independence and Bayes' rule</span></a></div></td></tr>
+<tr id="lecture-11"><td class="no"><span class="visually-hidden">Lecture </span>11</td><td class="topic"><h3 id="lecture-11-title">Bayes' theorem and total probability</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_2_06.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides (Chan), lecture 11"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides (Chan)</span></a><a class="r r-notes" href="slides/Conditional_Bayes_3_4Feb.pdf" target="_blank" rel="noopener noreferrer" aria-label="Handwritten slides (continued), lecture 11"><svg class="ic ic-notes" viewbox="0 0 24 24" aria-hidden="true"><path d="M3 5.5c3-1.3 6-1.3 9 .8 3-2.1 6-2.1 9-.8V19c-3-1.3-6-1.3-9 .8-3-2.1-6-2.1-9-.8z"></path><path d="M12 6.3v13.5"></path></svg><span class="t">Handwritten slides (continued)</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS05-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Conditional probability, independence and Bayes' rule, lecture 11"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Conditional probability, independence and Bayes' rule</span></a></div></td></tr>
+</tbody></table></section>
+
+<section class="mod" id="random-variables" aria-labelledby="random-variables-title"><div class="mod-h"><h2 id="random-variables-title">Random variables</h2><span class="r">Lectures 12–18</span></div>
+<table class="lt" data-quarto-disable-processing="true"><tbody>
+<tr id="lecture-12"><td class="no"><span class="visually-hidden">Lecture </span>12</td><td class="topic"><h3 id="lecture-12-title">Random variables</h3><p class="sub">With a discussion of Quiz 1.</p></td>
+<td class="res"><div class="rl mats"><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_3_01.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides (Chan), lecture 12"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides (Chan)</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS06-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Random variables and PMFs, lecture 12"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Random variables and PMFs</span></a></div></td></tr>
+<tr id="lecture-13"><td class="no"><span class="visually-hidden">Lecture </span>13</td><td class="topic"><h3 id="lecture-13-title">Probability mass function</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_3_02.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides (Chan), lecture 13"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides (Chan)</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS06-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Random variables and PMFs, lecture 13"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Random variables and PMFs</span></a></div><div class="rl vids"><a class="r r-recording" href="https://www.youtube.com/watch?v=_VU6QMC6XE0" target="_blank" rel="noopener noreferrer" aria-label="Video: PyTorch distributions (discrete), lecture 13"><svg class="ic ic-recording" viewbox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg><span class="t">Video: PyTorch distributions (discrete)</span></a></div><div class="rl prac"><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/pmf-discrete.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook, lecture 13"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook</span></a></div></td></tr>
+<tr id="lecture-14"><td class="no"><span class="visually-hidden">Lecture </span>14</td><td class="topic"><h3 id="lecture-14-title">Discrete random variables and expectation</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_3_04.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides (Chan), lecture 14"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides (Chan)</span></a><a class="r r-notes" href="slides/Expectation-Moments-PMF_17_18Feb.pdf" target="_blank" rel="noopener noreferrer" aria-label="Handwritten slides: expectation and moments of PMFs, lecture 14"><svg class="ic ic-notes" viewbox="0 0 24 24" aria-hidden="true"><path d="M3 5.5c3-1.3 6-1.3 9 .8 3-2.1 6-2.1 9-.8V19c-3-1.3-6-1.3-9 .8-3-2.1-6-2.1-9-.8z"></path><path d="M12 6.3v13.5"></path></svg><span class="t">Handwritten slides: expectation and moments of PMFs</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS07-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Discrete distributions, lecture 14"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Discrete distributions</span></a></div><div class="rl vids"><a class="r r-link" href="https://www.youtube.com/watch?v=sVBOSwT5K8I" target="_blank" rel="noopener noreferrer" aria-label="Video: The binomial and Poisson distributions (Luis Serrano), lecture 14"><svg class="ic ic-link" viewbox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2"></path><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"></path></svg><span class="t">Video: The binomial and Poisson distributions (Luis Serrano)</span></a></div><div class="rl prac"><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/expectation.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook, lecture 14"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook</span></a></div></td></tr>
+<tr id="lecture-15"><td class="no"><span class="visually-hidden">Lecture </span>15</td><td class="topic"><h3 id="lecture-15-title">Moments</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_3_05.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides (Chan), lecture 15"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides (Chan)</span></a><a class="r r-notes" href="slides/Expectation-Moments-PMF_17_18Feb.pdf" target="_blank" rel="noopener noreferrer" aria-label="Handwritten slides (continued), lecture 15"><svg class="ic ic-notes" viewbox="0 0 24 24" aria-hidden="true"><path d="M3 5.5c3-1.3 6-1.3 9 .8 3-2.1 6-2.1 9-.8V19c-3-1.3-6-1.3-9 .8-3-2.1-6-2.1-9-.8z"></path><path d="M12 6.3v13.5"></path></svg><span class="t">Handwritten slides (continued)</span></a><a class="r r-notes" href="slides/PDF.pdf" target="_blank" rel="noopener noreferrer" aria-label="Handwritten slides: continuous random variables, lecture 15"><svg class="ic ic-notes" viewbox="0 0 24 24" aria-hidden="true"><path d="M3 5.5c3-1.3 6-1.3 9 .8 3-2.1 6-2.1 9-.8V19c-3-1.3-6-1.3-9 .8-3-2.1-6-2.1-9-.8z"></path><path d="M12 6.3v13.5"></path></svg><span class="t">Handwritten slides: continuous random variables</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS10-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Expectation and variance, lecture 15"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Expectation and variance</span></a></div></td></tr>
+<tr id="lecture-16"><td class="no"><span class="visually-hidden">Lecture </span>16</td><td class="topic"><h3 id="lecture-16-title">Continuous random variables and the coin-flip game</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS09-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Continuous distributions and densities, lecture 16"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Continuous distributions and densities</span></a></div><div class="rl prac"><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/expectation.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook: Expectation, lecture 16"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook: Expectation</span></a><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/pdf-continuous.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook: PDF of a continuous random variable, lecture 16"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook: PDF of a continuous random variable</span></a></div></td></tr>
+<tr id="lecture-17"><td class="no"><span class="visually-hidden">Lecture </span>17</td><td class="topic"><h3 id="lecture-17-title">Expectation and moments of continuous random variables</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-notes" href="slides/Expectation-Moment-PDF_24_25Feb.pdf" target="_blank" rel="noopener noreferrer" aria-label="Handwritten slides: expectation and moments of PDFs, lecture 17"><svg class="ic ic-notes" viewbox="0 0 24 24" aria-hidden="true"><path d="M3 5.5c3-1.3 6-1.3 9 .8 3-2.1 6-2.1 9-.8V19c-3-1.3-6-1.3-9 .8-3-2.1-6-2.1-9-.8z"></path><path d="M12 6.3v13.5"></path></svg><span class="t">Handwritten slides: expectation and moments of PDFs</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS10-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Expectation and variance, lecture 17"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Expectation and variance</span></a></div><div class="rl prac"><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/expectation.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook: Expectation (continued), lecture 17"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook: Expectation (continued)</span></a><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/pdf-continuous.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook: PDF of a continuous random variable (continued), lecture 17"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook: PDF of a continuous random variable (continued)</span></a></div></td></tr>
+<tr id="lecture-18"><td class="no"><span class="visually-hidden">Lecture </span>18</td><td class="topic"><h3 id="lecture-18-title">Cumulative distribution function</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-notes" href="slides/CDF_17Mar.pdf" target="_blank" rel="noopener noreferrer" aria-label="Handwritten slides: CDF, lecture 18"><svg class="ic ic-notes" viewbox="0 0 24 24" aria-hidden="true"><path d="M3 5.5c3-1.3 6-1.3 9 .8 3-2.1 6-2.1 9-.8V19c-3-1.3-6-1.3-9 .8-3-2.1-6-2.1-9-.8z"></path><path d="M12 6.3v13.5"></path></svg><span class="t">Handwritten slides: CDF</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS08-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: CDFs and sampling, lecture 18"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: CDFs and sampling</span></a></div><div class="rl prac"><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/cdf.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook: CDF, lecture 18"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook: CDF</span></a></div></td></tr>
+</tbody></table></section>
+
+<section class="mod" id="multiple-random-variables" aria-labelledby="multiple-random-variables-title"><div class="mod-h"><h2 id="multiple-random-variables-title">Multiple random variables</h2><span class="r">Lectures 19–24</span></div>
+<table class="lt" data-quarto-disable-processing="true"><tbody>
+<tr id="lecture-19"><td class="no"><span class="visually-hidden">Lecture </span>19</td><td class="topic"><h3 id="lecture-19-title">Joint PDF and CDF, 2D distributions and GeoGebra</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_5_01.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides: Joint PDF and CDF (Chan), lecture 19"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides: Joint PDF and CDF (Chan)</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS11-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Joint distributions, lecture 19"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Joint distributions</span></a></div><div class="rl vids"><a class="r r-link" href="https://www.youtube.com/watch?v=gifQWtTWqEY" target="_blank" rel="noopener noreferrer" aria-label="Video: How to set up double integrals, lecture 19"><svg class="ic ic-link" viewbox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2"></path><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"></path></svg><span class="t">Video: How to set up double integrals</span></a><a class="r r-recording" href="https://www.youtube.com/watch?v=UuoVhUqWAFc" target="_blank" rel="noopener noreferrer" aria-label="Video: Instructor's demo on GeoGebra, lecture 19"><svg class="ic ic-recording" viewbox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg><span class="t">Video: Instructor's demo on GeoGebra</span></a></div><div class="rl prac"><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/2d-distributions.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook: 2D distributions, lecture 19"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook: 2D distributions</span></a><a class="r r-lab" href="https://huggingface.co/spaces/Nipun/2d-distributions" target="_blank" rel="noopener noreferrer" aria-label="Hugging Face Space: 2D distributions, lecture 19"><svg class="ic ic-lab" viewbox="0 0 24 24" aria-hidden="true"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"></path><circle cx="15" cy="7" r="2"></circle><circle cx="9" cy="17" r="2"></circle></svg><span class="t">Hugging Face Space: 2D distributions</span></a></div></td></tr>
+<tr id="lecture-20"><td class="no"><span class="visually-hidden">Lecture </span>20</td><td class="topic"><h3 id="lecture-20-title">Joint expectation</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_5_02.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides: Joint expectation (Chan), lecture 20"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides: Joint expectation (Chan)</span></a><a class="r r-notes" href="slides/JointExpectation_24_25Mar.pdf" target="_blank" rel="noopener noreferrer" aria-label="Handwritten slides: joint expectation, lecture 20"><svg class="ic ic-notes" viewbox="0 0 24 24" aria-hidden="true"><path d="M3 5.5c3-1.3 6-1.3 9 .8 3-2.1 6-2.1 9-.8V19c-3-1.3-6-1.3-9 .8-3-2.1-6-2.1-9-.8z"></path><path d="M12 6.3v13.5"></path></svg><span class="t">Handwritten slides: joint expectation</span></a></div><div class="rl prac"><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/embeddings-angle.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook: Embeddings, lecture 20"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook: Embeddings</span></a></div></td></tr>
+<tr id="lecture-21"><td class="no"><span class="visually-hidden">Lecture </span>21</td><td class="topic"><h3 id="lecture-21-title">Correlation and covariance</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_5_03.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides: Covariance (Chan), lecture 21"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides: Covariance (Chan)</span></a><a class="r r-notes" href="slides/JointExpectation_24_25Mar.pdf" target="_blank" rel="noopener noreferrer" aria-label="Handwritten slides: joint expectation, lecture 21"><svg class="ic ic-notes" viewbox="0 0 24 24" aria-hidden="true"><path d="M3 5.5c3-1.3 6-1.3 9 .8 3-2.1 6-2.1 9-.8V19c-3-1.3-6-1.3-9 .8-3-2.1-6-2.1-9-.8z"></path><path d="M12 6.3v13.5"></path></svg><span class="t">Handwritten slides: joint expectation</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS12-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Covariance, correlation and the bivariate normal, lecture 21"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Covariance, correlation and the bivariate normal</span></a></div><div class="rl prac"><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/joint-distribution-properties.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook: Joint distributions, lecture 21"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook: Joint distributions</span></a></div></td></tr>
+<tr id="lecture-22"><td class="no"><span class="visually-hidden">Lecture </span>22</td><td class="topic"><h3 id="lecture-22-title">Conditional distributions</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-slides" href="slides/ConditionalDistributions_1Apr.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides, lecture 22"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS11-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Joint distributions, lecture 22"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Joint distributions</span></a></div></td></tr>
+<tr id="lecture-23"><td class="no"><span class="visually-hidden">Lecture </span>23</td><td class="topic"><h3 id="lecture-23-title">Sum of random variables</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-notes" href="slides/SumRandomVariables_2Apr.pdf" target="_blank" rel="noopener noreferrer" aria-label="Handwritten slides: sum of random variables, lecture 23"><svg class="ic ic-notes" viewbox="0 0 24 24" aria-hidden="true"><path d="M3 5.5c3-1.3 6-1.3 9 .8 3-2.1 6-2.1 9-.8V19c-3-1.3-6-1.3-9 .8-3-2.1-6-2.1-9-.8z"></path><path d="M12 6.3v13.5"></path></svg><span class="t">Handwritten slides: sum of random variables</span></a><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_5_06.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides: Sum of random variables (Chan), lecture 23"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides: Sum of random variables (Chan)</span></a><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_5_07.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides: X + Y (Chan), lecture 23"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides: X + Y (Chan)</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS13-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Sums of random variables, LLN and CLT, lecture 23"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Sums of random variables, LLN and CLT</span></a></div><div class="rl vids"><a class="r r-link" href="https://www.youtube.com/watch?v=IaSGqQa5O-M" target="_blank" rel="noopener noreferrer" aria-label="Video: Convolutions, why X+Y in probability is a beautiful mess (3Blue1Brown), lecture 23"><svg class="ic ic-link" viewbox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2"></path><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"></path></svg><span class="t">Video: Convolutions, why X+Y in probability is a beautiful mess (3Blue1Brown)</span></a></div><div class="rl prac"><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/sum-random-vars.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook: Sum of random variables, lecture 23"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook: Sum of random variables</span></a></div></td></tr>
+<tr id="lecture-24"><td class="no"><span class="visually-hidden">Lecture </span>24</td><td class="topic"><h3 id="lecture-24-title">Transformation of random variables</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-slides" href="slides/Transformation_of_Random_Variables.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides: Transformation, lecture 24"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides: Transformation</span></a></div><div class="rl prac"><a class="r r-notebook" href="slides/transformation.html" aria-label="Notebook: Transformation, lecture 24"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook: Transformation</span></a></div></td></tr>
+</tbody></table></section>
+
+<section class="mod" id="limits-random-vectors-and-pca" aria-labelledby="limits-random-vectors-and-pca-title"><div class="mod-h"><h2 id="limits-random-vectors-and-pca-title">Limit theorems, random vectors and PCA</h2><span class="r">Lectures 25–27</span></div>
+<table class="lt" data-quarto-disable-processing="true"><tbody>
+<tr id="lecture-25"><td class="no"><span class="visually-hidden">Lecture </span>25</td><td class="topic"><h3 id="lecture-25-title">Law of large numbers and inequalities</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-notes" href="slides/LLN-CLT_7Apr.pdf" target="_blank" rel="noopener noreferrer" aria-label="Handwritten slides: LLN, lecture 25"><svg class="ic ic-notes" viewbox="0 0 24 24" aria-hidden="true"><path d="M3 5.5c3-1.3 6-1.3 9 .8 3-2.1 6-2.1 9-.8V19c-3-1.3-6-1.3-9 .8-3-2.1-6-2.1-9-.8z"></path><path d="M12 6.3v13.5"></path></svg><span class="t">Handwritten slides: LLN</span></a><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_6_03.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides: Jensen's inequality (Chan), lecture 25"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides: Jensen's inequality (Chan)</span></a><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_6_04.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides: Markov and Chebyshev inequalities (Chan), lecture 25"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides: Markov and Chebyshev inequalities (Chan)</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS13-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Sums of random variables, LLN and CLT, lecture 25"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Sums of random variables, LLN and CLT</span></a></div><div class="rl prac"><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/law-large-numbers.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook: LLN, lecture 25"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook: LLN</span></a><a class="r r-code" href="https://github.com/nipunbatra/psdv-teaching/blob/main/apps/lln-clt.py" target="_blank" rel="noopener noreferrer" aria-label="Streamlit app: LLN and CLT, lecture 25"><svg class="ic ic-code" viewbox="0 0 24 24" aria-hidden="true"><path d="m8 8-5 4 5 4M16 8l5 4-5 4M13.5 5l-3 14"></path></svg><span class="t">Streamlit app: LLN and CLT</span></a></div></td></tr>
+<tr id="lecture-26"><td class="no"><span class="visually-hidden">Lecture </span>26</td><td class="topic"><h3 id="lecture-26-title">Random vectors and the multivariate normal distribution</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-slides" href="https://nipunbatra.github.io/psdv-teaching/slides/bivariate-derivation.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides: Derivation of the bivariate normal distribution, lecture 26"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides: Derivation of the bivariate normal distribution</span></a><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_5_08.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides: Random vectors (Chan), lecture 26"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides: Random vectors (Chan)</span></a><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_5_09.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides: Multi-dimensional Gaussian (Chan), lecture 26"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides: Multi-dimensional Gaussian (Chan)</span></a><a class="r r-slides" href="https://probability4datascience.com/slides/Slide_5_10.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides: Gaussian whitening (Chan), lecture 26"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides: Gaussian whitening (Chan)</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS12-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Covariance, correlation and the bivariate normal, lecture 26"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Covariance, correlation and the bivariate normal</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS15-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Random vectors and PCA, lecture 26"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Random vectors and PCA</span></a></div><div class="rl prac"><a class="r r-notebook" href="https://nipunbatra.github.io/psdv-teaching/notebooks/random-vector.html" target="_blank" rel="noopener noreferrer" aria-label="Notebook: Random vectors, lecture 26"><svg class="ic ic-notebook" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1.5"></rect><path d="m9.5 9.5-3 2.5 3 2.5M14.5 9.5l3 2.5-3 2.5"></path></svg><span class="t">Notebook: Random vectors</span></a><a class="r r-code" href="https://github.com/nipunbatra/psdv-teaching/blob/main/apps/normal-shape.py" target="_blank" rel="noopener noreferrer" aria-label="Streamlit app: Normal shape, lecture 26"><svg class="ic ic-code" viewbox="0 0 24 24" aria-hidden="true"><path d="m8 8-5 4 5 4M16 8l5 4-5 4M13.5 5l-3 14"></path></svg><span class="t">Streamlit app: Normal shape</span></a></div></td></tr>
+<tr id="lecture-27"><td class="no"><span class="visually-hidden">Lecture </span>27</td><td class="topic"><h3 id="lecture-27-title">Principal component analysis</h3></td>
+<td class="res"><div class="rl mats"><a class="r r-slides" href="slides/PSDV_PCA_16Apr.pdf" target="_blank" rel="noopener noreferrer" aria-label="Slides: PCA, lecture 27"><svg class="ic ic-slides" viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"></rect><path d="M12 16v4M8 20h8M8 12.5v-2M12 12.5V8M16 12.5v-3"></path></svg><span class="t">Slides: PCA</span></a><a class="r r-cheat" href="https://nipunbatra.github.io/teaching-cheatsheets/psdv-2025/PS15-cheatsheet.pdf" target="_blank" rel="noopener noreferrer" aria-label="Cheat sheet: Random vectors and PCA, lecture 27"><svg class="ic ic-cheat" viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"></rect><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"></path></svg><span class="t">Cheat sheet: Random vectors and PCA</span></a></div><div class="rl vids"><a class="r r-link" href="https://youtu.be/PFDu9oVAE-g?si=a5tyEMpMRSwCt8be" target="_blank" rel="noopener noreferrer" aria-label="Video: Eigenvectors and eigenvalues (3Blue1Brown), lecture 27"><svg class="ic ic-link" viewbox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2"></path><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"></path></svg><span class="t">Video: Eigenvectors and eigenvalues (3Blue1Brown)</span></a></div></td></tr>
+</tbody></table></section>
+
 </div>
-<div class="callout-title-container flex-fill">
-Summary
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li><a href="https://github.com/nipunbatra/psdv-teaching">Github repo containing source code for lectures and notebooks</a></li>
-<li><a href="https://nipunbatra.github.io/psdv-teaching/notebooks.html">Rendered Lecture notebooks</a></li>
-<li><a href="https://www.youtube.com/watch?v=CAzR00au0T0&amp;list=PLftoLyLEwECCTFpc8_-gV8NqG_LgdL3Uy&amp;index=1">YouTube playlist containing recordings</a></li>
-</ul>
-<p>Content will get added here as the course progresses</p>
-</div>
-</div>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 9%">
-<col style="width: 15%">
-<col style="width: 29%">
-<col style="width: 46%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Lecture #</th>
-<th style="text-align: center;">Date</th>
-<th style="text-align: center;">Topic</th>
-<th style="text-align: center;">Material</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">0</td>
-<td style="text-align: center;">06 Jan 2025</td>
-<td style="text-align: center;">Introduction and Logistics</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">07 Jan 2025</td>
-<td style="text-align: center;">NumPy</td>
-<td style="text-align: center;"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/intro-numpy.html" target="_blank">Notebook</a>, <a href="https://www.youtube.com/watch?v=CAzR00au0T0" target="_blank">Youtube</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">08 Jan 2025</td>
-<td style="text-align: center;">Lab 1: NumPy</td>
-<td style="text-align: center;"><a href="https://colab.research.google.com/drive/169vg_FV35sJ8irVXU82RrTwlR762Ph2g?usp=sharing" target="_blank">Colab</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">13 Jan 2025</td>
-<td style="text-align: center;">Pandas</td>
-<td style="text-align: center;"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-pandas.html" target="_blank">Notebook</a>, <a href="https://www.youtube.com/watch?v=iaQDhwFkAhA" target="_blank">Youtube</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">14 Jan 2025</td>
-<td style="text-align: center;">Matplotlib</td>
-<td style="text-align: center;"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/introduction-matplotlib.html" target="_blank">Notebook</a>, <a href="https://www.youtube.com/watch?v=ERu46g5EzVk" target="_blank">Youtube</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">15 Jan 2025</td>
-<td style="text-align: center;">Lab Viva 1</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">6</td>
-<td style="text-align: center;">20 Jan 2025</td>
-<td style="text-align: center;">Lab 2: Pandas</td>
-<td style="text-align: center;"><a href="https://colab.research.google.com/drive/1pmt8hSfwzhp8ke3uXsGrOt4XELdoTmr1?usp=sharing" target="_blank">Colab</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">7</td>
-<td style="text-align: center;">21 Jan 2025</td>
-<td style="text-align: center;">Set Theory</td>
-<td style="text-align: center;"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/set.html" target="_blank">Notebook</a>, <a href="https://probability4datascience.com/slides/Slide_2_01.pdf" target="_blank">Slides</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">22 Jan 2025</td>
-<td style="text-align: center;">Lab 2: Pandas (continued)</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">9</td>
-<td style="text-align: center;">23 Jan 2025</td>
-<td style="text-align: center;">Jupyter Widgets</td>
-<td style="text-align: center;"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/widgets.html" target="_blank">Notebook</a>, <a href="https://www.youtube.com/watch?v=BJAaZaKxf00" target="_blank">YouTube</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">23 Jan 2025</td>
-<td style="text-align: center;">More Set Theory Questions</td>
-<td style="text-align: center;"><a href="https://colab.research.google.com/drive/1RrjF2VZDcst0iUgW5zrpsBy-VWUfjtkJ?usp=sharing" target="_blank">Colab</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11</td>
-<td style="text-align: center;">27 Jan 2025</td>
-<td style="text-align: center;">Set Theory (continued)</td>
-<td style="text-align: center;"><a href="https://probability4datascience.com/slides/Slide_2_01.pdf" target="_blank">Slides</a>, <a href="./slides/Set-Theory_27Jan.pdf" target="_blank">Handwritten Slides</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">12</td>
-<td style="text-align: center;">28 Jan 2025</td>
-<td style="text-align: center;">Probability</td>
-<td style="text-align: center;"><a href="https://probability4datascience.com/slides/Slide_2_02.pdf" target="_blank">Slides1</a>, <a href="https://probability4datascience.com/slides/Slide_2_03.pdf" target="_blank">Slides2</a>, <a href="./slides/Probability_28Jan.pdf" target="_blank">Handwritten Slides</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">13</td>
-<td style="text-align: center;">29 Jan 2025</td>
-<td style="text-align: center;">Lab Viva 2</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">14</td>
-<td style="text-align: center;">03 Feb 2025</td>
-<td style="text-align: center;">Conditional Probability &amp; Independence</td>
-<td style="text-align: center;"><a href="https://probability4datascience.com/slides/Slide_2_04.pdf" target="_blank">Slides Conditional</a>, <a href="https://probability4datascience.com/slides/Slide_2_05.pdf" target="_blank">Slides Independence</a>, <a href="./slides/Conditional_Bayes_3_4Feb.pdf" target="_blank">Handwritten Slides</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">15</td>
-<td style="text-align: center;">04 Feb 2025</td>
-<td style="text-align: center;">Bayes Theorem &amp; Total Probability</td>
-<td style="text-align: center;"><a href="https://probability4datascience.com/slides/Slide_2_06.pdf" target="_blank">Slides</a>, <a href="./slides/Conditional_Bayes_3_4Feb.pdf" target="_blank">Handwritten Slides (continued)</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">16</td>
-<td style="text-align: center;">05 Feb 2025</td>
-<td style="text-align: center;">Quiz 1</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">17</td>
-<td style="text-align: center;">10 Feb 2025</td>
-<td style="text-align: center;">Random Variables + Quiz Discussion</td>
-<td style="text-align: center;"><a href="https://probability4datascience.com/slides/Slide_3_01.pdf" target="_blank">Slides</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">18</td>
-<td style="text-align: center;">11 Feb 2025</td>
-<td style="text-align: center;">Probability Mass Function</td>
-<td style="text-align: center;"><a href="https://probability4datascience.com/slides/Slide_3_02.pdf" target="_blank">Slides</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/pmf-discrete.html" target="_blank">Notebook</a>, <a href="https://www.youtube.com/watch?v=_VU6QMC6XE0" target="_blank">YouTube</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">19</td>
-<td style="text-align: center;">17 Feb 2025</td>
-<td style="text-align: center;">Discrete RVs and Expectation</td>
-<td style="text-align: center;"><a href="https://probability4datascience.com/slides/Slide_3_04.pdf" target="_blank">Slides</a>, <a href="./slides/Expectation-Moments-PMF_17_18Feb.pdf" target="_blank">Handwritten Slides PMF Expectation-Moments</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/expectation.html" target="_blank">Notebook</a>, <a href="https://www.youtube.com/watch?v=sVBOSwT5K8I" target="_blank">YT Video on Binomial &amp; Poisson</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">20</td>
-<td style="text-align: center;">18 Feb 2025</td>
-<td style="text-align: center;">Moments</td>
-<td style="text-align: center;"><a href="https://probability4datascience.com/slides/Slide_3_05.pdf" target="_blank">Slides</a>, <a href="./slides/Expectation-Moments-PMF_17_18Feb.pdf" target="_blank">Handwritten Slides (continued)</a>, <a href="./slides/PDF.pdf" target="_blank">Handwritten Slides Continuous RV</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">21</td>
-<td style="text-align: center;">19 Feb 2025</td>
-<td style="text-align: center;">Lab Viva 3</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">22</td>
-<td style="text-align: center;">24 Feb 2025</td>
-<td style="text-align: center;">Continuous RVs and Coin-Flip Game</td>
-<td style="text-align: center;"><a href="https://nipunbatra.github.io/psdv-teaching/notebooks/expectation.html" target="_blank">Notebook Expectation</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/pdf-continuous.html" target="_blank">Notebook PDF Continuous RV</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">23</td>
-<td style="text-align: center;">25 Feb 2025</td>
-<td style="text-align: center;">Expectation and Moments of Continuous RVs</td>
-<td style="text-align: center;"><a href="./slides/Expectation-Moment-PDF_24_25Feb.pdf" target="_blank">Handwritten Slides PDF Expectation-Moments</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/expectation.html" target="_blank">Notebook Expectation</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/pdf-continuous.html" target="_blank">Notebook PDF Continuous RV</a> [continued]</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">24</td>
-<td style="text-align: center;">17 Mar 2025</td>
-<td style="text-align: center;">Cumulative Distribution Function</td>
-<td style="text-align: center;"><a href="./slides/CDF_17Mar.pdf" target="_blank">Handwritten Slides CDF</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/cdf.html" target="_blank">Notebook CDF</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">25</td>
-<td style="text-align: center;">18 Mar 2025</td>
-<td style="text-align: center;">Joint PDF and CDF + 2D Distributions + Geogebra</td>
-<td style="text-align: center;"><a href="https://probability4datascience.com/slides/Slide_5_01.pdf" target="_blank">Slides Joint PDF and CDF</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/2d-distributions.html" target="_blank">Notebook 2D Distributions</a>, <a href="https://huggingface.co/spaces/Nipun/2d-distributions" target="_blank">HuggingFace Spaces</a>, <a href="https://www.youtube.com/watch?v=gifQWtTWqEY" target="_blank">Double Integrals Video</a>, <a href="https://www.youtube.com/watch?v=UuoVhUqWAFc" target="_blank">Instructor’s Demo on Geogebra</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">26</td>
-<td style="text-align: center;">24 Mar 2025</td>
-<td style="text-align: center;">Joint Expectation</td>
-<td style="text-align: center;"><a href="https://probability4datascience.com/slides/Slide_5_02.pdf" target="_blank">Slides Joint Expectation</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/embeddings-angle.html" target="_blank">Notebook Embeddings</a>, <a href="./slides/JointExpectation_24_25Mar.pdf" target="_blank">Handwritten Slides Joint Expectation</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">27</td>
-<td style="text-align: center;">25 Mar 2025</td>
-<td style="text-align: center;">Correlation &amp; Covariance</td>
-<td style="text-align: center;"><a href="https://probability4datascience.com/slides/Slide_5_03.pdf" target="_blank">Slides Covariance</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/joint-distribution-properties.html" target="_blank">Notebook Joint Distributions</a>, <a href="./slides/JointExpectation_24_25Mar.pdf" target="_blank">Handwritten Slides Joint Expectation</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">28</td>
-<td style="text-align: center;">1 Apr 2025</td>
-<td style="text-align: center;">Conditional Distributions</td>
-<td style="text-align: center;"><a href="./slides/ConditionalDistributions_1Apr.pdf" target="_blank">Slides</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">29</td>
-<td style="text-align: center;">2 Apr 2025</td>
-<td style="text-align: center;">Sum of Random Variables</td>
-<td style="text-align: center;"><a href="./slides/SumRandomVariables_2Apr.pdf" target="_blank">Handwritten Slides Sum of RVs</a>, <a href="https://probability4datascience.com/slides/Slide_5_06.pdf" target="_blank">Slides Sum of RVs</a>, <a href="https://probability4datascience.com/slides/Slide_5_07.pdf" target="_blank">Slides X+Y</a>, <a href="https://www.youtube.com/watch?v=IaSGqQa5O-M" target="_blank">YouTube Video</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/sum-random-vars.html" target="_blank">Notebook Sum of RVs</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">30</td>
-<td style="text-align: center;">5 Apr 2025</td>
-<td style="text-align: center;">Transformation of RVs</td>
-<td style="text-align: center;"><a href="./slides/Transformation_of_Random_Variables.pdf" target="_blank">Slides Transformation</a>, <a href="./slides/transformation.html" target="_blank">Notebook Transformation</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">31</td>
-<td style="text-align: center;">7 Apr 2025</td>
-<td style="text-align: center;">Law of Large Numbers &amp; Inequalities</td>
-<td style="text-align: center;"><a href="./slides/LLN-CLT_7Apr.pdf" target="_blank">Handwritten Slides LLN</a>, <a href="https://probability4datascience.com/slides/Slide_6_03.pdf" target="_blank">Slides Jensen’s Inequality</a>, <a href="https://probability4datascience.com/slides/Slide_6_04.pdf" target="_blank">Slides Markov and Chebyshev Inequality</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/law-large-numbers.html" target="_blank">Notebook LLN</a>, <a href="https://github.com/nipunbatra/psdv-teaching/blob/main/apps/lln-clt.py" target="_blank">Streamlit App LLN/CLT</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">32</td>
-<td style="text-align: center;">15 Apr 2025</td>
-<td style="text-align: center;">Random Vectors &amp; Multi-Variate Normal Distribution</td>
-<td style="text-align: center;"><a href="https://nipunbatra.github.io/psdv-teaching/slides/bivariate-derivation.pdf" target="_blank">Slides Derivation of Bivariate Normal Distribution</a>, <a href="https://probability4datascience.com/slides/Slide_5_08.pdf" target="_blank">Slides Random Vector</a>, <a href="https://probability4datascience.com/slides/Slide_5_09.pdf" target="_blank">Slides Multi-dimensional Gaussian</a>, <a href="https://probability4datascience.com/slides/Slide_5_10.pdf" target="_blank">Slides Gaussian Whitening</a>, <a href="https://nipunbatra.github.io/psdv-teaching/notebooks/random-vector.html" target="_blank">Notebook Random Vectors</a>, <a href="https://github.com/nipunbatra/psdv-teaching/blob/main/apps/normal-shape.py" target="_blank">Streamlit App Normal Shape</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">33</td>
-<td style="text-align: center;">16 Apr 2025</td>
-<td style="text-align: center;">Principal Component Analysis</td>
-<td style="text-align: center;"><a href="./slides/PSDV_PCA_16Apr.pdf" target="_blank">Slides PCA</a>, <a href="https://youtu.be/PFDu9oVAE-g?si=a5tyEMpMRSwCt8be" target="_blank">3B1B Video Eigenvalues &amp; Eigenvectors</a></td>
-</tr>
-</tbody>
-</table>
+<p class="small muted">Cheat sheets are two-page A4 summaries; the ones on counting and the complement rule and on likelihood and log probabilities are listed with the others on the <a href="https://nipunbatra.github.io/teaching.html#sheets-psdv-2025">teaching page</a>. Lab vivas and quizzes are on the <a href="assessment.html#dates">Assessment</a> page.</p>
 
 
 
 </main> <!-- /main -->
+<footer class="foot">
+  <span>Prof. Nipun Batra · IIT Gandhinagar · Semester II, 2024–25</span>
+  <span><a href="https://nipunbatra.github.io/psdv-teaching/">Course materials</a> · <a href="https://nipunbatra.github.io/teaching.html">All courses</a> · <a href="https://nipunbatra.github.io">nipunbatra.github.io</a></span>
+</footer>
+<script>document.body.append(document.currentScript.previousElementSibling);</script>
+<script>
+(() => {
+  // Mark the current page in the rail. Quarto writes the rail links relative to this page.
+  const home = document.querySelector('.rail a.code');
+  const root = home ? new URL(home.getAttribute('href'), location.href).pathname.replace(/[^/]*$/, '') : '/';
+  let rel = location.pathname.startsWith(root) ? location.pathname.slice(root.length) : '';
+  if (rel === '' || rel.endsWith('/')) rel += 'index.html';
+  else if (!/\.[a-z]+$/i.test(rel)) rel += '.html';
+  // A data-page ending in "/" marks a whole folder (for example Assignments/).
+  document.querySelectorAll('.rail nav a[data-page]').forEach(a => {
+    const p = a.dataset.page;
+    if (p.endsWith('/') ? rel.startsWith(p) : rel === p) a.setAttribute('aria-current', 'page');
+  });
+
+  // Copy-link buttons on section headings, lectures and assignment questions.
+  const LINK = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg>';
+  document.querySelectorAll('main.content :is(h2, h3, h4)').forEach(h => {
+    if (h.closest('.next, .quarto-title-block, .callout, details') || h.querySelector('.anchor')) return;
+    const row = h.closest('tr[id]');
+    const sec = h.parentElement.tagName === 'SECTION' ? h.parentElement : h.closest('.mod');
+    const target = row || (sec && sec.id ? sec : null) || (h.id ? h : null);
+    if (!target) return;
+    const id = target.id;
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'anchor';
+    b.title = 'Copy link';
+    b.setAttribute('aria-label', 'Copy link to ' + (row ? 'lecture ' + id.replace('lecture-', '') : h.textContent.trim()));
+    b.innerHTML = LINK + '<span class="done">Copied</span>';
+    b.addEventListener('click', () => {
+      const url = location.origin + location.pathname + '#' + id;
+      history.replaceState(null, '', '#' + id);
+      const done = () => { b.classList.add('copied'); setTimeout(() => b.classList.remove('copied'), 1600); };
+      if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, () => {});
+    });
+    h.append(b);
+  });
+
+  // Contain wide tables in assignments and policies.
+  document.querySelectorAll('main.content table:not(.lt):not(.t)').forEach(table => {
+    if (table.parentElement.classList.contains('course-table-scroll')) return;
+    const wrapper = document.createElement('div');
+    wrapper.className = 'course-table-scroll';
+    wrapper.setAttribute('role', 'region');
+    wrapper.setAttribute('aria-label', 'Scrollable table');
+    wrapper.tabIndex = 0;
+    table.before(wrapper);
+    wrapper.append(table);
+    if (table.rows[0]?.cells.length <= 2) table.classList.add('course-table-compact');
+  });
+
+  // Dates: read the table in _dates.qmd ("08 Oct 26" or "08 Oct 26, 6:30 pm", IST), grey out the past,
+  // draw a Today line on Assessment and list what is coming up on Home.
+  const MONTHS = { Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5, Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11 };
+  const IST = 330 * 60000, DAY = 864e5;
+  const istDay = t => Math.floor((t + IST) / DAY);
+  const now = Date.now(), today = istDay(now);
+  const START = Date.UTC(2025, 0, 6) / DAY; // Monday of the first teaching week
+  function parse(text) {
+    const m = text.match(/(\d{1,2}) ([A-Z][a-z]{2}) (\d{2})(?:,\s*(\d{1,2}):(\d{2})\s*(am|pm))?/i);
+    if (!m) return null;
+    const [, d, mon, y, hh, mm, ap] = m;
+    const day = Date.UTC(2000 + +y, MONTHS[mon], +d) / DAY;
+    let end;
+    if (hh) end = Date.UTC(2000 + +y, MONTHS[mon], +d, (+hh % 12) + (ap.toLowerCase() === 'pm' ? 12 : 0), +mm) - IST;
+    else end = (day + 1) * DAY - IST - 1;
+    return { day, end, time: hh ? `${hh}:${mm} ${ap}` : '' };
+  }
+  const fmt = (day, opts) => new Date(day * DAY).toLocaleDateString('en-GB', Object.assign({ timeZone: 'UTC' }, opts));
+  document.querySelectorAll('.dates table').forEach(table => {
+    table.classList.add('t');
+    const rows = [...table.tBodies[0].rows].map(tr => ({ tr, when: parse(tr.cells[0].textContent) })).filter(r => r.when);
+    const box = table.closest('.next');
+    if (box) {
+      // Home: the next four dates, grouped by day.
+      const groups = [];
+      rows.filter(r => r.when.end >= now).forEach(r => {
+        const g = groups.find(x => x.day === r.when.day);
+        if (g) g.rows.push(r); else groups.push({ day: r.when.day, time: r.when.time, rows: [r] });
+      });
+      const ol = document.createElement('ol');
+      groups.slice(0, 4).forEach(g => {
+        const left = g.day - today;
+        const li = document.createElement('li');
+        if (left <= 3) li.className = 'hot';
+        const rel = left === 0 ? 'today' : left === 1 ? 'tomorrow' : `in ${left} days`;
+        li.innerHTML = `<span class="d">${fmt(g.day, { day: '2-digit', month: 'short' })}<small>${fmt(g.day, { weekday: 'short' })}${g.time ? ' ' + g.time : ''}<br>${rel}</small></span><span></span>`;
+        g.rows.forEach((r, i) => {
+          if (i) li.lastChild.append(document.createElement('br'));
+          const cell = r.tr.cells[1].cloneNode(true);
+          li.lastChild.append(...cell.childNodes);
+        });
+        ol.append(li);
+      });
+      if (!groups.length) ol.innerHTML = '<li><span></span><span>No more dates this semester.</span></li>';
+      table.closest('.dates').replaceWith(ol);
+      return;
+    }
+    // Assessment: grey out the past, mark this week, and draw the Today line.
+    let placed = false;
+    rows.forEach(({ tr, when }) => {
+      const past = when.end < now;
+      tr.classList.toggle('past', past);
+      const tag = document.createElement('td');
+      tag.className = 'tag';
+      if (!past && when.day - today <= 7) tag.innerHTML = '<span class="pill now">This week</span>';
+      tr.append(tag);
+      if (!past && !placed) {
+        placed = true;
+        const t = document.createElement('tr');
+        t.className = 'today';
+        const week = Math.floor((today - START) / 7) + 1;
+        t.innerHTML = `<td>Today, ${fmt(today, { day: '2-digit', month: 'short' })}</td><td colspan="2">${week >= 1 && week <= 17 ? 'Week ' + week : ''}</td>`;
+        tr.before(t);
+      }
+    });
+    const head = table.tHead?.rows[0];
+    if (head) head.append(document.createElement('th'));
+  });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -454,13 +401,14 @@ Summary
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -489,6 +437,11 @@ Summary
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
