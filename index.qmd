@@ -1,92 +1,127 @@
 ---
-title: "ES 114 Probability, Statistics and Data Visualization"
+pagetitle: "ES 114 · Probability, Statistics and Data Visualization"
+description: "Probability, Statistics and Data Visualization at IIT Gandhinagar, Semester II 2024–25"
+body-classes: dl wide
 ---
 
+::: {.top}
 
-![](images/psdv_logo.svg)
+::: {.top-main}
+```{=html}
+<span hidden></span><!-- keeps Quarto from moving the h1 into its own title block -->
+<h1 class="h1">Probability, Statistics and Data Visualization</h1>
+<p class="role">ES 114 · IIT Gandhinagar · Semester II, 2024–25</p>
+<p class="lede" style="margin-top:18px">ES 114 is a first-year undergraduate course. It starts with the Python data stack (NumPy, pandas and Matplotlib), then builds up probability from sets: conditional probability and Bayes' theorem, random variables and their distributions, expectation and moments, joint distributions, sums and transformations of random variables, the law of large numbers, the multivariate normal distribution and principal component analysis.</p>
+<dl class="facts">
+  <dt>Instructors</dt><dd><a href="https://nipunbatra.github.io/">Prof. Nipun Batra</a> and <a href="https://sites.google.com/view/manishapadala/home">Prof. Manisha Padala</a></dd>
+  <dt>Offices</dt><dd>AB 13/401C (<a href="https://www.youtube.com/shorts/FmCbCkJQN1g">directions</a>) and AB 13/405C</dd>
+  <dt>Email</dt><dd><a href="mailto:nipun.batra@iitgn.ac.in">nipun.batra@iitgn.ac.in</a>, <a href="mailto:manisha.padala@iitgn.ac.in">manisha.padala@iitgn.ac.in</a></dd>
+  <dt>Lectures</dt><dd>Jasubhai Auditorium, A1 slot</dd>
+  <dt>Labs</dt><dd>Computer labs (AB 7/108, AB 7/109, AB 10/104, AB 10/105), A2 and D1 slots</dd>
+  <dt>Prerequisites</dt><dd>None</dd>
+  <dt>Teaching assistants</dt><dd><a href="#people">35 TAs</a></dd>
+  <dt>Discussion</dt><dd><a href="https://join.slack.com/t/es1142025/shared_invite/zt-2w15bop68-YdIMFQxAdUGFvOE7R3FM1Q">Course Slack</a>, used for all communication</dd>
+</dl>
+```
+:::
 
-::: {.callout-tip}
-## Summary
-
-* Instructors: 
-    1. Nipun Batra <nipun.batra@iitgn.ac.in>
-        * Office: AB13/401C
-        * [YouTube video](https://www.youtube.com/shorts/FmCbCkJQN1g) showing the directions to my office
-        * [HomePage](https://nipunbatra.github.io/)
-    2. Manisha Padala <manisha.padala@iitgn.ac.in>
-        * Office: AB13/405C 
-        * [HomePage](https://sites.google.com/view/manishapadala/home)
-
-
-* Teaching Assistants: 
-    * Ayush Shrivastava <shrivastavaayush@iitgn.ac.in>
-    * Risabh Mondal <rishabh.mondal@iitgn.ac.in>
-    * Abhyudaya Nair <24210005@iitgn.ac.in>
-    * Alay Patel <alay.patel@iitgn.ac.in>
-    * Ashish Rawat <ashish.rawat@iitgn.ac.in>
-    * Balkrishna Sehra <24210022@iitgn.ac.in>
-    * Charan Teja <24210056@iitgn.ac.in>
-    * Chetana Dubey <24250030@iitgn.ac.in>
-    * Dekka Muni Kumar <24210028@iitgn.ac.in>
-    * Dhruv Patel <dhruv.patel@iitgn.ac.in>
-    * Diya <24210032@iitgn.ac.in>
-    * Drishti <24210033@iitgn.ac.in>
-    * Indrayudh	Mandal <24210041@iitgn.ac.in>
-    * Jenil	Patel <24210048@iitgn.ac.in>
-    * Kaloori Shiva Prasad <24250041@iitgn.ac.in>
-    * Manish Bairwa	<manish.bairwa@iitgn.ac.in>
-    * Mithlesh Singla <24210063@iitgn.ac.in>
-    * Palak Gupta <24250063@iitgn.ac.in>
-    * Sawan	Verma <sawan.verma@iitgn.ac.in>
-    * Shataxi Dubey <shataxi.dubey@iitgn.ac.in>
-    * Shivansh Gupta <24250086@iitgn.ac.in>
-    * Suruchi Hardaha <24250097@iitgn.ac.in>
-    * Vinayak Rana <24210114@iitgn.ac.in>
-    * Aadya Arora <aadya.arora@iitgn.ac.in>
-    * Abhishek Kushwaha	<abhishek.kushwaha@iitgn.ac.in>
-    * Aryan Sahu <aryan.sahu@iitgn.ac.in>
-    * Bhavik Patel <bhavik.patel@iitgn.ac.in>
-    * Bhoumik Patidar <bhoumik.patidar@iitgn.ac.in>
-    * Dewansh Chandel <dewanshsingh.chandel@iitgn.ac.in>
-    * Dewansh Kumar	<dewansh.kumar@iitgn.ac.in>
-    * Guntas Singh Saran <guntassingh.saran@iitgn.ac.in>
-    * Shreyans Jain <shreyans.jain@iitgn.ac.in>
-    * Vamsi Srivathsa <vamsi.srivathsa@iitgn.ac.in>
-    * Viraj Vekaria <viraj.vekaria@iitgn.ac.in>
-    * Yash Bachwana <yash.bachwana@iitgn.ac.in>
-
-* Class Venue and Timings:
-    * Lecture : Jasubhai Auditorium, Monday, 8:30 AM - 10:00 AM (A1 slot)
-    * Labs : Jasubhai Auditorium, Computer Labs (A2, D1 slots) -- more details soon
-
-* Communications
-    * All communications will  be handled via slack. Join using the link [here](https://join.slack.com/t/es1142025/shared_invite/zt-2w15bop68-YdIMFQxAdUGFvOE7R3FM1Q)
-
+::: {.next aria-labelledby="record-h"}
+```{=html}
+<span class="label" id="record-h">Course record</span>
+<p class="small" style="margin:0 0 12px">This offering ran from January to April 2025. Its lectures, handwritten slides, notebooks, videos and cheat sheets remain available.</p>
+<dl>
+  <dt>Lectures</dt><dd><span class="stat">27</span></dd>
+  <dt>Cheat sheets</dt><dd><a href="https://nipunbatra.github.io/teaching.html#sheets-psdv-2025">15</a></dd>
+  <dt>Quizzes</dt><dd><a href="assessment.html#grading">4, best 3 count</a></dd>
+  <dt>Assignments</dt><dd><a href="assessment.html#assignments">6</a></dd>
+  <dt>Exposition</dt><dd><a href="videos/videos.html">129 team videos</a></dd>
+</dl>
+<p class="all"><a href="assessment.html#dates">All dates</a></p>
+```
+:::
 
 :::
 
+```{=html}
+<section class="rule-top" id="lectures"><h2>Lectures</h2>
+<ul class="modules c5">
+  <li><span class="r">1–5</span><a href="schedule.html#python-for-data">Python for data</a><span class="c">5 lectures</span></li>
+  <li><span class="r">6–11</span><a href="schedule.html#sets-and-probability">Sets and probability</a><span class="c">6 lectures</span></li>
+  <li><span class="r">12–18</span><a href="schedule.html#random-variables">Random variables</a><span class="c">7 lectures</span></li>
+  <li><span class="r">19–24</span><a href="schedule.html#multiple-random-variables">Multiple random variables</a><span class="c">6 lectures</span></li>
+  <li><span class="r">25–27</span><a href="schedule.html#limits-random-vectors-and-pca">Limit theorems, random vectors and PCA</a><span class="c">3 lectures</span></li>
+</ul>
+<div class="playlists">
+  <a class="btn ib" href="https://www.youtube.com/watch?v=CAzR00au0T0&amp;list=PLftoLyLEwECCTFpc8_-gV8NqG_LgdL3Uy&amp;index=1" target="_blank" rel="noopener noreferrer"><svg class="ic ic-recording" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>YouTube playlist of recordings</a>
+  <a class="btn ib" href="https://nipunbatra.github.io/teaching.html#sheets-psdv-2025" target="_blank" rel="noopener noreferrer"><svg class="ic ic-cheat" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="12" height="15" rx="1"/><path d="M8 6V3h12v15h-4M7 11h6M7 14h6M7 17h3.5"/></svg>All 15 cheat sheets</a>
+  <a class="btn solid" href="schedule.html">All 27 lectures</a>
+</div>
+</section>
 
-### Pre-requisites:
+<div class="two rule-top">
+<section id="faq"><h2>Questions</h2>
+<details class="q" id="missed-quiz"><summary>What if I miss a quiz?</summary><p>It is marked 0. The best three of four quizzes count, which is designed for such cases, and there are no makeup quizzes for any reason. The mid-semester and end-semester exams count as quizzes.</p></details>
+<details class="q" id="open-book"><summary>Are quizzes open book?</summary><p>No. Quizzes and exams are closed book, and you may not carry notes. They may mix multiple-choice and written questions.</p></details>
+<details class="q" id="assignments"><summary>How are assignments done and graded?</summary><p>In groups of three, in Python, with no extensions. Each is followed by a viva: code that runs and solves the problem 50%, questions on the assignment and your code 25%, code quality 12.5%, theory 12.5%. See <a href="assessment.html#assignments">Assignments</a>.</p></details>
+<details class="q" id="laptops"><summary>Can I use my laptop or phone in class?</summary><p>No, except in a lab session where the instructor has explicitly allowed laptops.</p></details>
+<details class="q" id="leave"><summary>How do I apply for leave?</summary><p>Fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOGovhZEoIAM8kCl7wnfJxXjk8LVdaWx5_S9fJQwmUNp76zQ/viewform?usp=dialog">leave application form</a> and email the three leave TAs with the subject line "ES114 Leave Request". See <a href="assessment.html#leave">Leave</a>.</p></details>
+<p class="small muted" style="margin-top:12px"><a href="faq.html">All questions</a> · or ask on <a href="https://join.slack.com/t/es1142025/shared_invite/zt-2w15bop68-YdIMFQxAdUGFvOE7R3FM1Q">the course Slack</a>.</p>
+</section>
+<section id="references"><h2>References</h2>
+<p class="small muted">Reference textbooks:</p>
+<ul class="refs">
+  <li>Stanley Chan, <i>Introduction to Probability for Data Science</i>, Michigan Publishing, 2021 (<a href="https://probability4datascience.com/">free digital copy</a>)</li>
+  <li>Ani Adhikari, John DeNero and David Wagner, <i>Computational and Inferential Thinking: The Foundations of Data Science</i>, second edition, UC Berkeley, 2019 (<a href="https://inferentialthinking.com/chapters/intro.html">free digital copy</a>)</li>
+  <li>Marc Peter Deisenroth, A. Aldo Faisal and Cheng Soon Ong, <i>Mathematics for Machine Learning</i>, Cambridge University Press, 2020 (<a href="https://mml-book.github.io/">free digital copy</a>)</li>
+  <li>David Spiegelhalter, <i>The Art of Statistics: Learning from Data</i>, Penguin UK, 2019</li>
+  <li>Nicolas Rougier, <i>Scientific Visualization: Python + Matplotlib</i>, 2021 (<a href="https://github.com/rougier/scientific-visualization-book">free digital copy</a>)</li>
+</ul>
+<p class="small muted" style="margin-top:14px">Course materials:</p>
+<ul class="refs">
+  <li><a href="https://github.com/nipunbatra/psdv-teaching">psdv-teaching</a>: source code for lectures and notebooks</li>
+  <li><a href="https://nipunbatra.github.io/psdv-teaching/notebooks.html">Rendered lecture notebooks</a></li>
+  <li><a href="https://www.youtube.com/watch?v=CAzR00au0T0&amp;list=PLftoLyLEwECCTFpc8_-gV8NqG_LgdL3Uy&amp;index=1">YouTube playlist of recordings</a></li>
+</ul>
+</section>
+</div>
 
-* None, First Year Undergrad Course
-
-
-### Reference textbooks:
-
-1. Chan, Stanley. “Introduction to Probability for Data Science.” The University of Michigan Library, Michigan Publishing (2021). [Free Digital Copy](https://probability4datascience.com/)
-2. Adhikari, Ani, John DeNero, and D. Wagner. "Computational and Inferential Thinking: The Foundations of Data Science." Second Edition. The University of California, Berkeley (2019). [Free Digital Copy](https://inferentialthinking.com/chapters/intro.html)
-3. Deisenroth, Marc Peter, A. Aldo Faisal, and Cheng Soon Ong. Mathematics for Machine Learning. Cambridge University Press, 2020. [Free Digital Copy](https://mml-book.github.io/)
-4. Spiegelhalter, David. The Art of Statistics: Learning from Data. Penguin UK, 2019.
-5. Rougier, Nicolas. Scientific Visualization: Python+ Matplotlib. 2021. [Free Digital Copy](https://github.com/rougier/scientific-visualization-book)
-
-
-
-<!-- ### Some other ML courses
-
-1.  [NPTEL course by Balaram Ravindran](https://www.youtube.com/watch?v=r4sgKrRL2Ys&list=PL1xHD4vteKYVpaIiy295pg6_SY5qznc77)
-2.  [CMU course by Tom Mitchell and Maria-Florina Balcan](http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml)
-3.  [Coursera ML course by Andrew Ng](https://www.coursera.org/learn/machine-learning)
-4.  [FAST.ai course on ML](https://course.fast.ai/ml)
-5.  [Practical deep learning for coders by FAST.ai](https://course.fast.ai/index.html)
-6.  [Course by Alex Ihler, UCI](http://sli.ics.uci.edu/Classes/2015W-273a) -->
-
+<section class="rule-top" id="people"><h2>Teaching assistants</h2>
+<ul class="people">
+  <li>Ayush Shrivastava<span class="muted">shrivastavaayush@iitgn.ac.in</span></li>
+  <li>Rishabh Mondal<span class="muted">rishabh.mondal@iitgn.ac.in</span></li>
+  <li>Abhyudaya Nair<span class="muted">24210005@iitgn.ac.in</span></li>
+  <li>Alay Patel<span class="muted">alay.patel@iitgn.ac.in</span></li>
+  <li>Ashish Rawat<span class="muted">ashish.rawat@iitgn.ac.in</span></li>
+  <li>Balkrishna Sehra<span class="muted">24210022@iitgn.ac.in</span></li>
+  <li>Charan Teja<span class="muted">24210056@iitgn.ac.in</span></li>
+  <li>Chetana Dubey<span class="muted">24250030@iitgn.ac.in</span></li>
+  <li>Dekka Muni Kumar<span class="muted">24210028@iitgn.ac.in</span></li>
+  <li>Dhruv Patel<span class="muted">dhruv.patel@iitgn.ac.in</span></li>
+  <li>Diya<span class="muted">24210032@iitgn.ac.in</span></li>
+  <li>Drishti<span class="muted">24210033@iitgn.ac.in</span></li>
+  <li>Indrayudh Mandal<span class="muted">24210041@iitgn.ac.in</span></li>
+  <li>Jenil Patel<span class="muted">24210048@iitgn.ac.in</span></li>
+  <li>Kaloori Shiva Prasad<span class="muted">24250041@iitgn.ac.in</span></li>
+  <li>Manish Bairwa<span class="muted">manish.bairwa@iitgn.ac.in</span></li>
+  <li>Mithlesh Singla<span class="muted">24210063@iitgn.ac.in</span></li>
+  <li>Palak Gupta<span class="muted">24250063@iitgn.ac.in</span></li>
+  <li>Sawan Verma<span class="muted">sawan.verma@iitgn.ac.in</span></li>
+  <li>Shataxi Dubey<span class="muted">shataxi.dubey@iitgn.ac.in</span></li>
+  <li>Shivansh Gupta<span class="muted">24250086@iitgn.ac.in</span></li>
+  <li>Suruchi Hardaha<span class="muted">24250097@iitgn.ac.in</span></li>
+  <li>Vinayak Rana<span class="muted">24210114@iitgn.ac.in</span></li>
+  <li>Aadya Arora<span class="muted">aadya.arora@iitgn.ac.in</span></li>
+  <li>Abhishek Kushwaha<span class="muted">abhishek.kushwaha@iitgn.ac.in</span></li>
+  <li>Aryan Sahu<span class="muted">aryan.sahu@iitgn.ac.in</span></li>
+  <li>Bhavik Patel<span class="muted">bhavik.patel@iitgn.ac.in</span></li>
+  <li>Bhoumik Patidar<span class="muted">bhoumik.patidar@iitgn.ac.in</span></li>
+  <li>Dewansh Chandel<span class="muted">dewanshsingh.chandel@iitgn.ac.in</span></li>
+  <li>Dewansh Kumar<span class="muted">dewansh.kumar@iitgn.ac.in</span></li>
+  <li>Guntas Singh Saran<span class="muted">guntassingh.saran@iitgn.ac.in</span></li>
+  <li>Shreyans Jain<span class="muted">shreyans.jain@iitgn.ac.in</span></li>
+  <li>Vamsi Srivathsa<span class="muted">vamsi.srivathsa@iitgn.ac.in</span></li>
+  <li>Viraj Vekaria<span class="muted">viraj.vekaria@iitgn.ac.in</span></li>
+  <li>Yash Bachwana<span class="muted">yash.bachwana@iitgn.ac.in</span></li>
+</ul>
+</section>
+```

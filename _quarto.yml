@@ -1,36 +1,38 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
+    - schedule.qmd
+    - assessment.qmd
+    - exposition.qmd
+    - videos/videos.qmd
+    - faq.qmd
+    - slides/transformation.ipynb
+    - lectures.qmd
+    - grading.qmd
+    - tentative.qmd
+  resources:
+    - "slides/*.pdf"
 
 website:
-  title: "ES114 - PSDV"
-  favicon: images/psdv_favicon.svg
-  navbar:
-    logo: images/psdv_logo.svg
-    right:
-      - href: index.qmd
-        text: Home
-      - href: grading.qmd
-        text: Grading & Leave Policy
-      - href: faq.qmd
-        text: FAQs
-      - href: lectures.qmd
-        text: Lectures
-      - href: tentative.qmd
-        text: Tentative Deadlines
-      - href: videos/videos.qmd
-        text: Exposition Submissions
-      - text: "---"
-      - href: https://nipunbatra.github.io
-        text: "Instructor's Homepage"
+  title: "ES 114 · Probability, Statistics and Data Visualization"
+  favicon: favicon.svg
+  description: "Probability, Statistics and Data Visualization at IIT Gandhinagar"
+  site-url: https://nipunbatra.github.io/psdv25/
+  search: false
 
 format:
   html:
-    theme: [litera, styles.scss]
-    highlight-style: a11y-dark
-    mainfont: "Source Sans 3"
-    code-copy: true
-    code-overflow: wrap
+    theme: [cosmo, styles.scss, course.scss]
+    toc: false
+    page-layout: article
+    anchor-sections: false
+    body-classes: dl
+    link-external-newwindow: true
+    include-in-header: course-theme.html
+    include-before-body: rail.html
+    include-after-body: course-tools.html
 
 execute:
   freeze: auto

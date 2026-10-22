@@ -1,17 +1,10 @@
 ---
-title: "Tentative Deadlines"
+title: "Tentative deadlines"
+include-in-header:
+  text: |
+    <meta http-equiv="refresh" content="0; url=assessment.html#dates">
+    <link rel="canonical" href="https://nipunbatra.github.io/psdv25/assessment.html#dates">
+    <meta name="robots" content="noindex">
 ---
 
-| **Date**           | **Day**       | **Event**                          |
-|---------------------|---------------|-------------------------------------|
-| [15 January]{style="color:green;"}         | [Wednesday]{style="color:green;"}     | [Assignment 1 Viva]{style="color:green;"}                  |
-| [29 January]{style="color:green;"}          | [Wednesday]{style="color:green;"}     | [Assignment 2 Viva]{style="color:green;"}                  |
-| [5 February]{style="color:green;"}          | [Wednesday]{style="color:green;"}     | [Quiz 1]{style="color:green;"}                             |
-| [19 February]{style="color:green;"}         | [Wednesday]{style="color:green;"}     | [Assignment 3 Viva]{style="color:green;"}                  |
-| [25 February]{style="color:green;"}         | [Tuesday]{style="color:green;"}       | [Assignment 4 Submission (Exposition)]{style="color:green;"}  |
-| [3 March]{style="color:green;"}             | [Monday]{style="color:green;"}        | [Mid-Sem Theory Exam (Quiz 2)]{style="color:green;"}       |
-| [26 March]{style="color:green;"}            | [Wednesday]{style="color:green;"}     | [Assignment 5 Viva]{style="color:green;"}                  |
-|[9 April]{style="color:green;"}             | [Wednesday]{style="color:green;"}     | [Quiz 3]{style="color:green;"}                             |
-| [16 April]{style="color:green;"}            | [Wednesday]{style="color:green;"}    | [Assignment 6 Viva]{style="color:green;"}                  |
-| [24-30 April]{style="color:green;"}         | [--]{style="color:green;"}             | [End-Sem Theory Exam (Quiz 4)]{style="color:green;"}       |
-
+This page has moved: [go to Dates](/assessment.html#dates).

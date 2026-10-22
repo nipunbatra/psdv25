@@ -1,0 +1,20 @@
+<!-- Course dates, shared by Assessment. Write dates as "08 Oct 25" or "08 Oct 25, 6:30 pm" (IST);
+     the page greys out past rows and draws the Today line from the date in the browser. -->
+
+::: {.dates}
+
+| Date | Event |
+|---|---|
+| 06 Jan 25 | Course begins |
+| 15 Jan 25 | Assignment 1 viva |
+| 29 Jan 25 | Assignment 2 viva |
+| 05 Feb 25 | **Quiz 1** |
+| 19 Feb 25 | Assignment 3 viva |
+| 25 Feb 25 | [Assignment 4 (exposition) due](exposition.qmd) |
+| 03 Mar 25 | **Mid-semester theory exam (Quiz 2)** |
+| 26 Mar 25 | Assignment 5 viva |
+| 09 Apr 25 | **Quiz 3** |
+| 16 Apr 25 | Assignment 6 viva; last lecture |
+| 24 Apr 25 | **End-semester theory exam (Quiz 4)**, in the 24–30 April exam period |
+
+:::
